@@ -59,7 +59,7 @@ public class NoteBook extends StatsMainPaper {
     }
 
     @Override
-    protected double getCost() {
+    public double getCost() {
         return 500.00;
     }
 

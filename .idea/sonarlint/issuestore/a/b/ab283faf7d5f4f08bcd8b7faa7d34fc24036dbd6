@@ -1,0 +1,7 @@
+
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(âû‡Õ
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(»ž•ûÿÿÿÿ
+`squid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ž°«è
+esquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+nsquid:S1450"YRemove the "numOfTools" field and declare it as a local variable in the relevant methods.(ø†Â
+Fsquid:S1172",Remove this unused method parameter "count".(”ÓªÒüÿÿÿÿ

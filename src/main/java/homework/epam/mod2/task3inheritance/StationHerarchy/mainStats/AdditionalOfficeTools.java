@@ -1,9 +1,11 @@
 package homework.epam.mod2.task3inheritance.StationHerarchy.mainStats;
 
 public abstract class AdditionalOfficeTools implements Stationaries {
-    private double cost;
-    private String firm;
+    private String name = "Additional Tool";
 
+    private double cost;
+
+    private String firm;
     public AdditionalOfficeTools() {
         setCost(15.55);
         setFirm("Crause");
@@ -14,7 +16,7 @@ public abstract class AdditionalOfficeTools implements Stationaries {
         setFirm(firm);
     }
 
-    public abstract String whatForProperty();
+    public abstract String newProperty();
 
     public double getCost() {
         return cost;
@@ -30,5 +32,14 @@ public abstract class AdditionalOfficeTools implements Stationaries {
 
     public void setFirm(String firm) {
         this.firm = firm;
+    }
+
+    @Override
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

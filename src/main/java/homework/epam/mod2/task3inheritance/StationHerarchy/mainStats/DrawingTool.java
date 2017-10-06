@@ -6,6 +6,7 @@ public abstract class DrawingTool implements Stationaries {
     private String drawColor = "Blue";
     private boolean writeingWithInk = true;
     private boolean automatic = false;
+    private double cost = 10.22;
 
     public String getName() {
         return name;
@@ -28,8 +29,6 @@ public abstract class DrawingTool implements Stationaries {
     protected abstract String superProperties();
 
     protected abstract int getKernelsCount();
-
-    protected abstract double getCost();
 
     public String getTypeDrawingTool() {
         return typeDrawingTool;
@@ -61,5 +60,13 @@ public abstract class DrawingTool implements Stationaries {
 
     public void setAutomatic(boolean automatic) {
         this.automatic = automatic;
+    }
+
+    public void setCost(double cost) {
+        this.cost = cost;
+    }
+
+    public double getCost(){
+        return cost;
     }
 }

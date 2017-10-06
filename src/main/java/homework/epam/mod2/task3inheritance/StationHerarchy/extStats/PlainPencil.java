@@ -30,7 +30,7 @@ public class PlainPencil extends DrawingTool {
     }
 
     @Override
-    protected double getCost() {
+    public double getCost() {
         return 0;
     }
 

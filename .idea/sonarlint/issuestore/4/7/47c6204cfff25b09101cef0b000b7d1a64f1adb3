@@ -1,0 +1,5 @@
+
+>squid:S1214""Move constants to a class or enum.(’ÅØ©8Ôû‰ï+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(´„²î8Ôû‰ï+
+wsquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(åÙáÃ8Ôû‰ï+
+tsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(¨·›É8Ôû‰ï+

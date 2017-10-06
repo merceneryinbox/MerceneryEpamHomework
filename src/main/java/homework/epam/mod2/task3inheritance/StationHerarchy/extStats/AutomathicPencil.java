@@ -18,7 +18,7 @@ public class AutomathicPencil extends DrawingTool {
     }
 
     @Override
-    protected double getCost() {
+    public double getCost() {
         return 100.00;
     }
 }

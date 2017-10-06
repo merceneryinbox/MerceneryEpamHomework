@@ -1,0 +1,64 @@
+
+Dsquid:S1068"/Remove this unused "rightMargin" private field.(ÁÎÿÊ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(×ò”Ëüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+9squid:S2131"Use "Integer.toString" instead.(Åˆôüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„üÒ€úÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(¸Îùïûÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ô¾ª­
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(®ÆøÅøÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(¢¥ü¿ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(óˆùúÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ò¼íÅüÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+Ssquid:S1226">Introduce a new variable instead of reusing the parameter "x".(Û¡“—
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø–Ø¤ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(„üÒ€úÿÿÿÿ
+N"squid:SwitchLastCaseIsDefaultCheck""Add a default case to this switch.(¢…
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÊÂ˜ßùÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+dsquid:S1192"JDefine a constant instead of duplicating this literal "NULLINPUT" 3 times.(Şè©·ıÿÿÿÿ
+;squid:S2129"!Remove this "Integer" constructor(¢¥ü¿ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø–Ø¤ıÿÿÿÿ
+{squid:S1192"aDefine a constant instead of duplicating this literal "User need to exit from programm." 3 times.(ø–Ø¤ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(§ûÈÕúÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(Òøó†
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(â„ İ
+bsquid:S2184"HCast one of the operands of this multiplication operation to a "double".(ì²ßşÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ø–Ø¤ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â±Ü¹
+;squid:S2129"!Remove this "Integer" constructor(¢¥ü¿ÿÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(ì‰í“üÿÿÿÿ
+R
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ã•ğ‘øÿÿÿÿ
+M
+squid:S106"9Replace this use of System.out or System.err by a logger.(¶Šê³
+Csquid:S1068".Remove this unused "leftMargin" private field.(ÎØ½

@@ -23,6 +23,11 @@ public final class NoviceSet {
     }
 
     public static List<Stationaries> getStationariesSet() {
+        for (Stationaries st:
+        stationariesSet) {
+
+        }
+        System.out.println("stationariesSet = " + stationariesSet);
         return stationariesSet;
     }
 

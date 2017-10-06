@@ -19,7 +19,7 @@ public class PilotDrawingPen extends DrawingTool {
     }
 
     @Override
-    protected double getCost() {
+    public double getCost() {
         return 4000.00;
     }
 }
