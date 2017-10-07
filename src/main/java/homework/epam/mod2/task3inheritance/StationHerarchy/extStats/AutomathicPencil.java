@@ -4,10 +4,9 @@ import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.DrawingTool
 
 public class AutomathicPencil extends DrawingTool {
     public AutomathicPencil() {
-        super("Automathic Pencil type", "Black", false, true);
+        super("Automathic Pencil type", "AutoPencil", 100.00, "AutoPencil", "Black", false, true);
     }
 
-    @Override
     protected String superProperties() {
         return "Plain black graphite";
     }

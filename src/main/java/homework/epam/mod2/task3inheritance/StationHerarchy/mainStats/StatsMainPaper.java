@@ -1,10 +1,12 @@
 package homework.epam.mod2.task3inheritance.StationHerarchy.mainStats;
 
-public abstract class StatsMainPaper implements Stationaries {
+public abstract class StatsMainPaper extends Stationaries {
     private String name = "Papers";
     private String mainProperty = "Paper";
     private double cost = 10.00;
 
+
+    protected abstract String extras();
 
     public StatsMainPaper() {
     }
@@ -16,8 +18,6 @@ public abstract class StatsMainPaper implements Stationaries {
     public void setMainProperty(String mainProperty) {
         this.mainProperty = mainProperty;
     }
-
-    protected abstract String extras();
 
 
     public String getMainProperty() {
@@ -36,7 +36,18 @@ public abstract class StatsMainPaper implements Stationaries {
         return cost;
     }
 
+    @Override
     public void setName(String name) {
-        setName(name);
+        this.name = name;
+    }
+
+    public static void main(String[] args) {
+        StatsMainPaper s = new StatsMainPaper() {
+            @Override
+            protected String extras() {
+                return "Extras";
+            }
+        };
+        System.out.println(s.getName());
     }
 }

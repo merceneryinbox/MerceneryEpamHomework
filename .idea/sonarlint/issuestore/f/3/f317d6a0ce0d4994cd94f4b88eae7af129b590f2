@@ -1,14 +1,0 @@
-
-Fsquid:S1264",Replace this "for" loop with a "while" loop.(º‰çûÿÿÿÿ
- squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(œê‚p
-4squid:S1659"Declare "j" on a separate line.(åÆœ—
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾ºğÈşÿÿÿÿ
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(õ¦ª‡
-9squid:S1659"Declare "r" on a separate line.(à¡ÉÏüÿÿÿÿ
-lsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(‡¼ãÚıÿÿÿÿ
-‡ squid:ForLoopCounterChangedCheck"XRefactor the code in order to not assign to this loop counter from within the loop body.(­–„úÿÿÿÿ
-7squid:S1659""Declare "resI" on a separate line.(åÆœ—
-M
-squid:S106"9Replace this use of System.out or System.err by a logger.(û¥óú

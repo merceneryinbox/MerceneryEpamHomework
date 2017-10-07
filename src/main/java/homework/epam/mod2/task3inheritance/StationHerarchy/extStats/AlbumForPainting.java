@@ -39,4 +39,7 @@ public class AlbumForPainting extends StatsMainPaper {
         System.out.println("a = " + a.getMainProperty() + "  " + a.getName() + "  " + a.getCost());
     }
 
+    public void setName(String name) {
+        this.name = name;
+    }
 }

@@ -1,16 +1,0 @@
-
-3squid:S2178"Correct this "|" to "||".(ÿðÜŒúÿÿÿÿ
-Bsquid:S1481"-Remove this unused "resultAr" local variable.(ÕóçÝ
-=squid:S1148"#Use a logger to log this exception.(Âþÿâûÿÿÿÿ
-L
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆŠÛw
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-Qsquid:S1854"<Remove this useless assignment to local variable "resultAr".(ÕóçÝ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÙÈŽ‰ùÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(äÁÇàúÿÿÿÿ
-Csquid:S1172".Remove this unused method parameter "inputAr".(óŒÖ

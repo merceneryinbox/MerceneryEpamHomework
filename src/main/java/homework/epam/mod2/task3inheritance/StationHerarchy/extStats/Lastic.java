@@ -19,7 +19,7 @@ public class Lastic extends AdditionalOfficeTools {
     }
 
     public Lastic(double cost, String firm, String mainProperty) {
-        super(cost, firm);
+        super(cost, firm, "Lastic", 15);
         setName(name);
         this.mainProperty = mainProperty;
     }

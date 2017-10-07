@@ -23,8 +23,8 @@ public class Pen2WithEnums {
     private penTypes type;
 
     public Pen2WithEnums() {
-        setColor(color.BLUE);
-        setType(type.INK);
+        setColor(inkColor.BLUE);
+        setType(penTypes.INK);
     }
 
     public Pen2WithEnums(inkColor color, penTypes type) {

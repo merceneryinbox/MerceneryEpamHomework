@@ -1,6 +1,6 @@
 package homework.epam.mod2.task3inheritance.StationHerarchy.mainStats;
 
-public abstract class DrawingTool implements Stationaries {
+public abstract class DrawingTool extends Stationaries {
     private String name = "Drawing tool";
     private String typeDrawingTool = "Pencil";
     private String drawColor = "Blue";
@@ -8,25 +8,17 @@ public abstract class DrawingTool implements Stationaries {
     private boolean automatic = false;
     private double cost = 10.22;
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public DrawingTool() {
     }
 
-    public DrawingTool(String typeDrawingTool, String drawColor, boolean writeingWithInk, boolean automatic) {
+    public DrawingTool(String firm, String name, double cost, String typeDrawingTool, String drawColor,
+                       boolean writeingWithInk, boolean automatic) {
+        super(firm, name, cost);
         this.typeDrawingTool = typeDrawingTool;
         this.drawColor = drawColor;
         this.writeingWithInk = writeingWithInk;
         this.automatic = automatic;
     }
-
-    protected abstract String superProperties();
 
     protected abstract int getKernelsCount();
 
@@ -66,7 +58,15 @@ public abstract class DrawingTool implements Stationaries {
         this.cost = cost;
     }
 
-    public double getCost(){
+    public double getCost() {
         return cost;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

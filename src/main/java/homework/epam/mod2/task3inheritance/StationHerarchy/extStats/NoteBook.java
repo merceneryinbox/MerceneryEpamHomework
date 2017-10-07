@@ -3,23 +3,21 @@ package homework.epam.mod2.task3inheritance.StationHerarchy.extStats;
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.StatsMainPaper;
 
 public class NoteBook extends StatsMainPaper {
+    private String covertype = "Soft cove";
     private String name = "SimpleNoteBook";
     private int countPages = 36;
     private String pagesType = "Lines";
+
 
     public NoteBook() {
 
     }
 
     public NoteBook(String name, int countPages, String pagesType, String covertype) {
-        this.setName(name);
+        this.name = name;
         this.setCountPages(countPages);
         this.setPagesType(pagesType);
         this.setCovertype(covertype);
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getCountPages() {
@@ -46,8 +44,6 @@ public class NoteBook extends StatsMainPaper {
         this.covertype = covertype;
     }
 
-    private String covertype = "Soft cove";
-
     @Override
     public String getName() {
         return name;
@@ -62,5 +58,4 @@ public class NoteBook extends StatsMainPaper {
     public double getCost() {
         return 500.00;
     }
-
 }
