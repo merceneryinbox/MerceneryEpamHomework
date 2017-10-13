@@ -9,13 +9,14 @@ import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.DrawingTool
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.Stationaries;
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.StatsMainPaper;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.text.Collator;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class JuniorSet {
     private static List<Stationaries> stationariesSet = new ArrayList<>();
+    private static double packSetCost = 0.00;
 
     public JuniorSet() {
         StatsMainPaper tetrad = new NoteBook();
@@ -78,7 +79,23 @@ public final class JuniorSet {
         return stationariesSet;
     }
 
-    public double getSumOfStats() {
+    public List<Stationaries> getSortedByCostStationariesSet() {
+        sortMySetByCost();
+        return stationariesSet;
+    }
+
+    public List<Stationaries> getSortedByNameStationariesSet() {
+        sortMySetByName();
+        return stationariesSet;
+    }
+
+    public List<Stationaries> getSortedByCostAndNameStationariesSet() {
+        sortMySetByCost();
+        sortMySetByName();
+        return stationariesSet;
+    }
+
+    public static double getSumOfStatsInSet() {
         double sum = 0;
         for (Stationaries st : stationariesSet) {
             sum = sum + st.getCost();
@@ -86,27 +103,99 @@ public final class JuniorSet {
         return sum;
     }
 
-    public static void main(String[] args) {
-        JuniorSet n = new JuniorSet();
-        List<Stationaries> noviceSet = n.getStationariesSet();
-        for (Stationaries st : noviceSet) {
-            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
-        }
-        System.out.println("Let's see how much does JuniorSet cost " + n.getSumOfStats() + "\n");
+//    public static void main(String[] args) {
+//        JuniorSet n = new JuniorSet();
+//        List<Stationaries> noviceSet = n.getStationariesSet();
+//        for (Stationaries st : noviceSet) {
+//            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
+//        }
+//        System.out.println("Let's see how much does JuniorSet cost " + n.getSumOfStatsInSet() + "\n");
+//
+//        System.out.println("\nNow extend our set to Middle Set\n ");
+//        n.extendToMiddleSet();
+//
+//        for (Stationaries st : noviceSet) {
+//            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
+//        }
+//        System.out.println("Let's see how much does MiddleSet cost " + n.getSumOfStatsInSet() + "\n");
+//
+//        n.extendToSeniorSet();
+//        System.out.println("\nNow extend our set to Senior Set\n");
+//        for (Stationaries st : noviceSet) {
+//            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
+//        }
+//        System.out.println("Let's see how much does SeniorSet cost " + n.getSumOfStatsInSet() + "\n");
+//    }
 
-        System.out.println("\nNow extend our set to Middle Set\n ");
-        n.extendToMiddleSet();
+    public static double getPackSetCost() {
+        return getSumOfStatsInSet();
+    }
 
-        for (Stationaries st : noviceSet) {
-            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
-        }
-        System.out.println("Let's see how much does MiddleSet cost " + n.getSumOfStats() + "\n");
+    private List<Stationaries> sortMySetByCost() {
+        double[] sortingCost = new double[stationariesSet.size()];
 
-        n.extendToSeniorSet();
-        System.out.println("\nNow extend our set to Senior Set\n");
-        for (Stationaries st : noviceSet) {
-            System.out.println(st.getName() + " " + st.getFirm() + " " + st.getCost());
+        int i = 0;
+        for (Stationaries d : stationariesSet) {
+            sortingCost[i] = d.getCost();
+            i++;
         }
-        System.out.println("Let's see how much does SeniorSet cost " + n.getSumOfStats() + "\n");
+        stationariesSet.clear(); // clearing base List for fulFilling it by sorted List
+        stationariesSet.addAll(new ArrayList(Arrays.asList(mergingSort(sortingCost)))); // fulfilling  cleared List by sorted elements of it
+        return stationariesSet;
+    }
+
+    /**
+     * Simple MergeSort algorithm realising
+     *
+     * @param inputAr
+     * @return sorted inputAr
+     */
+    private double[] mergingSort(double[] inputAr) {
+
+        if (inputAr.length < 2) {
+            return inputAr;
+        } else {
+            double[] left = new double[inputAr.length / 2];
+            double[] rigth = new double[inputAr.length - inputAr.length / 2];
+            return merge(mergingSort(left), mergingSort(rigth));
+        }
+    }
+
+    /**
+     * Merging method as tool for MergeSort algorithm realising method
+     *
+     * @param left  array
+     * @param rigth array
+     * @return two unsorted arrays splited in one sorted array
+     */
+    private double[] merge(double[] left, double[] rigth) {
+        double[] resultArInMerge = new double[left.length + rigth.length];
+
+        int resultpointer = 0;
+        int leftPointer = 0;
+        int rigthPointer = 0;
+
+        while (leftPointer < left.length) {
+            for (; rigthPointer < rigth.length; ) {
+                resultArInMerge[resultpointer] = left[leftPointer] < rigth[rigthPointer] ? left[leftPointer++] : rigth[rigthPointer++];
+
+                if (leftPointer >= left.length) {
+                    resultArInMerge[resultpointer] = rigth[rigthPointer];
+                    break;
+                }
+                if (rigthPointer >= rigth.length) {
+                    resultArInMerge[resultpointer] = left[leftPointer];
+                    break;
+                }
+            }
+        }
+        return resultArInMerge;
+    }
+
+    public List<Stationaries> sortMySetByName() {
+        Collator collator = Collator.getInstance();
+        Collections.sort(stationariesSet, collator);
+
+        return stationariesSet;
     }
 }

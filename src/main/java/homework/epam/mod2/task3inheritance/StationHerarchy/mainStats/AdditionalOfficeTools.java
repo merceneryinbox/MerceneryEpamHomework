@@ -2,7 +2,7 @@ package homework.epam.mod2.task3inheritance.StationHerarchy.mainStats;
 
 public abstract class AdditionalOfficeTools extends Stationaries {
     private String name = "Additional Tool";
-    private double cost;
+    private double cost = 2.00;
     private String firm;
 
     private int count = 1;

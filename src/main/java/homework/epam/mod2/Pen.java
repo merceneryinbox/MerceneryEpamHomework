@@ -120,7 +120,7 @@ public class Pen {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // TODO (41, 4)  @Override hash, equals, toString !!!!
     }
 
 }

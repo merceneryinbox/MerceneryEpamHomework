@@ -38,3 +38,4 @@ public abstract class Stationaries {
         this.cost = cost;
     }
 }
+// TODO: 12.10.2017  @Override hash, equals, toString !!!!
