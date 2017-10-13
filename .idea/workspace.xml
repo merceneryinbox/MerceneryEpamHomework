@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2task4sortSet/MainForStatsSet.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/Pen.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/Pen.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/penwithenums/Pen2WithEnums.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task1penwithenums/Pen2WithEnums.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/penwithenums/inkColor.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task1penwithenums/inkColor.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/penwithenums/penTypes.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task1penwithenums/penTypes.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/JuniorSet.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/JuniorSet.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/penwithenums/Pen2WithEnums.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/penwithenums/inkColor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/penwithenums/penTypes.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,29 +18,33 @@
       <file leaf-file-name="JuniorSet.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/JuniorSet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="198" column="31" lean-forward="false" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+            <state relative-caret-position="411">
+              <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
               <folding>
                 <element signature="method#JuniorSet#0;class#JuniorSet#0" expanded="false" />
                 <element signature="docComment;method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
                 <element signature="method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
-                <element signature="class#1819:2006" expanded="false" />
-                <element signature="e#1935#1936#0" expanded="true" />
-                <element signature="e#1995#1996#0" expanded="true" />
-                <element signature="class#2044:2254" expanded="false" />
-                <element signature="e#2203#2204#0" expanded="true" />
-                <element signature="e#2243#2244#0" expanded="true" />
+                <element signature="class#1887:2074" expanded="false" />
+                <element signature="e#2003#2004#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+                <element signature="class#2112:2322" expanded="false" />
+                <element signature="e#2271#2272#0" expanded="true" />
+                <element signature="e#2311#2312#0" expanded="true" />
                 <element signature="docComment;method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
                 <element signature="method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
+                <element signature="e#2974#2975#0" expanded="true" />
+                <element signature="e#3012#3013#0" expanded="true" />
                 <element signature="method#getSortedByCostStationariesSet#0;class#JuniorSet#0" expanded="false" />
+                <element signature="method#getSortedByNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
                 <element signature="method#getSortedByCostAndNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
-                <element signature="e#3571#3617#0" expanded="false" />
+                <element signature="e#3639#3685#0" expanded="false" />
+                <element signature="e#4818#4819#0" expanded="true" />
+                <element signature="e#4861#4862#0" expanded="true" />
                 <element signature="method#sortMySetByCost#0;class#JuniorSet#0" expanded="false" />
                 <element signature="docComment;method#mergingSort#0;class#JuniorSet#0" expanded="false" />
-                <element signature="method#mergingSort#0;class#JuniorSet#0" expanded="false" />
                 <element signature="docComment;method#merge#0;class#JuniorSet#0" expanded="false" />
-                <element signature="method#merge#0;class#JuniorSet#0" expanded="false" />
-                <marker date="1507891436757" expanded="false" signature="3420:3569" ph="{...}" />
+                <element signature="method#sortMySetByName#0;class#JuniorSet#0" expanded="false" />
+                <marker date="1507908649345" expanded="false" signature="3488:3637" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -441,12 +434,12 @@
       <workItem from="1507304399389" duration="5921000" />
       <workItem from="1507400847150" duration="626000" />
       <workItem from="1507402091258" duration="7831000" />
-      <workItem from="1507800496288" duration="10788000" />
+      <workItem from="1507800496288" duration="11944000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33369000" />
+    <option name="totallyTimeSpent" value="34525000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,6 +452,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -478,7 +472,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20121029" sideWeight="0.49394855" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2112" sideWeight="0.4969743" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13777441" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -547,23 +541,27 @@
             <element signature="method#JuniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="class#1819:2006" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="class#2044:2254" expanded="false" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="class#1887:2074" expanded="false" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="class#2112:2322" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
             <element signature="docComment;method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
             <element signature="method#getSortedByCostStationariesSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="method#getSortedByNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#getSortedByCostAndNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="e#3571#3617#0" expanded="false" />
+            <element signature="e#3639#3685#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4861#4862#0" expanded="true" />
             <element signature="method#sortMySetByCost#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#mergingSort#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#mergingSort#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#merge#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#merge#0;class#JuniorSet#0" expanded="false" />
-            <marker date="1507891436757" expanded="false" signature="3420:3569" ph="{...}" />
+            <element signature="method#sortMySetByName#0;class#JuniorSet#0" expanded="false" />
+            <marker date="1507908649345" expanded="false" signature="3488:3637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -590,23 +588,27 @@
             <element signature="method#JuniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="class#1819:2006" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="class#2044:2254" expanded="false" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="class#1887:2074" expanded="false" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="class#2112:2322" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
             <element signature="docComment;method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
             <element signature="method#getSortedByCostStationariesSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="method#getSortedByNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#getSortedByCostAndNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="e#3571#3617#0" expanded="false" />
+            <element signature="e#3639#3685#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4861#4862#0" expanded="true" />
             <element signature="method#sortMySetByCost#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#mergingSort#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#mergingSort#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#merge#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#merge#0;class#JuniorSet#0" expanded="false" />
-            <marker date="1507891436757" expanded="false" signature="3420:3569" ph="{...}" />
+            <element signature="method#sortMySetByName#0;class#JuniorSet#0" expanded="false" />
+            <marker date="1507908649345" expanded="false" signature="3488:3637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -619,23 +621,27 @@
             <element signature="method#JuniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="class#1819:2006" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="class#2044:2254" expanded="false" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="class#1887:2074" expanded="false" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="class#2112:2322" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
             <element signature="docComment;method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
             <element signature="method#getSortedByCostStationariesSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="method#getSortedByNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#getSortedByCostAndNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="e#3571#3617#0" expanded="false" />
+            <element signature="e#3639#3685#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4861#4862#0" expanded="true" />
             <element signature="method#sortMySetByCost#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#mergingSort#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#mergingSort#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#merge#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#merge#0;class#JuniorSet#0" expanded="false" />
-            <marker date="1507891436757" expanded="false" signature="3420:3569" ph="{...}" />
+            <element signature="method#sortMySetByName#0;class#JuniorSet#0" expanded="false" />
+            <marker date="1507908649345" expanded="false" signature="3488:3637" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -943,29 +949,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/JuniorSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="198" column="31" lean-forward="false" selection-start-line="198" selection-start-column="31" selection-end-line="198" selection-end-column="31" />
+        <state relative-caret-position="411">
+          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
           <folding>
             <element signature="method#JuniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToMiddleSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="class#1819:2006" expanded="false" />
-            <element signature="e#1935#1936#0" expanded="true" />
-            <element signature="e#1995#1996#0" expanded="true" />
-            <element signature="class#2044:2254" expanded="false" />
-            <element signature="e#2203#2204#0" expanded="true" />
-            <element signature="e#2243#2244#0" expanded="true" />
+            <element signature="class#1887:2074" expanded="false" />
+            <element signature="e#2003#2004#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
+            <element signature="class#2112:2322" expanded="false" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2311#2312#0" expanded="true" />
             <element signature="docComment;method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#extendToSeniorSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="e#2974#2975#0" expanded="true" />
+            <element signature="e#3012#3013#0" expanded="true" />
             <element signature="method#getSortedByCostStationariesSet#0;class#JuniorSet#0" expanded="false" />
+            <element signature="method#getSortedByNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
             <element signature="method#getSortedByCostAndNameStationariesSet#0;class#JuniorSet#0" expanded="false" />
-            <element signature="e#3571#3617#0" expanded="false" />
+            <element signature="e#3639#3685#0" expanded="false" />
+            <element signature="e#4818#4819#0" expanded="true" />
+            <element signature="e#4861#4862#0" expanded="true" />
             <element signature="method#sortMySetByCost#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#mergingSort#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#mergingSort#0;class#JuniorSet#0" expanded="false" />
             <element signature="docComment;method#merge#0;class#JuniorSet#0" expanded="false" />
-            <element signature="method#merge#0;class#JuniorSet#0" expanded="false" />
-            <marker date="1507891436757" expanded="false" signature="3420:3569" ph="{...}" />
+            <element signature="method#sortMySetByName#0;class#JuniorSet#0" expanded="false" />
+            <marker date="1507908649345" expanded="false" signature="3488:3637" ph="{...}" />
           </folding>
         </state>
       </provider>

@@ -14,6 +14,9 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+/**
+ * JuniorSet class may be extended to middle and senior set
+ */
 public final class JuniorSet {
     private static List<Stationaries> stationariesSet = new ArrayList<>();
     private static double packSetCost = 0.00;
@@ -180,11 +183,15 @@ public final class JuniorSet {
                 resultArInMerge[resultpointer] = left[leftPointer] < rigth[rigthPointer] ? left[leftPointer++] : rigth[rigthPointer++];
 
                 if (leftPointer >= left.length) {
-                    resultArInMerge[resultpointer] = rigth[rigthPointer];
+                    for (int i = rigthPointer; i < rigth.length; i++) {
+                        resultArInMerge[resultpointer] = rigth[rigthPointer];
+                    }
                     break;
                 }
                 if (rigthPointer >= rigth.length) {
-                    resultArInMerge[resultpointer] = left[leftPointer];
+                    for (int i = leftPointer; i < left.length; i++) {
+                        resultArInMerge[resultpointer] = left[leftPointer];
+                    }
                     break;
                 }
             }
