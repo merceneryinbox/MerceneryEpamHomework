@@ -12,22 +12,12 @@ public class NaturalStudent implements MerceneryStudentSubscriber {
 
     private ArrayList<MercenerySubjectPublisher> mySubject;
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof NaturalStudent)) return false;
-        NaturalStudent that = (NaturalStudent) o;
-        return Objects.equals(getName(), that.getName()) && Objects.equals(getMySubject(), that.getMySubject());
-    }
+    public NaturalStudent() {
 
-    @Override
-    public int hashCode() {
-
-        return Objects.hash(getName(), getMySubject());
     }
 
     public NaturalStudent(String name, ArrayList<MercenerySubjectPublisher> mySubject) {
-
+        this();
         this.name = name;
         this.mySubject = mySubject;
     }
@@ -40,14 +30,6 @@ public class NaturalStudent implements MerceneryStudentSubscriber {
         this.mySubject = mySubject;
     }
 
-    public NaturalStudent(ArrayList<MercenerySubjectPublisher> mySubject) {
-
-        this.mySubject = mySubject;
-    }
-
-
-    public NaturalStudent() {
-    }
 
     @Override
     public void subscribeOnObject() {
@@ -70,5 +52,19 @@ public class NaturalStudent implements MerceneryStudentSubscriber {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof NaturalStudent)) return false;
+        NaturalStudent that = (NaturalStudent) o;
+        return Objects.equals(getName(), that.getName()) && Objects.equals(getMySubject(), that.getMySubject());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getName(), getMySubject());
     }
 }

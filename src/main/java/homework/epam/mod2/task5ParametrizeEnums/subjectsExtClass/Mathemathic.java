@@ -36,6 +36,11 @@ public class Mathemathic implements MercenerySubjectPublisher {
     }
 
     @Override
+    public void notifyObservers() {
+        
+    }
+
+    @Override
     public List<MercenerySubjectPublisher> getSubscribedStudents() {
         return null;
     }

@@ -12,6 +12,7 @@ public interface MercenerySubjectPublisher {
 
     void setMarkOnStudent();
 
+    void notifyObservers();
     List<MercenerySubjectPublisher> getSubscribedStudents();
 
 }

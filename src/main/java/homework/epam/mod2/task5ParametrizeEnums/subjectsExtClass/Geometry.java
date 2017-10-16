@@ -5,21 +5,8 @@ import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClas
 
 import java.util.List;
 
-public class Geometry implements MerceneryStudentSubscriber {
-    @Override
-    public void subscribeOnObject() {
+public class Geometry implements MercenerySubjectPublisher {
 
-    }
-
-    @Override
-    public void unsubscribeFromObj() {
-
-    }
-
-    @Override
-    public List<MercenerySubjectPublisher> getAllSubscribes() {
-        return null;
-    }
 
     @Override
     public int hashCode() {
@@ -34,5 +21,30 @@ public class Geometry implements MerceneryStudentSubscriber {
     @Override
     public String toString() {
         return super.toString();
+    }
+
+    @Override
+    public void register() {
+
+    }
+
+    @Override
+    public void unRegister() {
+
+    }
+
+    @Override
+    public void setMarkOnStudent() {
+
+    }
+
+    @Override
+    public void notifyObservers() {
+
+    }
+
+    @Override
+    public List<MercenerySubjectPublisher> getSubscribedStudents() {
+        return null;
     }
 }
