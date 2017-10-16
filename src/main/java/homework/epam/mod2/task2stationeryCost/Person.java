@@ -1,6 +1,7 @@
 package homework.epam.mod2.task2stationeryCost;
 
 import java.util.HashSet;
+import java.util.Objects;
 import java.util.Set;
 
 /**
@@ -9,6 +10,20 @@ import java.util.Set;
 public class Person {
     private Set<Tools> toolsSet = new HashSet<>();
     private int numOfTools;
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Person)) return false;
+        Person person = (Person) o;
+        return getNumOfTools() == person.getNumOfTools() && Objects.equals(toolsSet, person.toolsSet);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(toolsSet, getNumOfTools());
+    }
 
     public Person(Tools tools, int i) {
         this.appendTool(tools, i);

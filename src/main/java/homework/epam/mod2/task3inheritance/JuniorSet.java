@@ -62,6 +62,21 @@ public final class JuniorSet {
         stationariesSet.add(middlePen);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     /**
      * regex using to update type of Set after it change into SeniorSet
      */

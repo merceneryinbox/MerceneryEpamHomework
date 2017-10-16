@@ -8,6 +8,21 @@ public class PilotDrawingPen extends DrawingTool {
         super("Pilot drawing Pen firm", "Pilot Pen", 560.00, "Multi types kernels", "Three colors pen", true, true);
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     protected String superProperties() {
         return "Stylus included";
     }

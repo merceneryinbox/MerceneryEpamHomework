@@ -2,6 +2,8 @@ package homework.epam.mod2.task3inheritance.StationHerarchy.extStats;
 
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.StatsMainPaper;
 
+import java.util.Objects;
+
 public class AlbumForPainting extends StatsMainPaper {
     private String name = "Album";
     private double cost;
@@ -9,6 +11,20 @@ public class AlbumForPainting extends StatsMainPaper {
     @Override
     public String getName() {
         return name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof AlbumForPainting)) return false;
+        AlbumForPainting that = (AlbumForPainting) o;
+        return Double.compare(that.getCost(), getCost()) == 0 && Objects.equals(getName(), that.getName()) && Objects.equals(getMainProperty(), that.getMainProperty());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getName(), getCost(), getMainProperty());
     }
 
     @Override

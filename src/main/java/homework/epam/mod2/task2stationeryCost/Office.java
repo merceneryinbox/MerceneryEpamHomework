@@ -13,6 +13,21 @@ public class Office {
         return personsInOffice;
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public static double getMeOfficeCost() {
         double resultOfficeSum = 0;
         for (Person p : personsInOffice) {

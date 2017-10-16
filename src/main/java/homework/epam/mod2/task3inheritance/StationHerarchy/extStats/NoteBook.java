@@ -2,6 +2,8 @@ package homework.epam.mod2.task3inheritance.StationHerarchy.extStats;
 
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.StatsMainPaper;
 
+import java.util.Objects;
+
 public class NoteBook extends StatsMainPaper {
     private String covertype = "Soft cove";
     private String name = "SimpleNoteBook";
@@ -26,6 +28,20 @@ public class NoteBook extends StatsMainPaper {
 
     public void setCountPages(int countPages) {
         this.countPages = countPages;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof NoteBook)) return false;
+        NoteBook noteBook = (NoteBook) o;
+        return getCountPages() == noteBook.getCountPages() && Objects.equals(getCovertype(), noteBook.getCovertype()) && Objects.equals(getName(), noteBook.getName()) && Objects.equals(getPagesType(), noteBook.getPagesType());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getCovertype(), getName(), getCountPages(), getPagesType());
     }
 
     public String getPagesType() {

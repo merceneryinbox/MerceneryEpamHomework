@@ -5,6 +5,8 @@
  */
 package homework.epam.mod2;
 
+import java.util.Objects;
+
 /**
  *
  * @author FedulovOV
@@ -42,48 +44,18 @@ public class Pen {
         this.color = color;
     }
 
-    /**
-     *
-     * @param obj
-     * @return equality
-     */
     @Override
-    public boolean equals(Object obj) {
-        if (this == obj) {
-            return true;
-        }
-
-        if (!(obj instanceof Pen)) {
-            return false;
-        }
-
-        if (this.hashCode() != obj.hashCode()) {
-            return false;
-        }
-        return forEqualsSequanceCompare((Pen) obj);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Pen)) return false;
+        Pen pen = (Pen) o;
+        return Objects.equals(getPenType(), pen.getPenType()) && Objects.equals(getColor(), pen.getColor());
     }
 
-    /**
-     *
-     * @return сумму символов в виде int
-     */
     @Override
     public int hashCode() {
-        int resultCharsSumFunction = 0;
-        char[] colorAr = this.getColor().toCharArray();
-        char[] typeAr = this.getPenType().toCharArray();
 
-        if (this.getColor() != null) {
-            for (int i = 0; i < this.getColor().length(); i++) {
-                resultCharsSumFunction = resultCharsSumFunction + (byte) colorAr[i];
-            }
-        }
-        if (this.getPenType() != null) {
-            for (int j = 0; j < this.getPenType().length(); j++) {
-                resultCharsSumFunction = resultCharsSumFunction + (byte) typeAr[j];
-            }
-        }
-        return resultCharsSumFunction;
+        return Objects.hash(getPenType(), getColor());
     }
 
     /**
@@ -111,6 +83,7 @@ public class Pen {
             if (mePenTypeCharArray[typeArIndex] != anotherPenTypeCharArray[typeArIndex]) {
                 result = false;
                 break;
+
             }
         }
         return result;

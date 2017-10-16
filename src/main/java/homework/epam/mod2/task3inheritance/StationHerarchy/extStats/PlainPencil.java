@@ -2,6 +2,8 @@ package homework.epam.mod2.task3inheritance.StationHerarchy.extStats;
 
 import homework.epam.mod2.task3inheritance.StationHerarchy.mainStats.DrawingTool;
 
+import java.util.Objects;
+
 public class PlainPencil extends DrawingTool {
     private double cost = 1.23;
     private String name = "Plain Pencil";
@@ -10,6 +12,20 @@ public class PlainPencil extends DrawingTool {
 
     public PlainPencil() {
         super("Pencil for Senior", "Plain Pencil", 1.23, "Plain", "Black", false, false);
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof PlainPencil)) return false;
+        PlainPencil that = (PlainPencil) o;
+        return Double.compare(that.getCost(), getCost()) == 0 && Objects.equals(getName(), that.getName()) && Objects.equals(getFirm(), that.getFirm()) && Objects.equals(getDrawColor(), that.getDrawColor());
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(getCost(), getName(), getFirm(), getDrawColor());
     }
 
     public PlainPencil(String drawColor, boolean writeingWithInk, boolean automatic) {

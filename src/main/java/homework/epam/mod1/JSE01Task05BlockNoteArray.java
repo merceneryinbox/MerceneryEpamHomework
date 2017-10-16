@@ -7,6 +7,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class JSE01Task05BlockNoteArray {
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return super.equals(obj);
+    }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 
     /**
      * @param args For self test of two classes : BlockNote & EntryNote
