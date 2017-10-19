@@ -16,7 +16,14 @@ public class NuclearSubmarine {
      */
     public static void main(String[] args) {
         NuclearSubmarine nuclearSubmarine = new NuclearSubmarine("My firs submarine");
-        nuclearSubmarine.engineAccess();
+        System.out.println(nuclearSubmarine.name);
+        NuclearSubmarine.AtomicSubmarineNestedDrive nestedDrive = new NuclearSubmarine.AtomicSubmarineNestedDrive();
+        nestedDrive.startEngine(); // not recommended forever
+
+        NuclearSubmarine forInnerDrive = new NuclearSubmarine("Submarine with inner drive");
+        NuclearSubmarine.AtomicSubmarineInnerDrive innerDrive = forInnerDrive.extractMyInnerDrive();
+        innerDrive.startEngine();
+
     }
 
     @Override
@@ -38,20 +45,21 @@ public class NuclearSubmarine {
         return this.name;
     }
 
-    void engineAccess() {
-        AtomicSubmarineDrive.startEngine();
+    public AtomicSubmarineInnerDrive extractMyInnerDrive() {
+        return new AtomicSubmarineInnerDrive();
     }
 
-    public static class AtomicSubmarineDrive {
-
-        String name = "Internal Drive of atomic submarine";
+    public static class AtomicSubmarineNestedDrive {
 
         public static void startEngine() {
-            System.out.println("\nBrrrrrrr .... Drive starts , submarine going !");
+            System.out.println("\nBrrrrrrr ....Nested Drive starts , submarine going !");
         }
 
-        public String getName() {
-            return name;
+    }
+
+    public class AtomicSubmarineInnerDrive {
+        void startEngine() {
+            System.out.println("Innnnernerner  drive starts, submarine go !");
         }
 
     }
