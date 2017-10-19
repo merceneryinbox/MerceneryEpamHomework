@@ -4,10 +4,33 @@ import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClas
 import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.SubjectPublisher;
 
 import java.util.Map;
+import java.util.Objects;
 
 public class Geometry implements SubjectPublisher {
-    Map<StudentSubscriber, Integer> studsMarksBase;
+    private final String subjName = "Geometry";
+    private Map<StudentSubscriber, Integer> studsMarksBase;
     private Integer mark;
+
+
+    public String getSubjName() {
+        return subjName;
+    }
+
+    public Map<StudentSubscriber, Integer> getStudsMarksBase() {
+        return studsMarksBase;
+    }
+
+    public void setStudsMarksBase(Map<StudentSubscriber, Integer> studsMarksBase) {
+        this.studsMarksBase = studsMarksBase;
+    }
+
+    public Integer getMark() {
+        return mark;
+    }
+
+    public void setMark(Integer mark) {
+        this.mark = mark;
+    }
 
     public void getStudsAllGeometryMarks(StudentSubscriber studentSubscriber) {
         for (Map.Entry en : studsMarksBase.entrySet()) {
@@ -21,13 +44,17 @@ public class Geometry implements SubjectPublisher {
     }
 
     @Override
-    public int hashCode() {
-        return super.hashCode();
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Geometry)) return false;
+        Geometry geometry = (Geometry) o;
+        return Objects.equals(getSubjName(), geometry.getSubjName());
     }
 
     @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+    public int hashCode() {
+
+        return Objects.hash(getSubjName());
     }
 
     @Override
@@ -47,6 +74,11 @@ public class Geometry implements SubjectPublisher {
 
     @Override
     public void setMarkOnStudent(StudentSubscriber student, Double mark) {
+
+    }
+
+    @Override
+    public void setMarkOnStudent(StudentSubscriber student, Integer mark) {
 
     }
 

@@ -31,7 +31,9 @@ public class Biology implements SubjectPublisher {
     }
 
     /**
+     *
      * @param student
+     * @param mark
      */
     @Override
     public void setMarkOnStudent(StudentSubscriber student, Double mark) {
@@ -49,20 +51,18 @@ public class Biology implements SubjectPublisher {
         studentSubscriber.setMark(this, studentsAndMarks.get(studentSubscriber).doubleValue());
     }
 
-    /**
-     * @return
-     */
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Biology)) return false;
         Biology biology = (Biology) o;
-        return Objects.equals(subjectName, biology.subjectName) && Objects.equals(studentsAndMarks, biology.studentsAndMarks);
+        return Objects.equals(subjectName, biology.subjectName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(subjectName, studentsAndMarks);
+
+        return Objects.hash(subjectName);
     }
 
     /**

@@ -4,23 +4,42 @@ import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClas
 import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.SubjectPublisher;
 
 import java.util.Map;
+import java.util.Objects;
 
 public class Literature implements SubjectPublisher {
+    private final String studName = "Literature";
     private Map<StudentSubscriber, Double> literatureSrudentsMarksMap;
 
-    @Override
-    public int hashCode() {
-        return super.hashCode();
+
+    public String getStudName() {
+        return studName;
+    }
+
+    public Map<StudentSubscriber, Double> getLiteratureSrudentsMarksMap() {
+        return literatureSrudentsMarksMap;
+    }
+
+    public void setLiteratureSrudentsMarksMap(Map<StudentSubscriber, Double> literatureSrudentsMarksMap) {
+        this.literatureSrudentsMarksMap = literatureSrudentsMarksMap;
     }
 
     @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Literature)) return false;
+        Literature that = (Literature) o;
+        return Objects.equals(studName, that.studName);
+    }
+
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(studName);
     }
 
     @Override
     public String toString() {
-        return super.toString();
+        return studName;
     }
 
     @Override
@@ -38,14 +57,19 @@ public class Literature implements SubjectPublisher {
 
     @Override
     public void setMarkOnStudent(StudentSubscriber student, Double mark) {
-        literatureSrudentsMarksMap.put(student,mark);
+        literatureSrudentsMarksMap.put(student, mark);
         notifyStudent(student);
 
     }
 
     @Override
+    public void setMarkOnStudent(StudentSubscriber student, Integer mark) {
+
+    }
+
+    @Override
     public void notifyStudent(StudentSubscriber studentSubscriber) {
-        studentSubscriber.setMark(literatureSrudentsMarksMap.get(studentSubscriber));
+        studentSubscriber.setMark(this, literatureSrudentsMarksMap.get(studentSubscriber));
     }
 
     @Override
