@@ -20,11 +20,32 @@ public class NuclearSubmarine {
         NuclearSubmarine.AtomicSubmarineNestedDrive nestedDrive = new NuclearSubmarine.AtomicSubmarineNestedDrive();
         nestedDrive.startEngine(); // not recommended forever
 
+        System.out.println();
+
         NuclearSubmarine forInnerDrive = new NuclearSubmarine("Submarine with inner drive");
-        NuclearSubmarine.AtomicSubmarineInnerDrive innerDrive = forInnerDrive.extractMyInnerDrive();
+        AtomicSubmarineMemberInnerDrive innerDrive = forInnerDrive.extractMyInnerDrive();
         innerDrive.startEngine();
 
+        System.out.println();
+
+        NuclearSubmarine.InnerLocalClass innerLocalClass  = new NuclearSubmarine.InnerLocalClass("InnerLocal");
+        System.out.println(innerDrive.returnNameInnerLocalClass());
     }
+
+    public void forInnerLocalClass(){
+        String testFieldForInnerLocalClass = "testFieldForInnerLocalClass";
+        class InnerLocalClass{
+            public InnerLocalClass(String innerLocalClassName) {
+                this.innerLocalClassName = innerLocalClassName;
+            }
+
+            String innerLocalClassName = testFieldForInnerLocalClass;
+            String returnNameInnerLocalClass(){
+                return innerLocalClassName;
+            }
+        }
+    }
+
 
     @Override
     public boolean equals(Object o) {
@@ -45,8 +66,8 @@ public class NuclearSubmarine {
         return this.name;
     }
 
-    public AtomicSubmarineInnerDrive extractMyInnerDrive() {
-        return new AtomicSubmarineInnerDrive();
+    public AtomicSubmarineMemberInnerDrive extractMyInnerDrive() {
+        return new AtomicSubmarineMemberInnerDrive();
     }
 
     public static class AtomicSubmarineNestedDrive {
@@ -57,9 +78,15 @@ public class NuclearSubmarine {
 
     }
 
-    public class AtomicSubmarineInnerDrive {
+    private static class InnerLocalClass {
+        public InnerLocalClass(String innerLocal) {
+
+        }
+    }
+
+    public class AtomicSubmarineMemberInnerDrive {
         void startEngine() {
-            System.out.println("Innnnernerner  drive starts, submarine go !");
+            System.out.println("MemmberrInnnnernerner  drive starts, submarine go !");
         }
 
     }
