@@ -1,12 +1,24 @@
 package homework.epam.mod2.task5ParametrizeEnums.subjectsExtClass;
 
-import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.MerceneryStudentSubscriber;
-import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.MercenerySubjectPublisher;
+import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.StudentSubscriber;
+import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.SubjectPublisher;
 
-import java.util.List;
+import java.util.Map;
 
-public class Geometry implements MercenerySubjectPublisher {
+public class Geometry implements SubjectPublisher {
+    Map<StudentSubscriber, Integer> studsMarksBase;
+    private Integer mark;
 
+    public void getStudsAllGeometryMarks(StudentSubscriber studentSubscriber) {
+        for (Map.Entry en : studsMarksBase.entrySet()) {
+            System.out.println("Student " + en.getKey() + " had mark = " + en.getValue());
+        }
+    }
+
+    public void setMark(StudentSubscriber studentSubscriber, int mark) {
+        studsMarksBase.put(studentSubscriber, mark);
+        notifyStudent(studentSubscriber);
+    }
 
     @Override
     public int hashCode() {
@@ -24,27 +36,31 @@ public class Geometry implements MercenerySubjectPublisher {
     }
 
     @Override
-    public void register() {
+    public void register(StudentSubscriber student) {
 
     }
 
     @Override
-    public void unRegister() {
+    public void unRegister(StudentSubscriber student) {
 
     }
 
     @Override
-    public void setMarkOnStudent() {
+    public void setMarkOnStudent(StudentSubscriber student, Double mark) {
 
     }
 
     @Override
-    public void notifyObservers() {
-
+    public void notifyStudent(StudentSubscriber studentSubscriber) {
+        studentSubscriber.unSubscribeFromSubj(this);
     }
 
     @Override
-    public List<MercenerySubjectPublisher> getSubscribedStudents() {
-        return null;
+    public void getSubscribedStudents() {
+        System.out.println("Students subscribed for geometry : ");
+        System.out.println();
+        for (Map.Entry entry : studsMarksBase.entrySet()) {
+            System.out.println("Srudent = " + entry.getKey());
+        }
     }
 }

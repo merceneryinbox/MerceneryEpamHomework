@@ -1,10 +1,10 @@
 package homework.epam.mod2.task5ParametrizeEnums.subjectsExtClass;
 
-import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.MercenerySubjectPublisher;
+import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClass.SubjectPublisher;
 
 import java.util.List;
 
-public class Mathemathic implements MercenerySubjectPublisher {
+public class Mathemathic implements SubjectPublisher {
     @Override
     public void register() {
 
@@ -36,12 +36,12 @@ public class Mathemathic implements MercenerySubjectPublisher {
     }
 
     @Override
-    public void notifyObservers() {
-        
+    public void notifyStudent() {
+
     }
 
     @Override
-    public List<MercenerySubjectPublisher> getSubscribedStudents() {
+    public List<SubjectPublisher> getSubscribedStudents() {
         return null;
     }
 }

@@ -93,7 +93,6 @@ public class Pen {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO (41, 4)  @Override hash, equals, toString !!!!
     }
 
 }

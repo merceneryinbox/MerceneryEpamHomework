@@ -51,8 +51,8 @@ public class Lastic extends AdditionalOfficeTools {
 //
 //        Lastic l2 = new Lastic(56, "sun", "none");
 //        System.out.println(l2.mainProperty + " " + l2.getFirm() + " " + l2.newProperty() + " "
-// + l2.getCost() + " " + l2.getName() + "  " + l2.mainProperty + " " + l2.getFirm() + " "
-// + l2.newProperty() + " " + l2.getCost() + " " + l2.getName());
+// + l2.getCost() + " " + l2.getStudentName() + "  " + l2.mainProperty + " " + l2.getFirm() + " "
+// + l2.newProperty() + " " + l2.getCost() + " " + l2.getStudentName());
 //    }
 
 }
