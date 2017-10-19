@@ -10,6 +10,8 @@ public interface SubjectPublisher {
 
     void setMarkOnStudent(StudentSubscriber student, Double mark);
 
+    void setMarkOnStudent(StudentSubscriber student, Integer mark);
+
     void notifyStudent(StudentSubscriber studentSubscriber);
 
     void getSubscribedStudents();

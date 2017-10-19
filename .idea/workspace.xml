@@ -2,21 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/Pen.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/Pen.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/MerceneryStudentSubscriber.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/MercenerySubjectPublisher.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/NaturalStudent.java" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/TechnicStudent.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Geometry.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Geometry.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Literature.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Literature.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Mathemathic.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Mathemathic.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,7 +35,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoliTechnicBotan.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PoliTechnicBotan.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -67,25 +55,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Biology.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Biology.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="17">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#773#774#0" expanded="true" />
-                <element signature="e#920#921#0" expanded="true" />
-                <element signature="e#971#972#0" expanded="true" />
-                <element signature="e#1045#1046#0" expanded="true" />
-                <element signature="e#1084#1085#0" expanded="true" />
-                <element signature="e#1188#1189#0" expanded="true" />
-                <element signature="e#1228#1229#0" expanded="true" />
-                <element signature="e#1305#1306#0" expanded="true" />
-                <element signature="e#1344#1345#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#801#802#0" expanded="true" />
+                <element signature="e#849#850#0" expanded="true" />
+                <element signature="e#1730#1731#0" expanded="true" />
+                <element signature="e#1796#1797#0" expanded="true" />
+                <element signature="e#1873#1874#0" expanded="true" />
+                <element signature="e#1907#1908#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -95,7 +79,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+              <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -234,8 +218,6 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/Pen.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/NaturalStudentSecond.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/TechnicStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/NaturalStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainStudAClass/NaturalStudent.java" />
@@ -246,6 +228,8 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java" />
       </list>
     </option>
   </component>
@@ -613,12 +597,12 @@
       <workItem from="1508144768425" duration="6488000" />
       <workItem from="1508179099581" duration="123000" />
       <workItem from="1508179277067" duration="166000" />
-      <workItem from="1508179503279" duration="23760000" />
+      <workItem from="1508179503279" duration="24743000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68149000" />
+    <option name="totallyTimeSpent" value="69132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,36 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#616#617#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#920#921#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-            <element signature="e#1045#1046#0" expanded="true" />
-            <element signature="e#1084#1085#0" expanded="true" />
-            <element signature="e#1188#1189#0" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/NaturalStudent.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1225,6 +1179,32 @@
             <element signature="e#1157#1158#0" expanded="true" />
             <element signature="e#2226#2227#0" expanded="true" />
             <element signature="e#2265#2266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#801#802#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1796#1797#0" expanded="true" />
+            <element signature="e#1873#1874#0" expanded="true" />
+            <element signature="e#1907#1908#0" expanded="true" />
           </folding>
         </state>
       </provider>

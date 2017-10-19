@@ -5,11 +5,13 @@ import homework.epam.mod2.task5ParametrizeEnums.mainPublisherSubscriberStudAClas
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 /**
  *
  */
 public class Biology implements SubjectPublisher {
+    private final String subjectName = "Biology";
     private Map<StudentSubscriber, Double> studentsAndMarks = new HashMap<>();
 
     /**
@@ -30,28 +32,37 @@ public class Biology implements SubjectPublisher {
 
     /**
      * @param student
-     * @param mark
      */
     @Override
     public void setMarkOnStudent(StudentSubscriber student, Double mark) {
         studentsAndMarks.put(student, mark);
+        notifyStudent(student);
+    }
+
+    @Override
+    public void setMarkOnStudent(StudentSubscriber student, Integer mark) {
+
+    }
+
+    @Override
+    public void notifyStudent(StudentSubscriber studentSubscriber) {
+        studentSubscriber.setMark(this, studentsAndMarks.get(studentSubscriber).doubleValue());
     }
 
     /**
      * @return
      */
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Biology)) return false;
+        Biology biology = (Biology) o;
+        return Objects.equals(subjectName, biology.subjectName) && Objects.equals(studentsAndMarks, biology.studentsAndMarks);
+    }
+
     @Override
     public int hashCode() {
-        return super.hashCode();
-    }
-
-    /**
-     * @param obj
-     * @return
-     */
-    @Override
-    public boolean equals(Object obj) {
-        return super.equals(obj);
+        return Objects.hash(subjectName, studentsAndMarks);
     }
 
     /**
@@ -59,15 +70,7 @@ public class Biology implements SubjectPublisher {
      */
     @Override
     public String toString() {
-        return super.toString();
-    }
-
-    /**
-     *
-     */
-    @Override
-    public void notifyStudent() {
-
+        return subjectName;
     }
 
     /**
