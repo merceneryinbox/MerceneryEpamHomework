@@ -1,3 +1,17 @@
+/*
+Задание 6. Классы внутри классов
+Разработайте класс АтомнаяЛодка, создайте внутренний класс –
+ДвигательДляАтомнойЛодки. Создайте объект АтомнаяЛодка и “запустите его в плавание”.
+ */
+
+/*
+There are four variants may exists:
+    -) Inner class
+        --) Member Class;
+        --) Local Class.
+    -) Nested Inner Class
+    -) Anonymous inner Class
+ */
 package homework.epam.mod2.task6;
 
 import java.util.Objects;
@@ -16,6 +30,7 @@ public class NuclearSubmarine {
      */
     public static void main(String[] args) {
         NuclearSubmarine nuclearSubmarine = new NuclearSubmarine("My firs submarine");
+        System.out.println();
         System.out.println(nuclearSubmarine.name);
         NuclearSubmarine.AtomicSubmarineNestedDrive nestedDrive = new NuclearSubmarine.AtomicSubmarineNestedDrive();
         nestedDrive.startEngine(); // not recommended forever
@@ -23,25 +38,30 @@ public class NuclearSubmarine {
         System.out.println();
 
         NuclearSubmarine forInnerDrive = new NuclearSubmarine("Submarine with inner drive");
-        AtomicSubmarineMemberInnerDrive innerDrive = forInnerDrive.extractMyInnerDrive();
-        innerDrive.startEngine();
+        NuclearSubmarine.AtomicSubmarineMemberInnerDrive innerMemberDrive = forInnerDrive.extractMyInnerDrive();
+        innerMemberDrive.startEngine();
 
         System.out.println();
 
-        NuclearSubmarine.InnerLocalClass innerLocalClass  = new NuclearSubmarine.InnerLocalClass("InnerLocal");
-        System.out.println(innerDrive.returnNameInnerLocalClass());
+        NuclearSubmarine.InnerLocalClass innerLocalDrive = new NuclearSubmarine.InnerLocalClass("InnerLocal");
     }
 
-    public void forInnerLocalClass(){
+    public void forInnerLocalClass() {
         String testFieldForInnerLocalClass = "testFieldForInnerLocalClass";
-        class InnerLocalClass{
-            public InnerLocalClass(String innerLocalClassName) {
-                this.innerLocalClassName = innerLocalClassName;
+        class InnerLocalDrive {
+            NuclearSubmarine nuclearSubmarine = new NuclearSubmarine("Nuclear sub created in inner local class");
+
+            InnerLocalDrive() {
+                printFromInnerLocalClass();
+                touchOutterClassName();
             }
 
-            String innerLocalClassName = testFieldForInnerLocalClass;
-            String returnNameInnerLocalClass(){
-                return innerLocalClassName;
+            void printFromInnerLocalClass() {
+                System.out.println(nuclearSubmarine.name);
+            }
+
+            void touchOutterClassName() {
+                System.out.println(name + " From inner local Class.");
             }
         }
     }
@@ -73,7 +93,7 @@ public class NuclearSubmarine {
     public static class AtomicSubmarineNestedDrive {
 
         public static void startEngine() {
-            System.out.println("\nBrrrrrrr ....Nested Drive starts , submarine going !");
+            System.out.println("\nNested Drive starts , submarine going !");
         }
 
     }
@@ -86,8 +106,7 @@ public class NuclearSubmarine {
 
     public class AtomicSubmarineMemberInnerDrive {
         void startEngine() {
-            System.out.println("MemmberrInnnnernerner  drive starts, submarine go !");
+            System.out.println("\nMember Inner drive starts, submarine go !");
         }
-
     }
 }
