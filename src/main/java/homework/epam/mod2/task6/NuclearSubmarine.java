@@ -17,10 +17,17 @@ package homework.epam.mod2.task6;
 import java.util.Objects;
 
 public class NuclearSubmarine {
+    static String staticVar = "staticVar";
     private final String name;
+    String notStaticVar = "notStaticVar";
 
     public NuclearSubmarine(String name) {
         this.name = name;
+    }
+
+    static String staticOuterStartEngineMethod() {
+        System.out.println("\nStatic outer Start Engine.");
+        return "\nStatic outer Start Engine.";
     }
 
     /**
@@ -29,39 +36,67 @@ public class NuclearSubmarine {
      * @param args
      */
     public static void main(String[] args) {
-        NuclearSubmarine nuclearSubmarine = new NuclearSubmarine("My firs submarine");
-        System.out.println();
-        System.out.println(nuclearSubmarine.name);
-        NuclearSubmarine.AtomicSubmarineNestedDrive nestedDrive = new NuclearSubmarine.AtomicSubmarineNestedDrive();
-        nestedDrive.startEngine(); // not recommended forever
-
-        System.out.println();
-
-        NuclearSubmarine forInnerDrive = new NuclearSubmarine("Submarine with inner drive");
-        NuclearSubmarine.AtomicSubmarineMemberInnerDrive innerMemberDrive = forInnerDrive.extractMyInnerDrive();
-        innerMemberDrive.startEngine();
-
+        //******* test of inner member class ******* //
+        // create inner member through hierarchical invoke without super Class instance creation
+        NuclearSubmarine.AtomicSubmarineMemberInnerDrive memberDrive = new NuclearSubmarine("2").new AtomicSubmarineMemberInnerDrive();
+        memberDrive.startEngine(); // not recommended at all
+        // test outer fields
+        memberDrive.returnOuterVars();
         System.out.println();
 
-        NuclearSubmarine.InnerLocalClass innerLocalDrive = new NuclearSubmarine.InnerLocalClass("InnerLocal");
+        //******* test of inner member class ******* //
+        // create inner member  through Outter class's builder method invocation from heir with super Class instance creation
+        System.out.println("Make new instance of submarine");
+        NuclearSubmarine nuclearSubmarine2 = new NuclearSubmarine("\nNuclear sub for test outer class method " + "creation of inner member class");
+        NuclearSubmarine.AtomicSubmarineMemberInnerDrive localDrive = nuclearSubmarine2.extractMyInnerMemberDrive();
+        localDrive.startEngine();
+        localDrive.returnOuterVars();
+        System.out.println();
+
+        //******* test of inner member class ******* //
+        NuclearSubmarine nuclearSubmarine6 = new NuclearSubmarine("666");
+        NuclearSubmarine.AtomicSubmarineMemberInnerDrive innerMemberDrive6 = nuclearSubmarine6.new AtomicSubmarineMemberInnerDrive();
+        System.out.println();
+
+        //******* test of inner local class ******* //
+        // Inner local class creation using outer especial builder method
+        NuclearSubmarine nuclearSubmarine3 = new NuclearSubmarine("Sub for inner local test.");
+        nuclearSubmarine3.testInnerLocal();
+        System.out.println();
+
+        //******* test of inner local class ******* //
+        // creat inner local without instance of outer
+        new NuclearSubmarine("create inner local without instance of outer").testInnerLocal();
+        System.out.println();
+
+        //******* test of inner nested class ******* //
+        NuclearSubmarine nuclearSubmarine4 = new NuclearSubmarine("\nFor InnerLocal");
+        AtomicSubmarineNestedDrive atomicSubmarineNestedDrive1 = new NuclearSubmarine.AtomicSubmarineNestedDrive();
+        atomicSubmarineNestedDrive1.startEngine();
+        atomicSubmarineNestedDrive1.testForOuterVarsAccess();
+        System.out.println();
+
+        //******* test of inner anonymous class ******* //
+
+    }
+
+    String notStaticStartEngineMethod() {
+        System.out.println("\nNot static outer start Engine.");
+        return "\nNot static outer start Engine.";
     }
 
     public void forInnerLocalClass() {
         String testFieldForInnerLocalClass = "testFieldForInnerLocalClass";
         class InnerLocalDrive {
-            NuclearSubmarine nuclearSubmarine = new NuclearSubmarine("Nuclear sub created in inner local class");
+            void methodInInnerLocalClass() {
+                System.out.println("\nAttempt to take outer not static variable from inner local class " + notStaticVar);
+                System.out.println("\nAttempt to take outer static variable from inner local class " + staticVar);
 
-            InnerLocalDrive() {
-                printFromInnerLocalClass();
-                touchOutterClassName();
-            }
+                System.out.println("\nAttempt to invoke outer not static method from inner local class ");
+                notStaticStartEngineMethod();
 
-            void printFromInnerLocalClass() {
-                System.out.println(nuclearSubmarine.name);
-            }
-
-            void touchOutterClassName() {
-                System.out.println(name + " From inner local Class.");
+                System.out.println("\nAttempt to invoke outer static method from inner local class ");
+                staticOuterStartEngineMethod();
             }
         }
     }
@@ -86,27 +121,54 @@ public class NuclearSubmarine {
         return this.name;
     }
 
-    public AtomicSubmarineMemberInnerDrive extractMyInnerDrive() {
+    public void testInnerLocal() {
+
+        class InnerLocalClass {
+            void startEngine() {
+                System.out.println("\nInner Local Start engine.");
+            }
+
+            void testOuterVarsAndMethodsAccess() {
+                System.out.println("Test for inner local access for outer static vars " + staticVar);
+                System.out.println("Test for inner local access for outer not static vars " + notStaticVar);
+                System.out.println("Test for inner local access for outer static methods " + staticOuterStartEngineMethod());
+                System.out.println("Test for inner local access for outer not static vars " + notStaticStartEngineMethod());
+            }
+        }
+        InnerLocalClass innerLocalClass = new InnerLocalClass();
+        innerLocalClass.startEngine();
+        innerLocalClass.testOuterVarsAndMethodsAccess();
+    }
+
+    public AtomicSubmarineMemberInnerDrive extractMyInnerMemberDrive() {
         return new AtomicSubmarineMemberInnerDrive();
     }
 
-    public static class AtomicSubmarineNestedDrive {
+    static class AtomicSubmarineNestedDrive {
 
-        public static void startEngine() {
-            System.out.println("\nNested Drive starts , submarine going !");
-        }
-
-    }
-
-    private static class InnerLocalClass {
-        public InnerLocalClass(String innerLocal) {
-
-        }
-    }
-
-    public class AtomicSubmarineMemberInnerDrive {
         void startEngine() {
-            System.out.println("\nMember Inner drive starts, submarine go !");
+            System.out.println("\nNested Drive starts , submarine go !");
+        }
+
+        void testForOuterVarsAccess() {
+//            System.out.println("test not static outer var access " + notStaticVar);  compilation error
+            System.out.println("test static outer var access " + staticVar);
+//            System.out.println("test not static outer method access " + notStaticStartEngineMethod()); compilation error
+            System.out.println("test static outer method access " + staticOuterStartEngineMethod());
+        }
+    }
+
+    class AtomicSubmarineMemberInnerDrive {
+        void startEngine() {
+            System.out.println("\nInner Member drive starts, submarine go !");
+        }
+
+        void returnOuterVars() {
+            System.out.println("\nTest to tough static outer var from Inner Member " + staticVar);
+            System.out.println("\nTest to tough not static outer var from Inner Member " + notStaticVar);
+            System.out.println("\nTest to tough not static outer method from Inner Member " + notStaticStartEngineMethod());
+            System.out.println("\nTest to tough static outer method from Inner Member " + staticOuterStartEngineMethod());
+
         }
     }
 }
