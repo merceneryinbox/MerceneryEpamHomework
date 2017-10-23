@@ -1,61 +1,0 @@
-
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Å¤ê´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÅÏŒä8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(»üÈ›8…¦ú´ó+
-Rsquid:S1481"6Remove this unused "innerMemberDrive6" local variable.(úåÖ…8ª¤¢µó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì Ôö8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ©Í¨ûÿÿÿÿ8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ø®ß´ó+
-asquid:S1854"ERemove this useless assignment to local variable "nuclearSubmarine4".(Í¦ËÊ8¥¶æ´ó+
-asquid:S1854"ERemove this useless assignment to local variable "innerMemberDrive6".(úåÖ…8ª¤¢µó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8½Õß´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(°Ø•òÿÿÿÿÿ8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ü¢Ÿµó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(åïäŒ8…¦ú´ó+
-\squid:S1481"@Remove this unused "testFieldForInnerLocalClass" local variable.(ß®ğÃ8…¦ú´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(Áö£ıÿÿÿÿ8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(™µÎ8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‹ã¢ü8Ì©Ë´ó+
-lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(‰±ìøşÿÿÿÿ8Ì©Ë´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Ø‹›¥8Ì©Ë´ó+
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(£İà
-8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ì”¯„8Ì©Ë´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÕµÅé8…¦ú´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÅÉ¬şÿÿÿÿ8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Œ™¡8…¦ú´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(øÿú´8Ì©Ë´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ˆä¼“ÿÿÿÿÿ8Ì©Ë´ó+
-T
-squid:S106"9Replace this use of System.out or System.err by a logger.(ĞÓ›Ç8…¦ú´ó+
-ksquid:S1854"ORemove this useless assignment to local variable "testFieldForInnerLocalClass".(ß®ğÃ8…¦ú´ó+
-Rsquid:S1481"6Remove this unused "nuclearSubmarine4" local variable.(Í¦ËÊ8¥¶æ´ó+
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(ğáÔm8…¦ú´ó+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ÁÅ‘Áùÿÿÿÿ8Ì©Ë´ó+

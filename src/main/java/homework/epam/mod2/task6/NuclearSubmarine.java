@@ -14,8 +14,12 @@ There are four variants may exists:
  */
 package homework.epam.mod2.task6;
 
+import homework.epam.mod2.task7AnnoFortask6.MerceneryClassAnnoForTask6AtomSub;
+import homework.epam.mod2.task7AnnoFortask6.MerceneryMethodAnnoFortask6AtomSub;
+
 import java.util.Objects;
 
+@MerceneryClassAnnoForTask6AtomSub(submarineType = "Changed submarine type", submarineClass = 101)
 public class NuclearSubmarine {
     static String staticVar = "staticVar";
     private final String name;
@@ -25,6 +29,7 @@ public class NuclearSubmarine {
         this.name = name;
     }
 
+    @MerceneryMethodAnnoFortask6AtomSub
     static String staticOuterStartEngineMethod() {
         System.out.println("\nStatic outer Start Engine.");
         return "\nStatic outer Start Engine.";
