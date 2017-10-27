@@ -2,75 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26329f6ca7e8fd8f0e85c50dd173e761197657d4" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26dc911b2a8d07f05d209cafb996d713306c7411" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/33e5e088c4b83214589584543428a639de13377a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/8/383339b57150565593627ce275ecce17a6a7bc1a" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/7/47c6204cfff25b09101cef0b000b7d1a64f1adb3" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/3/53390d7e81d45ae13c20d4257de848c02b91d2b9" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5f35ba4d080ce62523460c6d314e543d6a86e44d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/c/9c1f9963a743f44fc49930cf0c01a7681397c704" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a37a6fc77e2ed6756b6e7727b0ce07d96e2c85bd" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad5f54e5266a367726c78e206d324a132e2e99df" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b0542f2775141495b62899d71de956f76e040d98" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/7/b701f10211e0a8e12014b1befff55cf9b8d2869c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/4/c42833e2909f052cedec1cd99f3ae012cc2a4d1b" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e9a939a999f83d853ca290751c4dfdf218b3f31c" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/d/ed349b78ef7f7b52a923da2513a3111be9869fd0" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc4c3d53eb56d3360a71d124259bf524c177919d" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork3SortNumbersThroughArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork_2_FunctionWithMargins.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamSE01HWTask4Matrix2D.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$BlockNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$EntryNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$BlockNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$EntryNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/Pen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/Pen2WithEnums.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/inkColor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/penTypes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Office.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Tools.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/TypeOfTool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AlbumForPainting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AutomathicPencil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/NoteBook.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PilotDrawingPen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PlainPencil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/DrawingTool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/MainForPubsSubsStuds.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Geometry.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Literature.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Mathemathic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalClass.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineMemberInnerDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineNestedDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2task4sortSet/MainForStatsSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -83,46 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NuclearSubmarine.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java">
+      <file leaf-file-name="SE04JavaByteSpecWordsParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+            <state relative-caret-position="-7">
+              <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#866#867#0" expanded="true" />
-                <element signature="e#898#899#0" expanded="true" />
-                <element signature="e#4912#4913#0" expanded="true" />
-                <element signature="e#4944#4945#0" expanded="true" />
-                <element signature="e#5046#5047#0" expanded="true" />
-                <element signature="e#5127#5128#0" expanded="true" />
-                <element signature="e#5906#5907#0" expanded="true" />
-                <element signature="e#5966#5967#0" expanded="true" />
-                <element signature="e#6043#6044#0" expanded="true" />
-                <element signature="e#6127#6128#0" expanded="true" />
-                <element signature="e#6664#6665#0" expanded="true" />
-                <element signature="e#6753#6754#0" expanded="true" />
+                <element signature="e#0#1571#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MerceneryClassAnnoForTask6AtomSub.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java">
+      <file leaf-file-name="MerceneryJavaReservedWordsFileParsser.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MerceneryMethodAnnoFortask6AtomSub.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-              <folding />
+            <state relative-caret-position="372">
+              <caret line="32" column="90" lean-forward="false" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -133,8 +48,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -154,8 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/DrawingTool.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2task4sortSet/MainForStatsSet.java" />
         <option value="$PROJECT_DIR$/hw.iml" />
@@ -203,8 +116,10 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6NuclearSub.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MyClassAnnoForTask6AtomSub.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java" />
       </list>
     </option>
   </component>
@@ -281,9 +196,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -325,24 +237,36 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="task7AnnoFortask6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="task1byteIO" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="homework.epam.mod4.task1byteIO" />
       <recent name="homework.epam.mod2.task5ParametrizeEnums.mainStudAClass" />
     </key>
   </component>
@@ -580,12 +504,17 @@
       <workItem from="1508179503279" duration="38297000" />
       <workItem from="1508524062679" duration="61000" />
       <workItem from="1508524314586" duration="161000" />
-      <workItem from="1508768781990" duration="2536000" />
+      <workItem from="1508768781990" duration="3248000" />
+      <workItem from="1508846101348" duration="416000" />
+      <workItem from="1508948492716" duration="1624000" />
+      <workItem from="1509013739681" duration="410000" />
+      <workItem from="1509015515516" duration="1187000" />
+      <workItem from="1509018114822" duration="7315000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85444000" />
+    <option name="totallyTimeSpent" value="97108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -613,7 +542,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38152915" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14080243" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -660,20 +589,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task2stationeryCost/Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="false" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/EpamHomeWork3SortNumbersThroughArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/EpamHomeWork_2_FunctionWithMargins.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -913,7 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -921,7 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="60" lean-forward="false" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -929,21 +842,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
           <caret line="46" column="37" lean-forward="false" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#539#540#0" expanded="true" />
-            <element signature="e#570#571#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#673#674#0" expanded="true" />
-            <element signature="e#842#843#0" expanded="true" />
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#942#943#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
-            <element signature="e#1800#1801#0" expanded="true" />
-            <element signature="e#2233#2234#0" expanded="true" />
-            <element signature="e#2292#2293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -951,15 +849,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#849#850#0" expanded="true" />
-            <element signature="e#1789#1790#0" expanded="true" />
-            <element signature="e#1823#1824#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -967,14 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#528#529#0" expanded="true" />
-            <element signature="e#636#637#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-            <element signature="e#1251#1252#0" expanded="true" />
-            <element signature="e#1282#1283#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -982,11 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="952">
           <caret line="62" column="95" lean-forward="false" selection-start-line="62" selection-start-column="95" selection-end-line="62" selection-end-column="95" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#885#886#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1005,15 +881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2197#2198#0" expanded="true" />
-            <element signature="e#2232#2233#0" expanded="true" />
-            <element signature="e#2321#2322#0" expanded="true" />
-            <element signature="e#2377#2378#0" expanded="true" />
-            <element signature="e#2509#2510#0" expanded="true" />
-            <element signature="e#2536#2537#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1021,54 +888,63 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="76" column="0" lean-forward="false" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#1009#1010#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1115#1116#0" expanded="true" />
-            <element signature="e#1157#1158#0" expanded="true" />
-            <element signature="e#2226#2227#0" expanded="true" />
-            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#866#867#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#4912#4913#0" expanded="false" />
+            <element signature="e#4944#4945#0" expanded="false" />
+            <element signature="e#5046#5047#0" expanded="false" />
+            <element signature="e#5127#5128#0" expanded="false" />
+            <element signature="e#5906#5907#0" expanded="false" />
+            <element signature="e#5966#5967#0" expanded="false" />
+            <element signature="e#6043#6044#0" expanded="false" />
+            <element signature="e#6127#6128#0" expanded="false" />
+            <element signature="e#6664#6665#0" expanded="false" />
+            <element signature="e#6753#6754#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+          <caret line="4" column="10" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
+        <state relative-caret-position="-7">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1571#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod2/task6/NuclearSubmarine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        <state relative-caret-position="372">
+          <caret line="32" column="90" lean-forward="false" selection-start-line="32" selection-start-column="90" selection-end-line="32" selection-end-column="90" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#898#899#0" expanded="true" />
-            <element signature="e#4912#4913#0" expanded="true" />
-            <element signature="e#4944#4945#0" expanded="true" />
-            <element signature="e#5046#5047#0" expanded="true" />
-            <element signature="e#5127#5128#0" expanded="true" />
-            <element signature="e#5906#5907#0" expanded="true" />
-            <element signature="e#5966#5967#0" expanded="true" />
-            <element signature="e#6043#6044#0" expanded="true" />
-            <element signature="e#6127#6128#0" expanded="true" />
-            <element signature="e#6664#6665#0" expanded="true" />
-            <element signature="e#6753#6754#0" expanded="true" />
           </folding>
         </state>
       </provider>
