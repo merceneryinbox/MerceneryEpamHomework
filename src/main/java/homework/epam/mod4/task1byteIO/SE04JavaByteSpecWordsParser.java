@@ -15,14 +15,14 @@ public class SE04JavaByteSpecWordsParser {
     public static void main(String[] args) {
         // declare & initiate filenames
         String reservedJavaWordsFileName = "javareservedwords.txt";
-        String javaFileName = MerceneryJavaReservedWordsFileParsser.class.getName();
+        String javaFileName = MerceneryJavaReservedWordsFileParser.class.getName();
         String outputFileName = "outputFile.txt";
 
         // initiate my parserPlus class object
-        MerceneryJavaReservedWordsFileParsser parserPlus = new MerceneryJavaReservedWordsFileParsser();
+        MerceneryJavaReservedWordsFileParser parserPlus = new MerceneryJavaReservedWordsFileParser();
 
         // store map with keywords & theirs count
-        Map<String, Integer> resultInformation = parserPlus.transmitJavaWordCount(reservedJavaWordsFileName, outputFileName, javaFileName);
+        Map<String, Integer> resultInformation = parserPlus.transmitJavaWordsCount(reservedJavaWordsFileName, outputFileName, javaFileName);
         for (Map.Entry entry : resultInformation.entrySet()) {
             String tmpStr = "В файле " + javaFileName + " встречается " + entry.getValue() + " ключевое слово " + entry.getKey();
             System.out.println(tmpStr);
