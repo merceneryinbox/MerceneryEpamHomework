@@ -47,8 +47,9 @@ public class MerceneryJavaReservedWordsFileParser {
 			for (int i = 0; i < javaReservedWordsInFileArray.length; i++) {
 				keyWordsPatternsArray[i] = Pattern.compile(javaReservedWordsInFileArray[i]);
 			}
+			
 
-// create byte[]->String->String[] via split() separating all words in file to alone String from *.java file
+// retrieve array of bytes byte[]->String->String[] via split() separating all words in file to alone String from *.java file
 			javaFileInString = new String(bytesFromJavaFileArray, StandardCharsets.UTF_8);
 			javaFileInStringArray = javaFileInString.split("\\s,\\n,\\t,^[a-zA-Z]|^[0-9]");
 			
