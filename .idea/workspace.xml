@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="MerceneryJavaReservedWordsFileParser.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="521">
-              <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+            <state relative-caret-position="476">
+              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -510,12 +508,12 @@
       <workItem from="1509013739681" duration="410000" />
       <workItem from="1509015515516" duration="1187000" />
       <workItem from="1509018114822" duration="18866000" />
-      <workItem from="1509143923414" duration="4014000" />
+      <workItem from="1509143923414" duration="4455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112673000" />
+    <option name="totallyTimeSpent" value="113114000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,8 +940,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="521">
-          <caret line="50" column="13" lean-forward="true" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        <state relative-caret-position="476">
+          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
