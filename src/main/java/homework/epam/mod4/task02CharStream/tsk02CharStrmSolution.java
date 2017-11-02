@@ -59,11 +59,13 @@ public class tsk02CharStrmSolution {
 			int    j      = 0;
 			for (Character c :
 					characterListInReserved) {
-				chars1[j] = c;
+				chars1[j++] = c;
 			}
 			
 			Map<String, Integer> retreivedMap = giveMeMapWithCodeWords(chars, chars1);
+			
 			StringBuilder        s            = new StringBuilder();
+			
 			for (Map.Entry entry :
 					retreivedMap.entrySet()) {
 				s.append(entry.getKey() + " содержится в файле " + sourcepath.getFileName() + " " + entry.getValue() +
