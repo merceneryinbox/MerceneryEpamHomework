@@ -64,7 +64,7 @@ public class tsk02CharStrmSolution {
 			
 			Map<String, Integer> retreivedMap = giveMeMapWithCodeWords(chars, chars1);
 			
-			StringBuilder        s            = new StringBuilder();
+			StringBuilder s = new StringBuilder();
 			
 			for (Map.Entry entry :
 					retreivedMap.entrySet()) {
@@ -91,11 +91,16 @@ public class tsk02CharStrmSolution {
 		for (int i = 0; i < chars.length; i++) {
 			readFromSourceBytes[i] = (byte) chars[i];
 		}
+		
+		for (int i = 0; i < chars1.length; i++) {
+			readFromReservedBytes[i] = (byte) chars1[i];
+		}
+		
 		String builder    = new String(readFromSourceBytes, StandardCharsets.UTF_8);
 		String resStrings = new String(readFromReservedBytes, StandardCharsets.UTF_8);
 		
-		String[] sourceWordsAr   = builder.split("\\n,\\s,\\t,^[a-zA-Z],^[0-9]");
-		String[] reservedWordsAr = resStrings.split("\\n,\\s,\\t,^[a-zA-Z],^[0-9]");
+		String[] sourceWordsAr   = builder.split("\\n+|\\s+|\\t+|^[a-zA-Z]|^[0-9]");
+		String[] reservedWordsAr = resStrings.split("\\n+|\\s+|\\t+|^[a-zA-Z]|^[0-9]");
 		
 		for (int i = 0; i < reservedWordsAr.length; i++) {
 			int    matchCounter = 0;
