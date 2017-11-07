@@ -60,6 +60,17 @@ public class DAOFilmsAndActors implements Serializable {
         return result;
     }
 
+    public static synchronized boolean addFilmAndActors(String newFilm, List<String> actorsInNewFilm) {
+        boolean result = false;
+        if (newFilm != null) {
+            if (!filmsActors.containsKey(newFilm)) {
+                result = true;
+                filmsActors.put(newFilm, actorsInNewFilm);
+            }
+        }
+        return result;
+    }
+
     @Override
     public int hashCode() {
         return super.hashCode() + filmsActors.hashCode();

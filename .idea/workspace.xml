@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/m4tsk4serialfileIOResolve.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/serializedDAO.serial" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/m4tsk4serialfileIOResolve.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,19 +17,45 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="m4tsk4serialfileIOResolve.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/m4tsk4serialfileIOResolve.java">
+      <file leaf-file-name="M4tsk4serialfileIOResolve.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="654">
-              <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+            <state relative-caret-position="646">
+              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#867#918#0" expanded="true" />
-                <element signature="method#attachActorIntoFilmToDao#0;class#m4tsk4serialfileIOResolve#0" expanded="false" />
-                <element signature="e#1255#1278#1" expanded="true" />
-                <element signature="method#attachActorsListIntoFilmToDao#0;class#m4tsk4serialfileIOResolve#0" expanded="false" />
-                <element signature="e#1562#1585#1" expanded="true" />
-                <element signature="e#1849#1872#1" expanded="true" />
+                <element signature="initializer##0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#362#412#0" expanded="false" />
+                <element signature="e#362#412#0" expanded="false" />
+                <element signature="initializer##1;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#683#780#0" expanded="false" />
+                <element signature="e#717#768#0" expanded="true" />
+                <element signature="e#683#780#0" expanded="false" />
+                <element signature="e#813#857#0" expanded="false" />
+                <element signature="e#813#857#0" expanded="false" />
+                <element signature="e#880#924#0" expanded="false" />
+                <element signature="e#880#924#0" expanded="false" />
+                <element signature="e#958#1002#0" expanded="false" />
+                <element signature="e#958#1002#0" expanded="false" />
+                <element signature="method#attachActorIntoFilmToDao#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#1105#1128#1" expanded="true" />
+                <element signature="method#attachActorsListIntoFilmToDao#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#1412#1435#1" expanded="true" />
+                <element signature="method#deleteActorFromFilm#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#1699#1722#1" expanded="true" />
+                <element signature="method#addNewFilmAndActors#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#2001#2024#1" expanded="true" />
+                <element signature="method#saveDaoOnExit#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+                <element signature="e#2174#2197#1" expanded="true" />
+                <element signature="e#2673#2759#1" expanded="true" />
+                <element signature="e#2768#2804#1" expanded="true" />
+                <element signature="e#2813#2855#1" expanded="true" />
+                <element signature="e#2831#2854#0" expanded="true" />
+                <element signature="e#2844#2852#0" expanded="true" />
+                <element signature="e#2864#2883#0" expanded="true" />
+                <element signature="e#2864#2883#0" expanded="true" />
+                <element signature="e#2893#2917#0" expanded="true" />
+                <element signature="e#2893#2917#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +64,8 @@
       <file leaf-file-name="DAOFilmsAndActors.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="61" />
+            <state relative-caret-position="272">
+              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setFilmsActors#0;class#DAOFilmsAndActors#0" expanded="false" />
@@ -65,8 +88,13 @@
                 <element signature="e#1747#1772#0" expanded="true" />
                 <element signature="e#1747#1790#0" expanded="true" />
                 <element signature="e#1747#1790#0" expanded="true" />
+                <element signature="method#addFilmAndActors#0;class#DAOFilmsAndActors#0" expanded="false" />
+                <element signature="e#1989#2012#1" expanded="true" />
+                <element signature="e#2144#2185#0" expanded="true" />
+                <element signature="e#2144#2185#0" expanded="true" />
+                <element signature="e#2144#2185#0" expanded="true" />
                 <element signature="method#equals#0;class#DAOFilmsAndActors#0" expanded="false" />
-                <element signature="e#2046#2070#1" expanded="true" />
+                <element signature="e#2410#2434#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,7 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/NatureSubject.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/MercenerySubscriberMainStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod1/JSE01Task05.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod1/JSE01Task05BlockNoteArray.java" />
@@ -158,8 +185,9 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsInFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/SE04tsk03Utf8ToUtf16/SE04tsk03.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/m4tsk4serialfileIOResolve.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java" />
       </list>
     </option>
   </component>
@@ -584,12 +612,12 @@
       <workItem from="1509722714485" duration="1623000" />
       <workItem from="1509829301682" duration="1947000" />
       <workItem from="1510004078145" duration="1978000" />
-      <workItem from="1510006543495" duration="4871000" />
+      <workItem from="1510006543495" duration="6149000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142355000" />
+    <option name="totallyTimeSpent" value="143633000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1033,8 +1061,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="51" column="61" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="61" />
+        <state relative-caret-position="272">
+          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setFilmsActors#0;class#DAOFilmsAndActors#0" expanded="false" />
@@ -1057,24 +1085,55 @@
             <element signature="e#1747#1772#0" expanded="true" />
             <element signature="e#1747#1790#0" expanded="true" />
             <element signature="e#1747#1790#0" expanded="true" />
+            <element signature="method#addFilmAndActors#0;class#DAOFilmsAndActors#0" expanded="false" />
+            <element signature="e#1989#2012#1" expanded="true" />
+            <element signature="e#2144#2185#0" expanded="true" />
+            <element signature="e#2144#2185#0" expanded="true" />
+            <element signature="e#2144#2185#0" expanded="true" />
             <element signature="method#equals#0;class#DAOFilmsAndActors#0" expanded="false" />
-            <element signature="e#2046#2070#1" expanded="true" />
+            <element signature="e#2410#2434#1" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/m4tsk4serialfileIOResolve.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="58" column="66" lean-forward="false" selection-start-line="58" selection-start-column="66" selection-end-line="58" selection-end-column="66" />
+        <state relative-caret-position="646">
+          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#867#918#0" expanded="true" />
-            <element signature="method#attachActorIntoFilmToDao#0;class#m4tsk4serialfileIOResolve#0" expanded="false" />
-            <element signature="e#1255#1278#1" expanded="true" />
-            <element signature="method#attachActorsListIntoFilmToDao#0;class#m4tsk4serialfileIOResolve#0" expanded="false" />
-            <element signature="e#1562#1585#1" expanded="true" />
-            <element signature="e#1849#1872#1" expanded="true" />
+            <element signature="initializer##0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#362#412#0" expanded="false" />
+            <element signature="e#362#412#0" expanded="false" />
+            <element signature="initializer##1;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#683#780#0" expanded="false" />
+            <element signature="e#717#768#0" expanded="true" />
+            <element signature="e#683#780#0" expanded="false" />
+            <element signature="e#813#857#0" expanded="false" />
+            <element signature="e#813#857#0" expanded="false" />
+            <element signature="e#880#924#0" expanded="false" />
+            <element signature="e#880#924#0" expanded="false" />
+            <element signature="e#958#1002#0" expanded="false" />
+            <element signature="e#958#1002#0" expanded="false" />
+            <element signature="method#attachActorIntoFilmToDao#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#1105#1128#1" expanded="true" />
+            <element signature="method#attachActorsListIntoFilmToDao#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#1412#1435#1" expanded="true" />
+            <element signature="method#deleteActorFromFilm#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#1699#1722#1" expanded="true" />
+            <element signature="method#addNewFilmAndActors#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#2001#2024#1" expanded="true" />
+            <element signature="method#saveDaoOnExit#0;class#M4tsk4serialfileIOResolve#0" expanded="false" />
+            <element signature="e#2174#2197#1" expanded="true" />
+            <element signature="e#2673#2759#1" expanded="true" />
+            <element signature="e#2768#2804#1" expanded="true" />
+            <element signature="e#2813#2855#1" expanded="true" />
+            <element signature="e#2831#2854#0" expanded="true" />
+            <element signature="e#2844#2852#0" expanded="true" />
+            <element signature="e#2864#2883#0" expanded="true" />
+            <element signature="e#2864#2883#0" expanded="true" />
+            <element signature="e#2893#2917#0" expanded="true" />
+            <element signature="e#2893#2917#0" expanded="true" />
           </folding>
         </state>
       </provider>
