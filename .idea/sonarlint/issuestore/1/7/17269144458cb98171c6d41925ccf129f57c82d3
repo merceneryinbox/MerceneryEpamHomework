@@ -1,0 +1,14 @@
+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Á›¿œù+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¾ ˆù+
+zsquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ó½ø‹şÿÿÿÿ8´­íù+
+`squid:S2147"DCombine this catch with the one at line 26, which has the same body.(ï­£Ä8Á›¿œù+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡ıÃù+
+`squid:S2147"DCombine this catch with the one at line 26, which has the same body.(ıàÑÎ8¾ ˆù+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¡ıÃù+
+`squid:S2147"DCombine this catch with the one at line 74, which has the same body.(ï­£Ä8¡ıÃù+
+8squid:S1148"#Use a logger to log this exception.(Ğ—ë
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Á›¿œù+
+rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(œ÷¢şùÿÿÿÿ
+ssquid:S1171"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(šÏ¾í8´­íù+

@@ -3,3 +3,17 @@
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
 6
 hw.iml,6\7\6739882c4143aa5e800522bd2854fd0d939d5024
+}
+Msrc\main\java\homework\epam\mod4\task1byteIO\SE04JavaByteSpecWordsParser.java,5\5\557740e8afb158241201e82cd96c092f64f6fd18
+|
+Lsrc\main\java\homework\epam\mod4\task02CharStream\tsk02CharStrmSolution.java,7\d\7d4b960df89e01b6c96dd59e8439912b974007ff
+ˆ
+Xsrc\main\java\homework\epam\mod4\task1byteIO\MerceneryJavaReservedWordsInFileParser.java,a\c\acdb7bd764c7d1ed6819f1d315c5e0bd764aa1ef
+x
+Hsrc\main\java\homework\epam\mod4\task04SerialFileIO\serializedDAO.serial,0\3\0344e0b723b55e918aab1bfab24ee786f80daaf0
+t
+Dsrc\main\java\homework\epam\mod4\SE04tsk03Utf8ToUtf16\SE04tsk03.java,7\d\7d6befc7b818ea9b60f6285f430d9c3dfe161a3b
+z
+Jsrc\main\java\homework\epam\mod4\task04SerialFileIO\DAOFilmsAndActors.java,f\8\f86936f002ffa4f607c3adf08ad2da44c2947cea
+‚
+Rsrc\main\java\homework\epam\mod4\task04SerialFileIO\M4tsk4serialfileIOResolve.java,1\7\17269144458cb98171c6d41925ccf129f57c82d3

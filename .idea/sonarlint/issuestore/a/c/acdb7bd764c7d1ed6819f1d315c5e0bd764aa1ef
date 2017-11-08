@@ -1,0 +1,21 @@
+
+@squid:S3010"&Remove this assignment of "resultMap".(¥¤™œúÿÿÿÿ
+Lsquid:S1068"2Remove this unused "outputFileName" private field.(éù„ƒùÿÿÿÿ
+?squid:S1068"*Remove this unused "result" private field.(†•­í
+…squid:S1450"kRemove the "javaReservedWordsInFileArray" field and declare it as a local variable in the relevant methods.(…œ…¤üÿÿÿÿ
+~squid:S1450"dRemove the "javaFileInStringArray" field and declare it as a local variable in the relevant methods.(³±Ê†úÿÿÿÿ
+‡squid:S1450"mRemove the "bytesFromReservedWordFileArray" field and declare it as a local variable in the relevant methods.( ÈÊöÿÿÿÿÿ
+squid:S1450"eRemove the "bytesFromJavaFileArray" field and declare it as a local variable in the relevant methods.(Ö‹Õ¥ÿÿÿÿÿ
+ysquid:S1450"dRemove the "reservedWordsInString" field and declare it as a local variable in the relevant methods.(ƒ©ú
+ysquid:S1450"_Remove the "javaFileInString" field and declare it as a local variable in the relevant methods.(Ûµİıÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(›Î†¡ÿÿÿÿÿ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(šÑû
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(‰‹ÄÙ
+Ksquid:S2696"6Make the enclosing method "static" or remove this set.(áš 
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÂÃşÔıÿÿÿÿ
+Psquid:S2696"6Make the enclosing method "static" or remove this set.(¤ûï‰øÿÿÿÿ
+Ysquid:S2147"DCombine this catch with the one at line 90, which has the same body.(ï­£Ä
+msquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÖıÖä
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
+:squid:S2129" Remove this "String" constructor(£†à±ùÿÿÿÿ
