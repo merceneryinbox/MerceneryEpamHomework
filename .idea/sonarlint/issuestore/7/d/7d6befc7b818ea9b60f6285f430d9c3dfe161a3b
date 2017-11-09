@@ -1,8 +1,0 @@
-
-lsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(Åÿú?
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(°—Òûÿÿÿÿ
-R
-squid:S106"9Replace this use of System.out or System.err by a logger.(„ÑÕüÿÿÿÿ
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
