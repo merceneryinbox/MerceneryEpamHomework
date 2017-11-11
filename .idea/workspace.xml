@@ -31,8 +31,8 @@
       <file leaf-file-name="PropertiesReaderMercenery.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod5/tsk02UniversalPropertiesReader/PropertiesReaderMercenery.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+            <state relative-caret-position="267">
+              <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#setIncomingPropertyFile#0;class#PropertiesReaderMercenery#0" expanded="false" />
@@ -539,12 +539,12 @@
       <workItem from="1510006543495" duration="6200000" />
       <workItem from="1510148897199" duration="1802000" />
       <workItem from="1510210130900" duration="6870000" />
-      <workItem from="1510374977357" duration="15055000" />
+      <workItem from="1510374977357" duration="15285000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167411000" />
+    <option name="totallyTimeSpent" value="167641000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1044,8 +1044,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod5/tsk02UniversalPropertiesReader/PropertiesReaderMercenery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="4" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+        <state relative-caret-position="267">
+          <caret line="52" column="63" lean-forward="false" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#setIncomingPropertyFile#0;class#PropertiesReaderMercenery#0" expanded="false" />

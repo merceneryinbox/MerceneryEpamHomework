@@ -41,11 +41,11 @@ public class PropertiesReaderMercenery {
 	 */
 	public static Map<String, String> returnMapMethodHandler() {
 		Map<String, String> handledMap = new HashMap<>();
-		
+		String correctresourceName = "Not inputed name of property file !";
 		System.out.println("input correct resource file name please:\n");
 		
 		try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
-			String correctresourceName = bufferedReader.readLine();
+			correctresourceName = bufferedReader.readLine();
 			setIncomingPropertyFileName(correctresourceName);
 			handledMap = returnMePropertyMap(incomingPropertyFileName);
 		
@@ -53,7 +53,7 @@ public class PropertiesReaderMercenery {
 			System.out.println("Your resourse have no such key.");
 			mre.printStackTrace();
 		} catch (NoSuchFileException nsfe) {
-			System.out.println("Try to type correct file name.");
+			System.out.println("Try to type correct file name. You typed: " + correctresourceName);
 			returnMapMethodHandler();
 		} catch (IOException e) {
 			e.printStackTrace();
