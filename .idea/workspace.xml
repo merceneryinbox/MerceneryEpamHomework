@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/enQuestAns.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/ruQuestAns.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_ru.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/enQuestAns.txt" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/ruQuestAns.txt" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,45 +20,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="M4tsk4serialfileIOResolve.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrazyLogger.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk01CrazyLog/CrazyLogger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="114" column="52" lean-forward="false" selection-start-line="114" selection-start-column="52" selection-end-line="114" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="EngRusQuestionAnswerApp.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="method#main#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+                <element signature="method#doEnChoice#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+                <element signature="method#doRuChoice#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+                <element signature="method#readIntFromUser#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BundlResource_ru.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties">
+      <file leaf-file-name="BundleResource_ru.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_ru.properties">
+          <provider editor-type-id="ResourceBundle">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,21 +51,9 @@
       <file leaf-file-name="BundleResource_en.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DAOFilmsAndActors.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -113,9 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task2stationeryCost/Tools.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/JuniorSet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AlbumForPainting.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AutomathicPencil.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/NoteBook.java" />
@@ -163,6 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk01CrazyLog/CrazyLogger.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/ruQuestAns.txt" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/enQuestAns.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_ru.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java" />
       </list>
     </option>
@@ -280,6 +252,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tsk02LocaleAndResourceBundle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk02LocaleAndResourceBundle" type="462c0819:PsiDirectoryNode" />
+              <item name="Resource Bundle 'BundleResource'" type="a6c14932:ResourceBundleNode" />
             </path>
           </expand>
           <select />
@@ -573,12 +554,12 @@
       <workItem from="1510006543495" duration="6200000" />
       <workItem from="1510148897199" duration="1802000" />
       <workItem from="1510210130900" duration="6870000" />
-      <workItem from="1510374977357" duration="10193000" />
+      <workItem from="1510374977357" duration="12014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="162549000" />
+    <option name="totallyTimeSpent" value="164370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -668,18 +649,11 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/JSE01Task05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/JSE01Task05BlockNoteArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1018,38 +992,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/ruQuestAns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/enQuestAns.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/io/FileInputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1060,12 +1002,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundlResource_ru.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/ruQuestAns.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/enQuestAns.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="2" lean-forward="false" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="23" column="36" lean-forward="false" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#main#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+            <element signature="method#doEnChoice#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+            <element signature="method#doRuChoice#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
+            <element signature="method#readIntFromUser#0;class#EngRusQuestionAnswerApp#0" expanded="true" />
           </folding>
         </state>
       </provider>
