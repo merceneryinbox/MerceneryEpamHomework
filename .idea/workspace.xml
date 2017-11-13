@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod6/tsk01CollectionTable/mod06tsk01CollectionTable.doc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod6/tsk02HierarchyTableAswers/SE06tsk02HierarchyTable.doc" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/hw.iml" afterPath="$PROJECT_DIR$/hw.iml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod6/tsk02HierarchyTableAswers/SE06tsk02HierarchyTable.doc" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod6/tsk03HierarchyTableAswers/SE06tsk03HierarchyTable.doc" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -210,7 +207,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk02HierarchyTableAswers" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk03HierarchyTableAswers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -507,12 +504,12 @@
       <workItem from="1510148897199" duration="1802000" />
       <workItem from="1510210130900" duration="6870000" />
       <workItem from="1510374977357" duration="15942000" />
-      <workItem from="1510571577222" duration="442000" />
+      <workItem from="1510571577222" duration="755000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="168740000" />
+    <option name="totallyTimeSpent" value="169053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
