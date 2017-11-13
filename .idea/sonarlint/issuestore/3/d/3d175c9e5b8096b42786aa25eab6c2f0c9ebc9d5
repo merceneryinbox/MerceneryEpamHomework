@@ -1,17 +1,0 @@
-
-Dsquid:S1148"#Use a logger to log this exception.(’²ê—ÿÿÿÿÿ8íö×¬û+
-„squid:S1450"cRemove the "incomingPropertyFile" field and declare it as a local variable in the relevant methods.(è¶Ä°úÿÿÿÿ8ßë¶±û+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(“Ìåïúÿÿÿÿ8íö×¬û+
-S
-squid:S106"9Replace this use of System.out or System.err by a logger.(¾Úö>8íö×¬û+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8íö×¬û+
-Ysquid:S1068"8Remove this unused "incomingPropertyFile" private field.(è¶Ä°úÿÿÿÿ8ßë¶±û+
-µ%squid:RedundantThrowsDeclarationCheck"zRemove the declaration of thrown exception 'java.nio.file.NoSuchFileException', as it cannot be thrown from method's body.(µÊ—şÿÿÿÿ8íö×¬û+
-ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(øÂÀÆùÿÿÿÿ8íö×¬û+
-Y
-squid:S106"9Replace this use of System.out or System.err by a logger.(ïß„Éùÿÿÿÿ8íö×¬û+
-Isquid:S1068".Remove this unused "fileReader" private field.(ª™¼)8íö×¬û+
-osquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(èË…­øÿÿÿÿ8™ºØ¬û+
-£%squid:RedundantThrowsDeclarationCheck"mRemove the declaration of thrown exception 'java.util.MissingResourceException' which is a runtime exception.(ç×œÿ8íö×¬û+
-[squid:S1118":Add a private constructor to hide the implicit public one.(èË…­øÿÿÿÿ8ËáÀ±û+
