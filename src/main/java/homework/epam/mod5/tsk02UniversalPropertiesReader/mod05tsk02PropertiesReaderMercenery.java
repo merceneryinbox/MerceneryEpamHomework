@@ -15,24 +15,15 @@ import java.util.*;
  файла. Физическое чтение файла должно происходить только один раз. Обработайте
  следующие исключительные ситуации: нет файла *.properties, нет ключа в properties-файле.
  */
-public class PropertiesReaderMercenery {
+public class mod05tsk02PropertiesReaderMercenery {
 	private static String incomingPropertyFileName = null;
 	private static Path   incomingPropertyFile     = null;
 	
 	private static FileReader          fileReader  = null;
 	private static Map<String, String> propertyMap = new HashMap<>();
 	
-	public static Path getIncomingPropertyFile() {
-		return incomingPropertyFile;
-	}
-	
 	public static void setIncomingPropertyFile(Path incomingPropertyFile) {
-		PropertiesReaderMercenery.incomingPropertyFile = incomingPropertyFile;
-	}
-	
-	public static void main(String[] args) {
-	
-	
+		mod05tsk02PropertiesReaderMercenery.incomingPropertyFile = incomingPropertyFile;
 	}
 	
 	/**
@@ -88,7 +79,7 @@ public class PropertiesReaderMercenery {
 	}
 	
 	public static void setIncomingPropertyFileName(String incomingPropertyFileName) {
-		PropertiesReaderMercenery.incomingPropertyFileName = incomingPropertyFileName;
+		mod05tsk02PropertiesReaderMercenery.incomingPropertyFileName = incomingPropertyFileName;
 	}
 	
 }
