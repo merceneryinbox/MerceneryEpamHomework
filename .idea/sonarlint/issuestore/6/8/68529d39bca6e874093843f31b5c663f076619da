@@ -1,0 +1,7 @@
+
+\squid:S1854"@Remove this useless assignment to local variable "propertyFile".(¡‰ùš8Ëâý¬û+
+?squid:S1148"#Use a logger to log this exception.(Ð»¨Ó8Ëâý¬û+
+Msquid:S1481"1Remove this unused "propertyFile" local variable.(¡‰ùš8Ëâý¬û+
+Ysquid:S1068"8Remove this unused "incomingPropertyFile" private field.(è¶Ä°úÿÿÿÿ8šÚ¤¬û+
+[squid:S1118":Add a private constructor to hide the implicit public one.(³Àå²ÿÿÿÿÿ8ÕËÁ±û+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ÐŒ¥Øþÿÿÿÿ8˜¦§«û+
