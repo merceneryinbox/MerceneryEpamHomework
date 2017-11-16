@@ -39,7 +39,7 @@
     </role>
     <schema id="9" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.137</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.512</IntrospectionTimestamp>
       <IntrospectionStateNumber>864</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
@@ -79,46 +79,46 @@
     </schema>
     <schema id="21" parent="2" name="se08tsk01schema">
       <ObjectId>150261</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.137</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.512</IntrospectionTimestamp>
       <Visible>1</Visible>
     </schema>
     <schema id="22" parent="2" name="chat">
       <ObjectId>150402</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.137</IntrospectionTimestamp>
-      <IntrospectionStateNumber>1193</IntrospectionStateNumber>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.512</IntrospectionTimestamp>
+      <IntrospectionStateNumber>1215</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="23" parent="6" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
     <schema id="24" parent="6" name="pg_catalog">
       <ObjectId>11</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <IntrospectionStateNumber>494</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="25" parent="6" name="pg_toast">
       <ObjectId>99</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <IntrospectionStateNumber>433</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
     <schema id="26" parent="6" name="pg_temp_1">
       <ObjectId>11848</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <Visible>1</Visible>
     </schema>
     <schema id="27" parent="6" name="pg_toast_temp_1">
       <ObjectId>11849</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <Visible>1</Visible>
     </schema>
     <schema id="28" parent="6" name="information_schema">
       <ObjectId>12113</ObjectId>
-      <IntrospectionTimestamp>2017-11-16.23:06:28.397</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2017-11-16.23:13:07.907</IntrospectionTimestamp>
       <IntrospectionStateNumber>492</IntrospectionStateNumber>
       <Visible>1</Visible>
     </schema>
@@ -135,24 +135,24 @@
       <StateNumber>864</StateNumber>
     </table>
     <sequence id="32" parent="22" name="roles_role_id_seq">
-      <ObjectId>150403</ObjectId>
-      <StateNumber>1168</StateNumber>
+      <ObjectId>150496</ObjectId>
+      <StateNumber>1207</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>1</CacheSize>
     </sequence>
     <sequence id="33" parent="22" name="users_user_id_seq">
-      <ObjectId>150457</ObjectId>
-      <StateNumber>1184</StateNumber>
+      <ObjectId>150513</ObjectId>
+      <StateNumber>1209</StateNumber>
       <SequenceIdentity>1</SequenceIdentity>
       <CacheSize>1</CacheSize>
     </sequence>
     <table id="34" parent="22" name="roles">
-      <ObjectId>150405</ObjectId>
-      <StateNumber>1192</StateNumber>
+      <ObjectId>150498</ObjectId>
+      <StateNumber>1215</StateNumber>
     </table>
     <table id="35" parent="22" name="users">
-      <ObjectId>150459</ObjectId>
-      <StateNumber>1193</StateNumber>
+      <ObjectId>150515</ObjectId>
+      <StateNumber>1215</StateNumber>
     </table>
     <object-type id="36" parent="24" name="bool">
       <ObjectId>16</ObjectId>
@@ -36055,7 +36055,7 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
       <DefaultExpression>nextval(&apos;roles_role_id_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>chat.roles_role_id_seq</SequenceName>
     </column>
@@ -36063,59 +36063,59 @@
       <Position>2</Position>
       <DataType>varchar(25)|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
     </column>
     <column id="3897" parent="34" name="can_read">
       <Position>3</Position>
       <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
       <DefaultExpression>false</DefaultExpression>
     </column>
     <column id="3898" parent="34" name="can_write">
       <Position>4</Position>
       <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
       <DefaultExpression>false</DefaultExpression>
     </column>
     <column id="3899" parent="34" name="can_update">
       <Position>5</Position>
       <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
       <DefaultExpression>false</DefaultExpression>
     </column>
     <column id="3900" parent="34" name="can_revoke">
       <Position>6</Position>
       <DataType>boolean|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
       <DefaultExpression>false</DefaultExpression>
     </column>
     <column id="3901" parent="34" name="misc">
       <Position>7</Position>
       <DataType>text|0</DataType>
-      <StateNumber>1168</StateNumber>
+      <StateNumber>1207</StateNumber>
     </column>
     <index id="3902" parent="34" name="uk_roles">
-      <ObjectId>150418</ObjectId>
+      <ObjectId>150511</ObjectId>
       <ColNames>role_id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="3903" parent="34" name="roles_pkey">
-      <ObjectId>150416</ObjectId>
+      <ObjectId>150509</ObjectId>
       <ColNames>role_name</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="3904" parent="34" name="roles_pkey">
-      <ObjectId>150417</ObjectId>
+      <ObjectId>150510</ObjectId>
       <ColNames>role_name</ColNames>
       <UnderlyingIndexName>roles_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <key id="3905" parent="34" name="uk_roles">
-      <ObjectId>150419</ObjectId>
+      <ObjectId>150512</ObjectId>
       <ColNames>role_id</ColNames>
       <UnderlyingIndexName>uk_roles</UnderlyingIndexName>
     </key>
@@ -36123,7 +36123,7 @@
       <Position>1</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1184</StateNumber>
+      <StateNumber>1209</StateNumber>
       <DefaultExpression>nextval(&apos;users_user_id_seq&apos;::regclass)</DefaultExpression>
       <SequenceName>chat.users_user_id_seq</SequenceName>
     </column>
@@ -36131,45 +36131,45 @@
       <Position>2</Position>
       <DataType>varchar(25)|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1184</StateNumber>
+      <StateNumber>1209</StateNumber>
     </column>
     <column id="3908" parent="35" name="password">
       <Position>3</Position>
       <DataType>varchar(50)|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1184</StateNumber>
+      <StateNumber>1209</StateNumber>
     </column>
     <column id="3909" parent="35" name="role_id">
       <Position>4</Position>
       <DataType>integer|0</DataType>
       <NotNull>1</NotNull>
-      <StateNumber>1184</StateNumber>
+      <StateNumber>1209</StateNumber>
     </column>
     <index id="3910" parent="35" name="uk_users">
-      <ObjectId>150465</ObjectId>
+      <ObjectId>150521</ObjectId>
       <ColNames>user_id</ColNames>
       <Unique>1</Unique>
     </index>
     <index id="3911" parent="35" name="users_pkey">
-      <ObjectId>150463</ObjectId>
+      <ObjectId>150519</ObjectId>
       <ColNames>login</ColNames>
       <Unique>1</Unique>
     </index>
     <key id="3912" parent="35" name="users_pkey">
-      <ObjectId>150464</ObjectId>
+      <ObjectId>150520</ObjectId>
       <ColNames>login</ColNames>
       <UnderlyingIndexName>users_pkey</UnderlyingIndexName>
       <Primary>1</Primary>
     </key>
     <key id="3913" parent="35" name="uk_users">
-      <ObjectId>150466</ObjectId>
+      <ObjectId>150522</ObjectId>
       <ColNames>user_id</ColNames>
       <UnderlyingIndexName>uk_users</UnderlyingIndexName>
     </key>
     <foreign-key id="3914" parent="35" name="fk_users_roles_id">
-      <ObjectId>150474</ObjectId>
+      <ObjectId>150523</ObjectId>
       <ColNames>role_id</ColNames>
-      <RefTableId>150405</RefTableId>
+      <RefTableId>150498</RefTableId>
       <RefColPositions>1</RefColPositions>
       <RefTableName>roles</RefTableName>
       <RefKeyName>uk_roles</RefKeyName>

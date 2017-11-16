@@ -2,6 +2,7 @@ CREATE SCHEMA chat;
 
 SET search_path TO chat;
 
+DROP TABLE Roles;
 CREATE TABLE Roles (
   role_id    SERIAL,
   role_name  VARCHAR(25) NOT NULL,
@@ -19,9 +20,8 @@ INSERT INTO roles (role_name, can_read, can_revoke, can_update, can_write)
 VALUES ('admin', TRUE, TRUE, TRUE, TRUE),
   ('updaters', TRUE, TRUE, TRUE, TRUE),
   ('moderators', TRUE, TRUE, TRUE, FALSE);
-
-SELECT *
-FROM roles;
+INSERT INTO Roles(role_name, can_read, can_write, can_update, can_revoke) VALUES ('guest',TRUE ,FALSE ,FALSE ,
+                                                                                        FALSE );
 
 DROP TABLE Users;
 CREATE TABLE Users (
@@ -40,7 +40,6 @@ VALUES ('admin', 'qwerty', (SELECT role_id
                             WHERE role_name = 'admin'));
 INSERT INTO users (login, password, role_id)
 VALUES ('mercenery', 'Pa$$w0Rd', 3);
-
 INSERT INTO users (login, password, role_id)
 VALUES ('lamer', 'asd', 1);
 INSERT INTO users (login, password, role_id)
@@ -48,13 +47,11 @@ VALUES ('anonymus', '***', 2);
 INSERT INTO users (login, password, role_id)
 VALUES ('Mr.Robot', 'Robot', 3);
 
-SELECT *
-FROM users;
-
 ALTER TABLE users
   ADD CONSTRAINT fk_users_roles_id FOREIGN KEY (role_id)
 REFERENCES Roles (role_id)
 ON DELETE CASCADE;
+
 
 SELECT *
 FROM Users;
