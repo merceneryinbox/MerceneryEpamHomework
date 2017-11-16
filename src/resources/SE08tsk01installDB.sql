@@ -62,3 +62,4 @@ FROM Roles;
 SELECT *
 FROM Users
  LEFT JOIN Roles ON Users.role_id = 2;
+
