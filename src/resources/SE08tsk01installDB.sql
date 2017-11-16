@@ -20,8 +20,8 @@ INSERT INTO roles (role_name, can_read, can_revoke, can_update, can_write)
 VALUES ('admin', TRUE, TRUE, TRUE, TRUE),
   ('updaters', TRUE, TRUE, TRUE, TRUE),
   ('moderators', TRUE, TRUE, TRUE, FALSE);
-INSERT INTO Roles(role_name, can_read, can_write, can_update, can_revoke) VALUES ('guest',TRUE ,FALSE ,FALSE ,
-                                                                                        FALSE );
+INSERT INTO Roles (role_name, can_read, can_write, can_update, can_revoke) VALUES ('guest', TRUE, FALSE, FALSE,
+                                                                                   FALSE);
 
 DROP TABLE Users;
 CREATE TABLE Users (
@@ -33,6 +33,10 @@ CREATE TABLE Users (
   PRIMARY KEY (login),
   CONSTRAINT uk_users UNIQUE (user_id)
 );
+ALTER TABLE users
+  ADD CONSTRAINT fk_users_roles_id FOREIGN KEY (role_id)
+REFERENCES Roles (role_id)
+ON DELETE CASCADE;
 
 INSERT INTO users (login, password, role_id)
 VALUES ('admin', 'qwerty', (SELECT role_id
@@ -47,13 +51,13 @@ VALUES ('anonymus', '***', 2);
 INSERT INTO users (login, password, role_id)
 VALUES ('Mr.Robot', 'Robot', 3);
 
-ALTER TABLE users
-  ADD CONSTRAINT fk_users_roles_id FOREIGN KEY (role_id)
-REFERENCES Roles (role_id)
-ON DELETE CASCADE;
-
 
 SELECT *
 FROM Users;
 SELECT *
 FROM Roles;
+
+
+SELECT *
+FROM Users
+  LEFT JOIN Roles ON Roles.role_id = 2;
