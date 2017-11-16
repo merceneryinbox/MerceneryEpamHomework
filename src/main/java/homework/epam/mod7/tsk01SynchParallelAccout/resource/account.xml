@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<root>
-    <accounts>
-        <account id="account1">
-            <name>user1</name>
-            <account>100</account>
-        </account>
 
-        <account id="account2">
-            <name>user2</name>
-            <account>200</account>
-        </account>
-    </accounts>
-</root>
+<accounts>
+
+    <user name="user1">
+        <balance>100</balance>
+    </user>
+
+    <user name="user2">
+        <balance>200</balance>
+    </user>
+
+</accounts>

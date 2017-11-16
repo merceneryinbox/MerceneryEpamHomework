@@ -11,7 +11,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
-import java.util.ResourceBundle;
 
 public class AccountAdder implements AccountManager {
 	private static String accountName;
@@ -23,10 +22,15 @@ public class AccountAdder implements AccountManager {
 	private static DocumentBuilder        documentBuilder;
 	private static Document               document;
 	
-	private static Node     coreNode;
-	private static Node     balanceNode;
-	private static Element  coreElement;
-	private static Element  balanceElement;
+	private static Node coreNodeAccounts;
+	private static Node userNode;
+	private static Node balanceNode;
+	
+	private static Element coreElement;
+	private static Element accountUserElement;
+	private static Element userBalanceElement;
+	
+	private static String   accountElementName;
 	private static NodeList nodeList;
 	
 	public AccountAdder(String accountName) {
@@ -40,13 +44,30 @@ public class AccountAdder implements AccountManager {
 			document.getDocumentElement()
 					.normalize();
 			
-			coreNode = document.getDocumentElement();
-			coreElement = (Element) coreNode;
+			coreNodeAccounts = document.getFirstChild();
+			coreElement = (Element) coreNodeAccounts;
+			userNode = document.getElementsByTagName("user")
+					.item(0);
+			balanceNode = document
+			coreElement = (Element) coreNodeAccounts;
 			
 			NodeList nodeList = document.getElementsByTagName(document.getDocumentElement()
 					                                                  .getChildNodes()
 					                                                  .item(1)
 					                                                  .getNodeName());
+			for (int i = 0; i < nodeList.getLength(); i++) {
+				Node    node       = nodeList.item(i);
+				Element tmpElement = (Element) node;
+				accountElementName = accountUserElement.getElementsByTagName("user")
+						.item(0)
+						.getChildNodes()
+						.item(0)
+						.getNodeValue();
+				
+				if (accountElementName.equals(accountName)) {
+					accountUserElement = tmpElement;
+				}
+			}
 			
 		} catch (ParserConfigurationException e) {
 			e.printStackTrace();
@@ -63,35 +84,20 @@ public class AccountAdder implements AccountManager {
 	
 	@Override public synchronized boolean handleAccount(Integer integer) {
 		boolean result = false;
-		for (int tmp = 0; tmp < nodeList.getLength(); tmp++) {
-			Node node = nodeList.item(tmp);
-			if (node.getNodeType() == Node.ELEMENT_NODE) {
-				Element element = (Element) node;
-				
-				System.out.println("Author: " + element.getElementsByTagName("author")
-						.item(0)
-						.getChildNodes()
-						.item(0)
-						.getNodeValue());
-				
-				System.out.println("Language: " + element.getElementsByTagName("language")
-						.item(0)
-						.getChildNodes()
-						.item(0)
-						.getNodeValue());
-			}
-		}
+		
 		return result;
 	}
 	
-	@Override public Integer lookForAccountNameBalance(ResourceBundle resourceBundle) {
+	@Override public Integer lookForAccountNameBalance(String accountBalanceName) {
 		return startStateAccountBeforetransact =
-		       startStateAccountBeforetransactBackUp = Integer.parseInt(resourceBundle.getString(accountName));
+		       startStateAccountBeforetransactBackUp = Integer.parseInt(
+				       accountUserElement.getElementsByTagName("balance")
+						       .item(0)
+						       .getNodeValue());
 	}
 	
 	@Override public Integer showMeBalance() {
-		
-		return null;
+		return startStateAccountBeforetransact;
 	}
 	
 	@Override public synchronized boolean rollBackChanges() {
@@ -99,7 +105,7 @@ public class AccountAdder implements AccountManager {
 		return result;
 	}
 	
-	@Override public void writeAccount() {
+	@Override public void saveTransaction() {
 	
 	}
 }

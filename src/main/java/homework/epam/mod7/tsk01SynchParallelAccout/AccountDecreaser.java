@@ -28,7 +28,7 @@ public class AccountDecreaser implements AccountManager {
 		return result ;
 	}
 	
-	@Override public void writeAccount() {
+	@Override public void saveTransaction() {
 	
 	}
 }

@@ -8,11 +8,11 @@ public interface AccountManager {
 	
 	boolean handleAccount(Integer integer);
 	
-	Integer lookForAccountNameBalance(ResourceBundle resourceBundle);
+	Integer lookForAccountNameBalance(String accountNameBalance);
 	
 	Integer showMeBalance();
 	
 	boolean rollBackChanges();
 	
-	void writeAccount();
+	void saveTransaction();
 }
