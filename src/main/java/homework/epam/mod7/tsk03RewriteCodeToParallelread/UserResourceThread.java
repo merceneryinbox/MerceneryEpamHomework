@@ -1,5 +1,7 @@
 package homework.epam.mod7.tsk03RewriteCodeToParallelread;
 
+import java.util.Random;
+
 public class UserResourceThread {
 	public static void main(String[] args) throws InterruptedException {
 		SharedResource      res = new SharedResource();
@@ -56,12 +58,11 @@ class IntegerSetterGetter extends Thread {
 			}
 			System.out.println("Поток " + getName() + " завершил работу.");
 		} catch (InterruptedException e) {
-		
+			
+			e.printStackTrace();
 		}
-		e.printStackTrace();
 	}
 	
-}
 	
 	private void getIntegersFromResource() throws InterruptedException {
 		Integer number;
@@ -74,9 +75,8 @@ class IntegerSetterGetter extends Thread {
 				                   + " ждет пока очередь заполнится.");
 				resource.wait();
 				System.out
-						.println("Поток " + getName() + " возобновил
-						         работу.");
-						         number = resource.getELement();
+						.println("Поток " + getName() + " возобновил работу.");
+				number = resource.getELement();
 			}
 			System.out
 					.println("Поток " + getName() + " извлек число " +
