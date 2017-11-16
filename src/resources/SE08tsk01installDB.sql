@@ -17,11 +17,12 @@ CREATE TABLE Roles (
 );
 
 INSERT INTO roles (role_name, can_read, can_revoke, can_update, can_write)
-VALUES ('admin', TRUE, TRUE, TRUE, TRUE),
+VALUES ('administrators', TRUE, TRUE, TRUE, TRUE),
   ('updaters', TRUE, TRUE, TRUE, TRUE),
   ('moderators', TRUE, TRUE, TRUE, FALSE);
-INSERT INTO Roles (role_name, can_read, can_write, can_update, can_revoke) VALUES ('guest', TRUE, FALSE, FALSE,
-                                                                                   FALSE);
+INSERT INTO Roles (role_name, can_read, can_write, can_update, can_revoke) VALUES ('guests', TRUE, FALSE,
+                                                                                            FALSE,
+                                                                                            FALSE);
 
 DROP TABLE Users;
 CREATE TABLE Users (
@@ -41,7 +42,7 @@ ON DELETE CASCADE;
 INSERT INTO users (login, password, role_id)
 VALUES ('admin', 'qwerty', (SELECT role_id
                             FROM roles
-                            WHERE role_name = 'admin'));
+                            WHERE role_name = 'administrators'));
 INSERT INTO users (login, password, role_id)
 VALUES ('mercenery', 'Pa$$w0Rd', 3);
 INSERT INTO users (login, password, role_id)
@@ -60,4 +61,4 @@ FROM Roles;
 
 SELECT *
 FROM Users
-  LEFT JOIN Roles ON Roles.role_id = 2;
+  NATURAL JOIN Roles;
