@@ -61,4 +61,4 @@ FROM Roles;
 
 SELECT *
 FROM Users
-  NATURAL JOIN Roles;
+ LEFT JOIN Roles ON Users.role_id = 2;

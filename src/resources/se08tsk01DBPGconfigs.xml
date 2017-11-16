@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="database.driver">jdbc:derby</entry>
+    <entry key="database.host">localhost</entry>
+    <entry key="database.port">1527</entry>
+    <entry key="database.name">Chat.DB</entry>
+    <entry key="database.user">root</entry>
+    <entry key="database.password">123456</entry>
+</properties>
