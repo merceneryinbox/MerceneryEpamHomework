@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
-      <change beforePath="$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql" afterPath="$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,27 +58,7 @@
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
         <item name="se08tsk01schema: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="se08Еtsk01epamhwtestdb: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="se08Еtsk01epamhwtestdb: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -94,8 +73,8 @@
       <file leaf-file-name="SE08tsk01installDB.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+            <state relative-caret-position="282">
+              <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -104,28 +83,32 @@
       <file leaf-file-name="se08tsk01DB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+            <state relative-caret-position="211">
+              <caret line="94" column="38" lean-forward="false" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2678#2679#0" expanded="true" />
-                <element signature="e#2730#2731#0" expanded="true" />
+                <element signature="e#4341#4342#0" expanded="true" />
+                <element signature="e#4393#4394#0" expanded="true" />
                 <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
-                <element signature="e#2907#2908#0" expanded="true" />
-                <element signature="e#2959#2960#0" expanded="true" />
-                <element signature="e#2996#2997#0" expanded="true" />
-                <element signature="e#3046#3047#0" expanded="true" />
-                <element signature="e#3083#3084#0" expanded="true" />
-                <element signature="e#3133#3134#0" expanded="true" />
-                <element signature="e#3178#3179#0" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-                <element signature="e#3258#3259#0" expanded="true" />
-                <element signature="e#3308#3309#0" expanded="true" />
-                <element signature="e#3342#3343#0" expanded="true" />
-                <element signature="e#3396#3397#0" expanded="true" />
-                <marker date="1510869315788" expanded="true" signature="675:704" ph="select * fro... ?" />
-                <marker date="1510869315788" expanded="true" signature="675:705" ph="select * fro... ?" />
-                <marker date="1510869315788" expanded="true" signature="842:875" ph="UPDATE ?... " />
+                <element signature="e#4570#4571#0" expanded="true" />
+                <element signature="e#4622#4623#0" expanded="true" />
+                <element signature="e#4659#4660#0" expanded="true" />
+                <element signature="e#4709#4710#0" expanded="true" />
+                <element signature="e#4746#4747#0" expanded="true" />
+                <element signature="e#4796#4797#0" expanded="true" />
+                <element signature="e#4841#4842#0" expanded="true" />
+                <element signature="e#4891#4892#0" expanded="true" />
+                <element signature="e#4921#4922#0" expanded="true" />
+                <element signature="e#4971#4972#0" expanded="true" />
+                <element signature="e#5005#5006#0" expanded="true" />
+                <element signature="e#5059#5060#0" expanded="true" />
+                <marker date="1510871164897" expanded="true" signature="676:705" ph="select * fro... ?" />
+                <marker date="1510871164897" expanded="true" signature="676:707" ph="select * fro... ?" />
+                <marker date="1510871164897" expanded="true" signature="749:782" ph="UPDATE ?... " />
+                <marker date="1510871164897" expanded="true" signature="826:863" ph="UPDATE ?... " />
+                <marker date="1510871164897" expanded="true" signature="907:963" ph="INSERT INTO users... " />
+                <marker date="1510871164897" expanded="true" signature="924:925" ph="UPDATE ?... " />
+                <marker date="1510871164897" expanded="true" signature="1007:1029" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -645,12 +628,12 @@
       <workItem from="1510595068660" duration="705000" />
       <workItem from="1510736811381" duration="858000" />
       <workItem from="1510760602685" duration="26500000" />
-      <workItem from="1510841743214" duration="14845000" />
+      <workItem from="1510841743214" duration="16701000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216548000" />
+    <option name="totallyTimeSpent" value="218404000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1140,36 +1123,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="64" column="0" lean-forward="true" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+        <state relative-caret-position="282">
+          <caret line="58" column="8" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="53" column="44" lean-forward="false" selection-start-line="53" selection-start-column="44" selection-end-line="53" selection-end-column="44" />
+        <state relative-caret-position="211">
+          <caret line="94" column="38" lean-forward="false" selection-start-line="94" selection-start-column="38" selection-end-line="94" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2678#2679#0" expanded="true" />
-            <element signature="e#2730#2731#0" expanded="true" />
+            <element signature="e#4341#4342#0" expanded="true" />
+            <element signature="e#4393#4394#0" expanded="true" />
             <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
-            <element signature="e#2907#2908#0" expanded="true" />
-            <element signature="e#2959#2960#0" expanded="true" />
-            <element signature="e#2996#2997#0" expanded="true" />
-            <element signature="e#3046#3047#0" expanded="true" />
-            <element signature="e#3083#3084#0" expanded="true" />
-            <element signature="e#3133#3134#0" expanded="true" />
-            <element signature="e#3178#3179#0" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3258#3259#0" expanded="true" />
-            <element signature="e#3308#3309#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="e#3396#3397#0" expanded="true" />
-            <marker date="1510869315788" expanded="true" signature="675:704" ph="select * fro... ?" />
-            <marker date="1510869315788" expanded="true" signature="675:705" ph="select * fro... ?" />
-            <marker date="1510869315788" expanded="true" signature="842:875" ph="UPDATE ?... " />
+            <element signature="e#4570#4571#0" expanded="true" />
+            <element signature="e#4622#4623#0" expanded="true" />
+            <element signature="e#4659#4660#0" expanded="true" />
+            <element signature="e#4709#4710#0" expanded="true" />
+            <element signature="e#4746#4747#0" expanded="true" />
+            <element signature="e#4796#4797#0" expanded="true" />
+            <element signature="e#4841#4842#0" expanded="true" />
+            <element signature="e#4891#4892#0" expanded="true" />
+            <element signature="e#4921#4922#0" expanded="true" />
+            <element signature="e#4971#4972#0" expanded="true" />
+            <element signature="e#5005#5006#0" expanded="true" />
+            <element signature="e#5059#5060#0" expanded="true" />
+            <marker date="1510871164897" expanded="true" signature="676:705" ph="select * fro... ?" />
+            <marker date="1510871164897" expanded="true" signature="676:707" ph="select * fro... ?" />
+            <marker date="1510871164897" expanded="true" signature="749:782" ph="UPDATE ?... " />
+            <marker date="1510871164897" expanded="true" signature="826:863" ph="UPDATE ?... " />
+            <marker date="1510871164897" expanded="true" signature="907:963" ph="INSERT INTO users... " />
+            <marker date="1510871164897" expanded="true" signature="924:925" ph="UPDATE ?... " />
+            <marker date="1510871164897" expanded="true" signature="1007:1029" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>

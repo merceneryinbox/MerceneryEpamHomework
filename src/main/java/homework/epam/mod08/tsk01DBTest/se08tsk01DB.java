@@ -20,12 +20,19 @@ import java.util.Properties;
 public class se08tsk01DB {
 	private static Properties CONFIGS;
 	private static Connection connection;
-	private static String selectStar   = "SELECT * FROM ? WHERE login=?";
-	// UPDATE <имя_таблицы> SET <имя_поля_1>=<величина_поля_1>, <имя_поля_2>=<величина_поля_2> ...
-	private static String updateReqest = "UPDATE ? SET ? =? WHERE user_id>?";
+	private static String selectStar    = "SELECT * FROM ? WHERE login=?;";
+	private static String updateRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
+	private static String selectRequest = "SELECT * FROM roles WHERE role_name=?;";
+	private static String insertRequest = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
+	private static String dropRequest   = "DROP TABLE IF EXISTS ?;";
+	
 	private static PreparedStatement getInfoFromDB;
-	private static PreparedStatement chageInfoFromDB;
-	private static ResultSet         resultSet;
+	private static PreparedStatement chageInfoInDB;
+	private static PreparedStatement selectExactInfoFromDB;
+	private static PreparedStatement insertInfoInDB;
+	private static PreparedStatement dropTable;
+	
+	private static ResultSet resultSet;
 	
 	public static void main(String[] args) {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk01DBPGconfigs.xml")) {
@@ -44,14 +51,49 @@ public class se08tsk01DB {
 			getInfoFromDB.setString(2, "'admin'");
 			resultSet = getInfoFromDB.executeQuery();
 // Q:2
-			chageInfoFromDB = connection.prepareStatement(updateReqest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                              ResultSet.CONCUR_UPDATABLE);
-			chageInfoFromDB.setString(1,"users");
-			chageInfoFromDB.setString(2,"role_id");
-			chageInfoFromDB.setInt(3,1);
-			chageInfoFromDB.setInt(3,3);
+			chageInfoInDB = connection.prepareStatement(updateRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			chageInfoInDB.setString(1, "users");
+			chageInfoInDB.setString(2, "role_id");
+			chageInfoInDB.setInt(3, 1);
+			chageInfoInDB.setInt(3, 3);
 			
-			chageInfoFromDB.executeUpdate();
+			chageInfoInDB.executeUpdate();
+
+// Q:3
+			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+			selectExactInfoFromDB.setString(1, "'updaters'");
+			resultSet = selectExactInfoFromDB.executeQuery();
+			
+			// old plain output of DB data before JDBC 2.0
+			System.out.println(
+					"role_id     |    role_name    |    can_read    |    can_write    |    can_update      |  can_revoke    |    role_misc");
+			
+			while (resultSet.next()) {
+				int     role_id    = resultSet.getInt("role_id");
+				String  role_name  = resultSet.getString("role_name");
+				boolean can_read   = resultSet.getBoolean("can_read");
+				boolean can_write  = resultSet.getBoolean("can_write");
+				boolean can_update = resultSet.getBoolean("can_update");
+				boolean can_revoke = resultSet.getBoolean("can_revoke");
+				String  role_misc  = resultSet.getString("role_misc");
+				System.out.println(
+						role_id + " | " + role_name + " | " + can_read + " | " + can_write + " | " + can_update +
+						" | " + can_revoke + " | " + role_misc);
+			}
+//Q:4
+			insertInfoInDB = connection.prepareStatement(insertRequest);
+			insertInfoInDB.setString(1, "'friend'");
+			insertInfoInDB.setString(2, "'passss'");
+			insertInfoInDB.setInt(3, 1);
+			
+			insertInfoInDB.executeUpdate();
+
+//Q:5
+			dropTable = connection.prepareStatement(dropRequest);
+			dropTable.setString(1, "users");
+			dropTable.executeUpdate();
+			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
