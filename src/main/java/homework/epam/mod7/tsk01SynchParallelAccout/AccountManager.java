@@ -1,12 +1,11 @@
 package homework.epam.mod7.tsk01SynchParallelAccout;
 
-import java.util.ResourceBundle;
 
 public interface AccountManager {
 	
-	void setAccount(Integer integer);
+	void setAmount(Integer integer);
 	
-	boolean handleAccount(Integer integer);
+	boolean halfTransmitToAccount(String who, Integer howMuch);
 	
 	Integer lookForAccountNameBalance(String accountNameBalance);
 	

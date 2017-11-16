@@ -1,30 +1,29 @@
 package homework.epam.mod7.tsk01SynchParallelAccout;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.xml.sax.SAXException;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
-import java.io.IOException;
-
 public class se07tsk01ParallelAccountManagerTest {
 	public static void main(String[] args) {
-		DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
-		try {
-			DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-			Document document1 =
-					documentBuilder.parse("./src/account.xml");
-			final Element documentElement = document1.getDocumentElement();
-			final String  user1           = documentElement.getAttribute("user1");
-			System.out.println("\n" + user1 + "\n");
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
-		} catch (SAXException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
+		MonyTransfering fromUser = new MonyTransfering("user1");
+		MonyTransfering toUser   = new MonyTransfering("user2");
+		Integer         money    = 50;
+		if (transferFromToHowMuch(fromUser, toUser, money)) {
+			System.out.println("Transfer from " + fromUser.getname() + " to " + toUser.getname() + " succes");
+		} else {
+			System.out.println("Error transfer from " + fromUser.getname() + " to " + toUser.getname());
+			
 		}
+	}
+	
+	public static synchronized boolean transferFromToHowMuch(MonyTransfering monyTransfering1,
+	                                                         MonyTransfering monyTransfering2,
+	                                                         Integer sum) {
+		boolean result = false;
+		if (monyTransfering1.halfTransmitToAccount(monyTransfering1.getname(), ((-1) * sum))) {
+			
+			if (monyTransfering1.halfTransmitToAccount(monyTransfering1.getname(), sum)) {
+				result = true;
+			}
+		}
+		
+		return result;
 	}
 }
