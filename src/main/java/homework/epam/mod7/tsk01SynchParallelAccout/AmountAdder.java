@@ -4,13 +4,10 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
-import org.xml.sax.SAXException;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
-import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
-import java.io.IOException;
 
 public class AmountAdder implements AccountManager {
 	private static String user    = "user";
@@ -30,7 +27,7 @@ public class AmountAdder implements AccountManager {
 	private static Node balance2Node;
 	
 	private static Element coreElement;
-	private static Element user1Element;
+	private static Element userElement;
 	private static Element user2Element;
 	private static Element balance1Element;
 	private static Element balance2Element;
@@ -51,35 +48,32 @@ public class AmountAdder implements AccountManager {
 			
 			// получаю Главный (родительский) нод
 			coreNodeAccounts = document.getFirstChild();
+			//получаю список пользователей
+			NodeList usersnodeList = document.getElementsByTagName("user");
+			// проверяем наличие такого пользователя
 			
-			// TODO: 16.11.2017 сделал элементы и ноды, добавить методы получения вэлью и изменения с проверкой правильности
 			
-			NodeList nodeList = document.getElementsByTagName(document.getDocumentElement()
-					                                                  .getChildNodes()
-					                                                  .item(1)
-					                                                  .getNodeName());
-			for (int i = 0; i < nodeList.getLength(); i++) {
-				Node    node       = nodeList.item(i);
-				Element tmpElement = (Element) node;
-				
-				accountElementName = tmpElement.getElementsByTagName("name")
-						.item(0)
-						.getChildNodes()
-						.item(0)
-						.getNodeValue();
-				
-				if (accountElementName.equals(name)) {
-					user1Element = tmpElement;
-				}
-			}
-			
-		} catch (ParserConfigurationException e) {
-			e.printStackTrace();
-		} catch (SAXException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (Exception e) {
 			e.printStackTrace();
 		}
+	}
+		
+	private boolean testUserExists(String name, NodeList usersnodeList) {
+		boolean result = false;
+		for (int usersListIndex = 0; usersListIndex < usersnodeList.getLength(); usersListIndex++) {
+			Node    node    = usersnodeList.item(usersListIndex);
+			Element element = (Element) node;
+			String testUserName = element.getElementsByTagName("name")
+					.item(0)
+					.getChildNodes()
+					.item(0)
+					.getNodeValue();
+			if (testUserName.equals(name)) {
+				result = true;
+				userElement = element;
+			}
+		}
+		return result;
 	}
 	
 	@Override public void setAccount(Integer integer) {
@@ -95,7 +89,7 @@ public class AmountAdder implements AccountManager {
 	@Override public Integer lookForAccountNameBalance(String accountBalanceName) {
 		return startStateAccountBeforetransact =
 		       startStateAccountBeforetransactBackUp = Integer.parseInt(
-				       user1Element.getElementsByTagName("balance")
+				       userElement.getElementsByTagName("balance")
 						       .item(0)
 						       .getNodeValue());
 	}
