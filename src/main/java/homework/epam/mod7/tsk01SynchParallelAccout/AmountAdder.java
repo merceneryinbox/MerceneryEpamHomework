@@ -12,7 +12,7 @@ import javax.xml.parsers.ParserConfigurationException;
 import java.io.File;
 import java.io.IOException;
 
-public class AccountAdder implements AccountManager {
+public class AmountAdder implements AccountManager {
 	private static String accountName;
 	private static File   accountFileXML;
 	private static Integer startStateAccountBeforetransact       = 0;
@@ -23,8 +23,7 @@ public class AccountAdder implements AccountManager {
 	private static Document               document;
 	
 	private static Node coreNodeAccounts;
-	private static Node user1Node;
-	private static Node user2Node;
+	private static Node userNode;
 	private static Node balance1Node;
 	private static Node balance2Node;
 	
@@ -37,7 +36,7 @@ public class AccountAdder implements AccountManager {
 	private static String   accountElementName;
 	private static NodeList nodeList;
 	
-	public AccountAdder(String accountName) {
+	public AmountAdder(String accountName) {
 		this.accountName = accountName;
 		accountFileXML = new File("./resource/account.xml");
 		
@@ -48,25 +47,10 @@ public class AccountAdder implements AccountManager {
 			document.getDocumentElement()
 					.normalize();
 			
+			// получаю Главный (родительский) нод
 			coreNodeAccounts = document.getFirstChild();
-			coreElement = (Element) coreNodeAccounts;
 			
-			user1Node = ((Element) coreNodeAccounts).getElementsByTagName("user")
-					.item(0);
-			balance1Node = ((Element) coreNodeAccounts).getElementsByTagName("balance")
-					.item(1);
-			
-			user2Node = coreNodeAccounts.getChildNodes()
-					.item(0);
-			balance2Node = coreNodeAccounts.getChildNodes()
-					.item(1);
-			
-			coreElement = (Element) coreNodeAccounts;
-			user1Element = (Element) user1Node;
-			balance1Element = (Element) balance1Node;
-			
-			user2Element = (Element) user2Node;
-			balance2Element = (Element) balance2Node;
+			// TODO: 16.11.2017 сделал элементы и ноды, добавить методы получения вэлью и изменения с проверкой правильности
 			
 			NodeList nodeList = document.getElementsByTagName(document.getDocumentElement()
 					                                                  .getChildNodes()
@@ -75,7 +59,8 @@ public class AccountAdder implements AccountManager {
 			for (int i = 0; i < nodeList.getLength(); i++) {
 				Node    node       = nodeList.item(i);
 				Element tmpElement = (Element) node;
-				accountElementName = user1Element.getElementsByTagName("user")
+				
+				accountElementName = tmpElement.getElementsByTagName("name")
 						.item(0)
 						.getChildNodes()
 						.item(0)

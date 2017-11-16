@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -38,21 +38,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountAdder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java">
+      <file leaf-file-name="AmountAdder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+            <state relative-caret-position="551">
+              <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3211#3212#0" expanded="true" />
-                <element signature="e#3264#3265#0" expanded="true" />
-                <element signature="method#handleAccount#0;class#AccountAdder#0" expanded="true" />
-                <element signature="method#lookForAccountNameBalance#0;class#AccountAdder#0" expanded="true" />
-                <element signature="e#3738#3739#0" expanded="true" />
-                <element signature="e#3783#3784#0" expanded="true" />
-                <element signature="method#rollBackChanges#0;class#AccountAdder#0" expanded="true" />
-                <element signature="method#saveTransaction#0;class#AccountAdder#0" expanded="true" />
+                <element signature="e#2755#2756#0" expanded="true" />
+                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="method#handleAccount#0;class#AmountAdder#0" expanded="true" />
+                <element signature="method#lookForAccountNameBalance#0;class#AmountAdder#0" expanded="true" />
+                <element signature="e#3282#3283#0" expanded="true" />
+                <element signature="e#3327#3328#0" expanded="true" />
+                <element signature="method#rollBackChanges#0;class#AmountAdder#0" expanded="true" />
+                <element signature="method#saveTransaction#0;class#AmountAdder#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,8 +61,8 @@
       <file leaf-file-name="account.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="150">
+              <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -117,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.java" />
@@ -168,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" />
       </list>
     </option>
   </component>
@@ -612,12 +612,12 @@
       <workItem from="1510571577222" duration="5342000" />
       <workItem from="1510595068660" duration="705000" />
       <workItem from="1510736811381" duration="858000" />
-      <workItem from="1510760602685" duration="16287000" />
+      <workItem from="1510760602685" duration="18642000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="191490000" />
+    <option name="totallyTimeSpent" value="193845000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1107,26 +1107,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="68" column="53" lean-forward="false" selection-start-line="68" selection-start-column="53" selection-end-line="68" selection-end-column="53" />
+        <state relative-caret-position="551">
+          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3211#3212#0" expanded="true" />
-            <element signature="e#3264#3265#0" expanded="true" />
-            <element signature="method#handleAccount#0;class#AccountAdder#0" expanded="true" />
-            <element signature="method#lookForAccountNameBalance#0;class#AccountAdder#0" expanded="true" />
-            <element signature="e#3738#3739#0" expanded="true" />
-            <element signature="e#3783#3784#0" expanded="true" />
-            <element signature="method#rollBackChanges#0;class#AccountAdder#0" expanded="true" />
-            <element signature="method#saveTransaction#0;class#AccountAdder#0" expanded="true" />
+            <element signature="e#2755#2756#0" expanded="true" />
+            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="method#handleAccount#0;class#AmountAdder#0" expanded="true" />
+            <element signature="method#lookForAccountNameBalance#0;class#AmountAdder#0" expanded="true" />
+            <element signature="e#3282#3283#0" expanded="true" />
+            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="method#rollBackChanges#0;class#AmountAdder#0" expanded="true" />
+            <element signature="method#saveTransaction#0;class#AmountAdder#0" expanded="true" />
           </folding>
         </state>
       </provider>

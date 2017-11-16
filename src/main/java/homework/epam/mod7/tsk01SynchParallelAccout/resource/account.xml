@@ -3,12 +3,12 @@
 <accounts>
 
     <user>
-        <name>"user1"</name>
+        <name>user1</name>
         <balance>100</balance>
     </user>
 
     <user>
-        <name>"user2"</name>
+        <name>user2</name>
         <balance>200</balance>
     </user>
 
