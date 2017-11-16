@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/account.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" afterPath="$PROJECT_DIR$/src/resources/account.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -41,16 +43,16 @@
       <file leaf-file-name="AmountAdder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+            <state relative-caret-position="300">
+              <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2755#2756#0" expanded="true" />
-                <element signature="e#2808#2809#0" expanded="true" />
+                <element signature="e#2819#2820#0" expanded="true" />
+                <element signature="e#2872#2873#0" expanded="true" />
                 <element signature="method#handleAccount#0;class#AmountAdder#0" expanded="true" />
                 <element signature="method#lookForAccountNameBalance#0;class#AmountAdder#0" expanded="true" />
-                <element signature="e#3282#3283#0" expanded="true" />
-                <element signature="e#3327#3328#0" expanded="true" />
+                <element signature="e#3346#3347#0" expanded="true" />
+                <element signature="e#3391#3392#0" expanded="true" />
                 <element signature="method#rollBackChanges#0;class#AmountAdder#0" expanded="true" />
                 <element signature="method#saveTransaction#0;class#AmountAdder#0" expanded="true" />
               </folding>
@@ -59,7 +61,7 @@
         </entry>
       </file>
       <file leaf-file-name="account.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml">
+        <entry file="file://$PROJECT_DIR$/src/resources/account.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
               <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
@@ -264,54 +266,7 @@
               <item name="hw" type="b2602c69:ProjectViewProjectNode" />
               <item name="hw" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk01FileManagerWithExceptionHandlers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk02UniversalPropertiesReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk02UniversalPropertiesToMapReader" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk01SynchParallelAccout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -332,6 +287,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaEEProj\javalearn\hw\src\resources" />
       <recent name="D:\IdeaEEProj\javalearn\hw\src\main\java\homework\epam\mod7\tsk01SynchParallelAccout\resource" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -612,12 +568,12 @@
       <workItem from="1510571577222" duration="5342000" />
       <workItem from="1510595068660" duration="705000" />
       <workItem from="1510736811381" duration="858000" />
-      <workItem from="1510760602685" duration="18642000" />
+      <workItem from="1510760602685" duration="19455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="193845000" />
+    <option name="totallyTimeSpent" value="194658000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1105,7 +1061,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml">
+    <entry file="file://$PROJECT_DIR$/src/resources/account.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
@@ -1115,16 +1071,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="63" column="30" lean-forward="false" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
+        <state relative-caret-position="300">
+          <caret line="54" column="43" lean-forward="true" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2755#2756#0" expanded="true" />
-            <element signature="e#2808#2809#0" expanded="true" />
+            <element signature="e#2819#2820#0" expanded="true" />
+            <element signature="e#2872#2873#0" expanded="true" />
             <element signature="method#handleAccount#0;class#AmountAdder#0" expanded="true" />
             <element signature="method#lookForAccountNameBalance#0;class#AmountAdder#0" expanded="true" />
-            <element signature="e#3282#3283#0" expanded="true" />
-            <element signature="e#3327#3328#0" expanded="true" />
+            <element signature="e#3346#3347#0" expanded="true" />
+            <element signature="e#3391#3392#0" expanded="true" />
             <element signature="method#rollBackChanges#0;class#AmountAdder#0" expanded="true" />
             <element signature="method#saveTransaction#0;class#AmountAdder#0" expanded="true" />
           </folding>

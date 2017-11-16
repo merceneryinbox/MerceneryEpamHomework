@@ -13,8 +13,10 @@ import java.io.File;
 import java.io.IOException;
 
 public class AmountAdder implements AccountManager {
-	private static String accountName;
-	private static File   accountFileXML;
+	private static String user    = "user";
+	private static String name    = "name";
+	private static String balance = "balance";
+	private static File accountFileXML;
 	private static Integer startStateAccountBeforetransact       = 0;
 	private static Integer startStateAccountBeforetransactBackUp = 0;
 	
@@ -36,9 +38,9 @@ public class AmountAdder implements AccountManager {
 	private static String   accountElementName;
 	private static NodeList nodeList;
 	
-	public AmountAdder(String accountName) {
-		this.accountName = accountName;
-		accountFileXML = new File("./resource/account.xml");
+	public AmountAdder(String name) {
+		this.name = name;
+		accountFileXML = new File("./src/resource/account.xml");
 		
 		try {
 			documentBuilderFactory = DocumentBuilderFactory.newInstance();
@@ -66,7 +68,7 @@ public class AmountAdder implements AccountManager {
 						.item(0)
 						.getNodeValue();
 				
-				if (accountElementName.equals(accountName)) {
+				if (accountElementName.equals(name)) {
 					user1Element = tmpElement;
 				}
 			}
