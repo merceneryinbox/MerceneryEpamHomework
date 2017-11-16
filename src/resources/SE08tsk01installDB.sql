@@ -1,62 +1,62 @@
-create schema chat;
+CREATE SCHEMA chat;
 
-set search_path to chat;
+SET search_path TO chat;
 
-create table Roles(
-  role_id serial,
-  role_name varchar(25) not null,
-  can_read boolean not null default false,
-  can_write boolean not null default false,
-  can_update boolean not null default false,
-  can_revoke boolean not null default false,
-  misc text,
+CREATE TABLE Roles (
+  role_id    SERIAL,
+  role_name  VARCHAR(25) NOT NULL,
+  can_read   BOOLEAN     NOT NULL DEFAULT FALSE,
+  can_write  BOOLEAN     NOT NULL DEFAULT FALSE,
+  can_update BOOLEAN     NOT NULL DEFAULT FALSE,
+  can_revoke BOOLEAN     NOT NULL DEFAULT FALSE,
+  misc       TEXT,
 
-  primary key (role_name),
-  constraint uk_roles unique (role_id)
+  PRIMARY KEY (role_name),
+  CONSTRAINT uk_roles UNIQUE (role_id)
 );
 
-insert into roles (role_name, can_read, can_revoke, can_update, can_write)
-values ('admin', true, true, true, true),
-  ('updaters', true, true, true, true),
-  ('moderators', true, true, true, false);
+INSERT INTO roles (role_name, can_read, can_revoke, can_update, can_write)
+VALUES ('admin', TRUE, TRUE, TRUE, TRUE),
+  ('updaters', TRUE, TRUE, TRUE, TRUE),
+  ('moderators', TRUE, TRUE, TRUE, FALSE);
 
-select * from roles;
+SELECT *
+FROM roles;
 
-create table Users(
-  user_id serial,
-  login varchar(25) not null,
-  password varchar(50) not null,
-  role_id int not null,
+DROP TABLE Users;
+CREATE TABLE Users (
+  user_id  SERIAL,
+  login    VARCHAR(25) NOT NULL,
+  password VARCHAR(50) NOT NULL,
+  role_id  INT         NOT NULL,
 
-  primary key(login),
-  constraint uk_users unique (user_id)
+  PRIMARY KEY (login),
+  CONSTRAINT uk_users UNIQUE (user_id)
 );
 
-insert into users(login,password,role_id)
-values ('admin','', (select role_id from roles where role_name ='admin'));
-insert into users(login,password,role_id)
-values ('daniel','',3);
+INSERT INTO users (login, password, role_id)
+VALUES ('admin', 'qwerty', (SELECT role_id
+                            FROM roles
+                            WHERE role_name = 'admin'));
+INSERT INTO users (login, password, role_id)
+VALUES ('mercenery', 'Pa$$w0Rd', 3);
 
-select * from users;
+INSERT INTO users (login, password, role_id)
+VALUES ('lamer', 'asd', 1);
+INSERT INTO users (login, password, role_id)
+VALUES ('anonymus', '***', 2);
+INSERT INTO users (login, password, role_id)
+VALUES ('Mr.Robot', 'Robot', 3);
 
-DROP TABLE messages;
-create table Messages(
-  msg_id INT,
-  user_id int not null,
-  msg_time timestamp not null,
-  msg_content varchar(300) not null,
+SELECT *
+FROM users;
 
-  primary key(msg_id),
-  constraint uk_messages unique (user_id, msg_time, msg_content)
-);
+ALTER TABLE users
+  ADD CONSTRAINT fk_users_roles_id FOREIGN KEY (role_id)
+REFERENCES Roles (role_id)
+ON DELETE CASCADE;
 
-alter table users
-  add constraint fk_users_roles_id foreign key (role_id)
-references Roles (role_id)
-on delete cascade;
-
-alter table Messages
-  add constraint fk_messages_users_id
-foreign key (user_id)
-references Users (user_id)
-on delete cascade;
+SELECT *
+FROM Users;
+SELECT *
+FROM Roles;
