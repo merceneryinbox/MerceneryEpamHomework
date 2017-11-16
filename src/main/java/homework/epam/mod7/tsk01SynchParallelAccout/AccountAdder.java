@@ -23,12 +23,16 @@ public class AccountAdder implements AccountManager {
 	private static Document               document;
 	
 	private static Node coreNodeAccounts;
-	private static Node userNode;
-	private static Node balanceNode;
+	private static Node user1Node;
+	private static Node user2Node;
+	private static Node balance1Node;
+	private static Node balance2Node;
 	
 	private static Element coreElement;
-	private static Element accountUserElement;
-	private static Element userBalanceElement;
+	private static Element user1Element;
+	private static Element user2Element;
+	private static Element balance1Element;
+	private static Element balance2Element;
 	
 	private static String   accountElementName;
 	private static NodeList nodeList;
@@ -46,10 +50,23 @@ public class AccountAdder implements AccountManager {
 			
 			coreNodeAccounts = document.getFirstChild();
 			coreElement = (Element) coreNodeAccounts;
-			userNode = document.getElementsByTagName("user")
+			
+			user1Node = ((Element) coreNodeAccounts).getElementsByTagName("user")
 					.item(0);
-			balanceNode = document
+			balance1Node = ((Element) coreNodeAccounts).getElementsByTagName("balance")
+					.item(1);
+			
+			user2Node = coreNodeAccounts.getChildNodes()
+					.item(0);
+			balance2Node = coreNodeAccounts.getChildNodes()
+					.item(1);
+			
 			coreElement = (Element) coreNodeAccounts;
+			user1Element = (Element) user1Node;
+			balance1Element = (Element) balance1Node;
+			
+			user2Element = (Element) user2Node;
+			balance2Element = (Element) balance2Node;
 			
 			NodeList nodeList = document.getElementsByTagName(document.getDocumentElement()
 					                                                  .getChildNodes()
@@ -58,14 +75,14 @@ public class AccountAdder implements AccountManager {
 			for (int i = 0; i < nodeList.getLength(); i++) {
 				Node    node       = nodeList.item(i);
 				Element tmpElement = (Element) node;
-				accountElementName = accountUserElement.getElementsByTagName("user")
+				accountElementName = user1Element.getElementsByTagName("user")
 						.item(0)
 						.getChildNodes()
 						.item(0)
 						.getNodeValue();
 				
 				if (accountElementName.equals(accountName)) {
-					accountUserElement = tmpElement;
+					user1Element = tmpElement;
 				}
 			}
 			
@@ -91,7 +108,7 @@ public class AccountAdder implements AccountManager {
 	@Override public Integer lookForAccountNameBalance(String accountBalanceName) {
 		return startStateAccountBeforetransact =
 		       startStateAccountBeforetransactBackUp = Integer.parseInt(
-				       accountUserElement.getElementsByTagName("balance")
+				       user1Element.getElementsByTagName("balance")
 						       .item(0)
 						       .getNodeValue());
 	}
