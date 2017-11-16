@@ -6,18 +6,25 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Properties;
 
 public class se08tsk01DB {
 	private static Properties CONFIGS;
 	private static Connection connection;
+	private static String selectStar = "select * from ? where login='?'";
+	private static PreparedStatement getInfoFromDB;
 	
 	public static void main(String[] args) {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk01DBPGconfigs.xml")) {
 			CONFIGS.loadFromXML(propertyStream);
 			Class.forName(getDBDriver());
 			connection = DriverManager.getConnection(getUrl(), "username", "password");
+			
+// Q:1
+		getInfoFromDB = connection.prepareStatement(selectStar);
+		getInfoFromDB.setFloat(1,"users");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {

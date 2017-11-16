@@ -54,7 +54,7 @@ VALUES ('Mr.Robot', 'Robot', 3);
 
 
 SELECT *
-FROM Users;
+FROM Users WHERE login = 'admin';
 SELECT *
 FROM Roles;
 
