@@ -38,7 +38,7 @@ public class se08tsk01DB {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk01DBPGconfigs.xml")) {
 			CONFIGS.loadFromXML(propertyStream);
 			Class.forName(getDBDriver());
-			connection = DriverManager.getConnection(getUrl(), "username", "password");
+			connection = DriverManager.getConnection(getUrl(), getUser(), getPassword());
 
 // Q:1
 			// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
@@ -121,6 +121,14 @@ public class se08tsk01DB {
 		       getDatabaseName();
 	}
 	
+	private static String getUser() {
+		return CONFIGS.getProperty("database.user");
+	}
+	
+	private static String getPassword() {
+		return CONFIGS.getProperty("database.password");
+	}
+	
 	private static String getProtocol() {
 		return CONFIGS.getProperty("database.driver");
 	}
@@ -135,13 +143,5 @@ public class se08tsk01DB {
 	
 	private static String getDatabaseName() {
 		return CONFIGS.getProperty("database.name");
-	}
-	
-	private String getUser() {
-		return CONFIGS.getProperty("database.user");
-	}
-	
-	private String getPassword() {
-		return CONFIGS.getProperty("database.password");
 	}
 }
