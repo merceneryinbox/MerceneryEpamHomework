@@ -15,19 +15,19 @@ public class HomeLibDAOManager {
 	private static Properties CONFIGS;
 	private static Connection connection;
 	
-	private static String selectStar    = "SELECT * FROM ? WHERE login=?;";
-	private static String updateRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
-	private static String selectRequest = "SELECT * FROM roles WHERE role_name=?;";
-	private static String insertRequest = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
-	private static String dropRequest   = "DROP TABLE IF EXISTS ?;";
-	
+	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
+	private static String selectStar        = "SELECT * FROM ? WHERE login=?;";
+	private static String updateYearRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
+	private static String updateTypeRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
+	private static String selectRequest     = "SELECT * FROM roles WHERE role_name=?;";
+	private static String insertRequest     = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
+	private static String dropRequest       = "DROP TABLE IF EXISTS ?;";
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
 	private static PreparedStatement selectExactInfoFromDB;
 	private static PreparedStatement insertInfoInDB;
 	private static PreparedStatement dropTable;
-	
-	private static ResultSet resultSet;
+	private static ResultSet         resultSet;
 	
 	public void connectToLibrary() {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk02HomeLibraryDBconfig.xml")) {
@@ -83,22 +83,43 @@ public class HomeLibDAOManager {
 		
 	}
 	
-	public void setYear(String bookName, int i) {
-		// Q:2
-		
-		
+	public void setYear(String bookName, int year) {
 		try {
-			chageInfoInDB = connection.prepareStatement(updateRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			chageInfoInDB = connection.prepareStatement(updateYearRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setString(1, "users");
-			chageInfoInDB.setString(2, "role_id");
-			chageInfoInDB.setInt(3, 1);
-			chageInfoInDB.setInt(3, 3);
+			chageInfoInDB.setInt(1, year);
+			chageInfoInDB.setString(2, bookName);
 			
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
 		
+	}
+	
+	public void setType(String bookName, String type) {
+		try {
+			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			chageInfoInDB.setString(1, type);
+			chageInfoInDB.setString(2, bookName);
+			
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public void setPublisher(String bookName, String publisher) {
+		try {
+			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			chageInfoInDB.setString(1, publisher);
+			chageInfoInDB.setString(2, bookName);
+			
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 }
