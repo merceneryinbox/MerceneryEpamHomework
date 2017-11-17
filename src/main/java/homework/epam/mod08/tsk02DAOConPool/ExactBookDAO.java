@@ -21,6 +21,7 @@ public class ExactBookDAO {
 	private static String dropRequest       = "DROP TABLE IF EXISTS bookshelf;";
 	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
 	
+	private static Connection        connection;
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
 	private static PreparedStatement selectExactInfoFromDB;
@@ -29,6 +30,7 @@ public class ExactBookDAO {
 	private static ResultSet         resultSet;
 	
 	public ExactBookDAO(Connection connection) {
+		this.connection = connection;
 	}
 	
 	public static String getAuthor() {
@@ -72,4 +74,11 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	public void updatePublisher(String publisher) {
+		setPublisher(publisher);
+	}
+	
+	public void updateYear(int yearProductionBook) {
+		setYearProductionBook(yearProductionBook);
+	}
 }

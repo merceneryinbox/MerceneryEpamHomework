@@ -281,7 +281,8 @@ public class HomeLibDAOManager {
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
 			resultSet = selectExactInfoFromDB.executeQuery();
 			
-			resultSet.next())
+			resultSet.next();
+			
 			String dropBookName = resultSet.getString("bookName");
 			author = resultSet.getString("author");
 			publisher = resultSet.getString("publisher");
