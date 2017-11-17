@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
+      <change beforePath="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" afterPath="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,54 +74,54 @@
       <file leaf-file-name="SE08tsk02HomeLibDAOConn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="51" />
+            <state relative-caret-position="453">
+              <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="190" column="35" lean-forward="false" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
+            <state relative-caret-position="528">
+              <caret line="197" column="31" lean-forward="false" selection-start-line="197" selection-start-column="31" selection-end-line="197" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#connectToLibrary#0;class#HomeLibDAOManager#0" expanded="true" />
-                <element signature="e#2312#2313#0" expanded="true" />
-                <element signature="e#2364#2365#0" expanded="true" />
+                <element signature="e#2271#2272#0" expanded="true" />
+                <element signature="e#2323#2324#0" expanded="true" />
                 <element signature="method#getUrl#0;class#HomeLibDAOManager#0" expanded="true" />
-                <element signature="e#2537#2538#0" expanded="true" />
+                <element signature="e#2496#2497#0" expanded="true" />
+                <element signature="e#2546#2547#0" expanded="true" />
                 <element signature="e#2587#2588#0" expanded="true" />
-                <element signature="e#2628#2629#0" expanded="true" />
+                <element signature="e#2641#2642#0" expanded="true" />
                 <element signature="e#2682#2683#0" expanded="true" />
-                <element signature="e#2723#2724#0" expanded="true" />
-                <element signature="e#2775#2776#0" expanded="true" />
-                <element signature="e#2812#2813#0" expanded="true" />
-                <element signature="e#2862#2863#0" expanded="true" />
-                <element signature="e#2899#2900#0" expanded="true" />
-                <element signature="e#2949#2950#0" expanded="true" />
-                <element signature="e#2994#2995#0" expanded="true" />
-                <element signature="e#3044#3045#0" expanded="true" />
-                <marker date="1510910062893" expanded="true" signature="563:586" ph="SELECT * FRO... ?" />
-                <marker date="1510910062893" expanded="true" signature="634:667" ph="UPDATE ?... " />
-                <marker date="1510910062893" expanded="true" signature="715:748" ph="UPDATE ?... " />
-                <marker date="1510910062893" expanded="true" signature="796:810" ph="SELECT * FRO... roles" />
-                <marker date="1510910062893" expanded="true" signature="881:937" ph="INSERT INTO users... " />
-                <marker date="1510910062893" expanded="true" signature="985:1007" ph="DROP TABLE I... " />
-                <marker date="1510910062893" expanded="true" signature="1055:1093" ph="DELETE FROM bookShelf... " />
-                <marker date="1510910062893" expanded="true" signature="1092:1093" ph="DROP TABLE I... " />
+                <element signature="e#2734#2735#0" expanded="true" />
+                <element signature="e#2771#2772#0" expanded="true" />
+                <element signature="e#2821#2822#0" expanded="true" />
+                <element signature="e#2858#2859#0" expanded="true" />
+                <element signature="e#2908#2909#0" expanded="true" />
+                <element signature="e#2953#2954#0" expanded="true" />
+                <element signature="e#3003#3004#0" expanded="true" />
+                <marker date="1510910397780" expanded="true" signature="526:549" ph="SELECT * FRO... ?" />
+                <marker date="1510910397780" expanded="true" signature="597:630" ph="UPDATE ?... " />
+                <marker date="1510910397780" expanded="true" signature="678:711" ph="UPDATE ?... " />
+                <marker date="1510910397780" expanded="true" signature="759:773" ph="SELECT * FRO... roles" />
+                <marker date="1510910397780" expanded="true" signature="844:900" ph="INSERT INTO users... " />
+                <marker date="1510910397780" expanded="true" signature="948:970" ph="DROP TABLE I... " />
+                <marker date="1510910397780" expanded="true" signature="1018:1056" ph="DELETE FROM bookShelf... " />
+                <marker date="1510910397780" expanded="true" signature="1055:1056" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="se08tsk02HomeLibraryDBconfig.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="se08tsk02HomeLibraryDBconfig.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -203,7 +203,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/javareservedwords.txt" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParsser.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -254,6 +253,7 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02DAOConn.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
+        <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
       </list>
     </option>
   </component>
@@ -292,7 +292,7 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -678,12 +678,12 @@
       <workItem from="1510736811381" duration="858000" />
       <workItem from="1510760602685" duration="26500000" />
       <workItem from="1510841743214" duration="18562000" />
-      <workItem from="1510878518098" duration="6237000" />
+      <workItem from="1510878518098" duration="6606000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226502000" />
+    <option name="totallyTimeSpent" value="226871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -695,7 +695,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1079,14 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk01DBPGconfigs.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -1095,14 +1087,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBInstall.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1145,43 +1129,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="8" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="21" selection-end-column="51" />
+        <state relative-caret-position="453">
+          <caret line="75" column="26" lean-forward="true" selection-start-line="75" selection-start-column="26" selection-end-line="75" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
-          <caret line="190" column="35" lean-forward="false" selection-start-line="190" selection-start-column="35" selection-end-line="190" selection-end-column="35" />
+        <state relative-caret-position="528">
+          <caret line="197" column="31" lean-forward="false" selection-start-line="197" selection-start-column="31" selection-end-line="197" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#connectToLibrary#0;class#HomeLibDAOManager#0" expanded="true" />
-            <element signature="e#2312#2313#0" expanded="true" />
-            <element signature="e#2364#2365#0" expanded="true" />
+            <element signature="e#2271#2272#0" expanded="true" />
+            <element signature="e#2323#2324#0" expanded="true" />
             <element signature="method#getUrl#0;class#HomeLibDAOManager#0" expanded="true" />
-            <element signature="e#2537#2538#0" expanded="true" />
+            <element signature="e#2496#2497#0" expanded="true" />
+            <element signature="e#2546#2547#0" expanded="true" />
             <element signature="e#2587#2588#0" expanded="true" />
-            <element signature="e#2628#2629#0" expanded="true" />
+            <element signature="e#2641#2642#0" expanded="true" />
             <element signature="e#2682#2683#0" expanded="true" />
-            <element signature="e#2723#2724#0" expanded="true" />
-            <element signature="e#2775#2776#0" expanded="true" />
-            <element signature="e#2812#2813#0" expanded="true" />
-            <element signature="e#2862#2863#0" expanded="true" />
-            <element signature="e#2899#2900#0" expanded="true" />
-            <element signature="e#2949#2950#0" expanded="true" />
-            <element signature="e#2994#2995#0" expanded="true" />
-            <element signature="e#3044#3045#0" expanded="true" />
-            <marker date="1510910062893" expanded="true" signature="563:586" ph="SELECT * FRO... ?" />
-            <marker date="1510910062893" expanded="true" signature="634:667" ph="UPDATE ?... " />
-            <marker date="1510910062893" expanded="true" signature="715:748" ph="UPDATE ?... " />
-            <marker date="1510910062893" expanded="true" signature="796:810" ph="SELECT * FRO... roles" />
-            <marker date="1510910062893" expanded="true" signature="881:937" ph="INSERT INTO users... " />
-            <marker date="1510910062893" expanded="true" signature="985:1007" ph="DROP TABLE I... " />
-            <marker date="1510910062893" expanded="true" signature="1055:1093" ph="DELETE FROM bookShelf... " />
-            <marker date="1510910062893" expanded="true" signature="1092:1093" ph="DROP TABLE I... " />
+            <element signature="e#2734#2735#0" expanded="true" />
+            <element signature="e#2771#2772#0" expanded="true" />
+            <element signature="e#2821#2822#0" expanded="true" />
+            <element signature="e#2858#2859#0" expanded="true" />
+            <element signature="e#2908#2909#0" expanded="true" />
+            <element signature="e#2953#2954#0" expanded="true" />
+            <element signature="e#3003#3004#0" expanded="true" />
+            <marker date="1510910397780" expanded="true" signature="526:549" ph="SELECT * FRO... ?" />
+            <marker date="1510910397780" expanded="true" signature="597:630" ph="UPDATE ?... " />
+            <marker date="1510910397780" expanded="true" signature="678:711" ph="UPDATE ?... " />
+            <marker date="1510910397780" expanded="true" signature="759:773" ph="SELECT * FRO... roles" />
+            <marker date="1510910397780" expanded="true" signature="844:900" ph="INSERT INTO users... " />
+            <marker date="1510910397780" expanded="true" signature="948:970" ph="DROP TABLE I... " />
+            <marker date="1510910397780" expanded="true" signature="1018:1056" ph="DELETE FROM bookShelf... " />
+            <marker date="1510910397780" expanded="true" signature="1055:1056" ph="DROP TABLE I... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk01DBPGconfigs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -11,7 +11,6 @@ import java.util.Properties;
  * Don't forget close your library at the end of work with it !
  */
 public class HomeLibDAOManager {
-	private static String     bookName;
 	private static Properties CONFIGS;
 	private static Connection connection;
 	
@@ -35,7 +34,6 @@ public class HomeLibDAOManager {
 			CONFIGS.loadFromXML(propertyStream);
 			Class.forName(getDBDriver());
 			connection = DriverManager.getConnection(getUrl(), getUser(), getPassword());
-			
 			
 			// TODO: 17.11.2017 добавить логгер
 			
@@ -195,5 +193,19 @@ public class HomeLibDAOManager {
 			e.printStackTrace();
 		}
 		
+	}
+	
+	public void libraryClose() {
+		try {
+			connection.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				connection.close();
+			} catch (SQLException eignore) {
+				// TODO: 17.11.2017  Добавить логгер
+			}
+		}
 	}
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <entry key="database.driver">org.postgresql.Driver</entry>
+    <entry key="database.host">localhost</entry>
+    <entry key="database.port">5432</entry>
+    <entry key="database.name">library</entry>
+    <entry key="database.user">postgres</entry>
+    <entry key="database.password">5923290</entry>
+</properties>
