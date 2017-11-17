@@ -15,11 +15,11 @@ import java.sql.SQLException;
  */
 public class SE08tsk02HomeLibDAOConn {
 	public static void main(String[] args) {
-		String author             = "Chack Pollanick";
 		String bookName           = "Fight Club";
-		int    yearProductionBook = 1996;
-		String type               = "novel";
+		String author             = "Chack Pollanick";
 		String publisher          = "W. W. Norton";
+		String type               = "novel";
+		int    yearProductionBook = 1996;
 		
 		HomeLibDAOManager homeLib;
 		

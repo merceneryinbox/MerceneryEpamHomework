@@ -23,6 +23,7 @@ public class HomeLibDAOManager {
 	private static String insertRequest     = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
 	private static String dropRequest       = "DROP TABLE IF EXISTS ?;";
 	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
+	
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
 	private static PreparedStatement selectExactInfoFromDB;
@@ -234,5 +235,34 @@ public class HomeLibDAOManager {
 				// TODO: 17.11.2017  Добавить логгер
 			}
 		}
+	}
+	
+	public ExactBookDAO getMeBook(String bookName) {
+		String author             = null;
+		String publisher          = null;
+		String type               = null;
+		String yearProductionBook = null;
+		try {
+			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+			resultSet = selectExactInfoFromDB.executeQuery();
+			
+			while (resultSet.next()) {
+				String dropBookName = resultSet.getString("bookName");
+				author = resultSet.getString("author");
+				publisher = resultSet.getString("publisher");
+				type = resultSet.getString("type");
+				yearProductionBook = resultSet.getString("yearProductionBook");
+				
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+			// TODO: 17.11.2017 add logger
+		}
+		return new ExactBookDAO(bookName).setAuthor(author)
+				.setPublisher(publisher)
+				.setType(type)
+				.setYear(yearProductionBook);
+		
 	}
 }
