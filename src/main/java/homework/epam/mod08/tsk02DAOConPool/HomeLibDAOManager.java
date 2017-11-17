@@ -20,13 +20,14 @@ public class HomeLibDAOManager {
 	private static volatile BlockingQueue<Connection> tenConnections;
 	private static          Lock                      lock;
 	
-	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
+	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки ++ 17.10.2017 ::19:05
 	private static String selectStar        = "SELECT * FROM bookShelf;";
-	private static String updateYearRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
-	private static String updateTypeRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
-	private static String selectRequest     = "SELECT * FROM roles WHERE role_name=?;";
-	private static String insertRequest     = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
-	private static String dropRequest       = "DROP TABLE IF EXISTS ?;";
+	private static String updateYearRequest = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
+	private static String updateTypeRequest = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
+	private static String selectRequest     = "SELECT * FROM bookshelf WHERE bookname=?;";
+	private static String insertRequest     =
+			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
+	private static String dropRequest       = "DROP TABLE IF EXISTS bookshelf;";
 	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
 	
 	private static PreparedStatement getInfoFromDB;
@@ -272,29 +273,29 @@ public class HomeLibDAOManager {
 // генерация DAO объекта конкретной записи в базе
 	
 	public ExactBookDAO getMeBook(String bookName) {
-		String author             = null;
-		String publisher          = null;
-		String type               = null;
-		String yearProductionBook = null;
+		String  author             = null;
+		String  publisher          = null;
+		String  type               = null;
+		Integer yearProductionBook = null;
 		try {
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
 			resultSet = selectExactInfoFromDB.executeQuery();
 			
-			while (resultSet.next()) {
-				String dropBookName = resultSet.getString("bookName");
-				author = resultSet.getString("author");
-				publisher = resultSet.getString("publisher");
-				type = resultSet.getString("type");
-				yearProductionBook = resultSet.getString("yearProductionBook");
-			}
+			resultSet.next())
+			String dropBookName = resultSet.getString("bookName");
+			author = resultSet.getString("author");
+			publisher = resultSet.getString("publisher");
+			type = resultSet.getString("type");
+			yearProductionBook = resultSet.getInt("yearProductionBook");
 		} catch (SQLException e) {
 			e.printStackTrace();
 			// TODO: 17.11.2017 add logger
 		}
-		return new ExactBookDAO(getConnection(), bookName).setAuthor(author)
+		return new ExactBookDAO(getConnection()).setBookName(bookName)
+				.setAuthor(author)
 				.setPublisher(publisher)
 				.setType(type)
-				.setYear(yearProductionBook);
+				.setYearProductionBook(yearProductionBook);
 	}
 	
 	public synchronized void putBackConnection(Connection usedConnection) {

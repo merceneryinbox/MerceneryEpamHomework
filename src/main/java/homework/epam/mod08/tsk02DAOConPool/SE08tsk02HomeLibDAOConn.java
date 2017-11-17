@@ -12,6 +12,7 @@ package homework.epam.mod08.tsk02DAOConPool;
 из этой БД. При реализации используйте (напишите) пул соединений и DAO.
  */
 public class SE08tsk02HomeLibDAOConn {
+	
 	public static void main(String[] args) {
 		String bookName           = "Fight Club";
 		String author             = "Chack Pollanick";

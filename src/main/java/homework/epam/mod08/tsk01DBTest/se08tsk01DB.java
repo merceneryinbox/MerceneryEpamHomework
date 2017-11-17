@@ -23,7 +23,7 @@ public class se08tsk01DB {
 	private static String selectStar    = "SELECT * FROM ? WHERE login=?;";
 	private static String updateRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
 	private static String selectRequest = "SELECT * FROM roles WHERE role_name=?;";
-	private static String insertRequest = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
+	private static String insertRequest = "INSERT INTO users (login,password,role_id) VALUES (?,?,?);";
 	private static String dropRequest   = "DROP TABLE IF EXISTS ?;";
 	
 	private static PreparedStatement getInfoFromDB;

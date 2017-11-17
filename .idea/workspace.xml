@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
     </list>
@@ -80,31 +83,10 @@
       <file leaf-file-name="SE08tsk02HomeLibDAOConn.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="83">
-              <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="288" column="13" lean-forward="true" selection-start-line="288" selection-start-column="13" selection-end-line="288" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3860#3861#0" expanded="true" />
-                <element signature="e#3912#3913#0" expanded="true" />
-                <marker date="1510928286766" expanded="true" signature="879:902" ph="SELECT * FRO... ?" />
-                <marker date="1510928286766" expanded="true" signature="950:983" ph="UPDATE ?... " />
-                <marker date="1510928286766" expanded="true" signature="1031:1064" ph="UPDATE ?... " />
-                <marker date="1510928286766" expanded="true" signature="1112:1126" ph="SELECT * FRO... roles" />
-                <marker date="1510928286766" expanded="true" signature="1112:1149" ph="SELECT * FRO... roles" />
-                <marker date="1510928286766" expanded="true" signature="1197:1253" ph="INSERT INTO users... " />
-                <marker date="1510928286766" expanded="true" signature="1301:1323" ph="DROP TABLE I... " />
-                <marker date="1510928286766" expanded="true" signature="1371:1409" ph="DELETE FROM bookShelf... " />
-                <marker date="1510928286766" expanded="true" signature="1408:1409" ph="DROP TABLE I... " />
+                <element signature="method#main#0;class#SE08tsk02HomeLibDAOConn#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -120,36 +102,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="se08tsk01DB.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
+      <file leaf-file-name="ExactBookDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#main#0;class#se08tsk01DB#0" expanded="true" />
-                <element signature="e#4343#4344#0" expanded="true" />
-                <element signature="e#4395#4396#0" expanded="true" />
-                <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
-                <element signature="e#4568#4569#0" expanded="true" />
-                <element signature="e#4618#4619#0" expanded="true" />
-                <element signature="e#4659#4660#0" expanded="true" />
-                <element signature="e#4713#4714#0" expanded="true" />
-                <element signature="e#4754#4755#0" expanded="true" />
-                <element signature="e#4806#4807#0" expanded="true" />
-                <element signature="e#4843#4844#0" expanded="true" />
-                <element signature="e#4893#4894#0" expanded="true" />
-                <element signature="e#4930#4931#0" expanded="true" />
-                <element signature="e#4980#4981#0" expanded="true" />
-                <element signature="e#5025#5026#0" expanded="true" />
-                <element signature="e#5075#5076#0" expanded="true" />
-                <marker date="1510872374900" expanded="true" signature="676:705" ph="select * fro... ?" />
-                <marker date="1510872374900" expanded="true" signature="676:707" ph="select * fro... ?" />
-                <marker date="1510872374900" expanded="true" signature="749:782" ph="UPDATE ?... " />
-                <marker date="1510872374900" expanded="true" signature="826:863" ph="UPDATE ?... " />
-                <marker date="1510872374900" expanded="true" signature="907:963" ph="INSERT INTO users... " />
-                <marker date="1510872374900" expanded="true" signature="924:925" ph="UPDATE ?... " />
-                <marker date="1510872374900" expanded="true" signature="1007:1029" ph="DROP TABLE I... " />
+                <element signature="method#ExactBookDAO#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setAuthor#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setPublisher#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setType#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setBookName#0;class#ExactBookDAO#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="301">
+              <caret line="288" column="72" lean-forward="false" selection-start-line="288" selection-start-column="72" selection-end-line="288" selection-end-column="72" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3983#3984#0" expanded="true" />
+                <element signature="e#4035#4036#0" expanded="true" />
+                <marker date="1510935428588" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+                <marker date="1510935428588" expanded="true" signature="972:979" ph="UPDATE ?... " />
+                <marker date="1510935428588" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+                <marker date="1510935428588" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+                <marker date="1510935428588" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+                <marker date="1510935428588" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+                <marker date="1510935428588" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+                <marker date="1510935428588" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -173,6 +159,7 @@
       <find>accountName</find>
       <find>roles_</find>
       <find>fk_users_roles_id</find>
+      <find>null</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -186,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task02CharStream/tsk02CharStrmSolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsInFileParser.java" />
@@ -230,12 +216,13 @@
         <option value="$PROJECT_DIR$/src/resources/se08tsk01DBconfig.xml" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk01DBPGconfigs.xml" />
         <option value="$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02DAOConn.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e69c18e-5076-4452-80a1-2da85274e58f/console.sql" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBInstall.sql" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
       </list>
     </option>
@@ -345,6 +332,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tsk01DBTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk02DAOConPool" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hw" type="b2602c69:ProjectViewProjectNode" />
@@ -661,12 +656,12 @@
       <workItem from="1510736811381" duration="858000" />
       <workItem from="1510760602685" duration="26500000" />
       <workItem from="1510841743214" duration="18562000" />
-      <workItem from="1510878518098" duration="15584000" />
+      <workItem from="1510878518098" duration="17970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235849000" />
+    <option name="totallyTimeSpent" value="238235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -682,29 +677,30 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12515189" sideWeight="0.18697956" order="16" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26399395" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23052464" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19227858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22937168" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13247539" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26399395" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23052464" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19227858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -719,7 +715,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -762,13 +757,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/serializedDAO.serial">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1068,14 +1056,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBInstall.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1092,47 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#se08tsk01DB#0" expanded="true" />
-            <element signature="e#4343#4344#0" expanded="true" />
-            <element signature="e#4395#4396#0" expanded="true" />
-            <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
-            <element signature="e#4568#4569#0" expanded="true" />
-            <element signature="e#4618#4619#0" expanded="true" />
-            <element signature="e#4659#4660#0" expanded="true" />
-            <element signature="e#4713#4714#0" expanded="true" />
-            <element signature="e#4754#4755#0" expanded="true" />
-            <element signature="e#4806#4807#0" expanded="true" />
-            <element signature="e#4843#4844#0" expanded="true" />
-            <element signature="e#4893#4894#0" expanded="true" />
-            <element signature="e#4930#4931#0" expanded="true" />
-            <element signature="e#4980#4981#0" expanded="true" />
-            <element signature="e#5025#5026#0" expanded="true" />
-            <element signature="e#5075#5076#0" expanded="true" />
-            <marker date="1510872374900" expanded="true" signature="676:705" ph="select * fro... ?" />
-            <marker date="1510872374900" expanded="true" signature="676:707" ph="select * fro... ?" />
-            <marker date="1510872374900" expanded="true" signature="749:782" ph="UPDATE ?... " />
-            <marker date="1510872374900" expanded="true" signature="826:863" ph="UPDATE ?... " />
-            <marker date="1510872374900" expanded="true" signature="907:963" ph="INSERT INTO users... " />
-            <marker date="1510872374900" expanded="true" signature="924:925" ph="UPDATE ?... " />
-            <marker date="1510872374900" expanded="true" signature="1007:1029" ph="DROP TABLE I... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="41" column="54" lean-forward="false" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
@@ -1141,23 +1080,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="288" column="13" lean-forward="true" selection-start-line="288" selection-start-column="13" selection-end-line="288" selection-end-column="13" />
+        <state relative-caret-position="144">
+          <caret line="25" column="92" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3860#3861#0" expanded="true" />
-            <element signature="e#3912#3913#0" expanded="true" />
-            <marker date="1510928286766" expanded="true" signature="879:902" ph="SELECT * FRO... ?" />
-            <marker date="1510928286766" expanded="true" signature="950:983" ph="UPDATE ?... " />
-            <marker date="1510928286766" expanded="true" signature="1031:1064" ph="UPDATE ?... " />
-            <marker date="1510928286766" expanded="true" signature="1112:1126" ph="SELECT * FRO... roles" />
-            <marker date="1510928286766" expanded="true" signature="1112:1149" ph="SELECT * FRO... roles" />
-            <marker date="1510928286766" expanded="true" signature="1197:1253" ph="INSERT INTO users... " />
-            <marker date="1510928286766" expanded="true" signature="1301:1323" ph="DROP TABLE I... " />
-            <marker date="1510928286766" expanded="true" signature="1371:1409" ph="DELETE FROM bookShelf... " />
-            <marker date="1510928286766" expanded="true" signature="1408:1409" ph="DROP TABLE I... " />
+            <element signature="method#main#0;class#se08tsk01DB#0" expanded="true" />
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4396#4397#0" expanded="true" />
+            <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
+            <element signature="e#4569#4570#0" expanded="true" />
+            <element signature="e#4619#4620#0" expanded="true" />
+            <element signature="e#4660#4661#0" expanded="true" />
+            <element signature="e#4714#4715#0" expanded="true" />
+            <element signature="e#4755#4756#0" expanded="true" />
+            <element signature="e#4807#4808#0" expanded="true" />
+            <element signature="e#4844#4845#0" expanded="true" />
+            <element signature="e#4894#4895#0" expanded="true" />
+            <element signature="e#4931#4932#0" expanded="true" />
+            <element signature="e#4981#4982#0" expanded="true" />
+            <element signature="e#5026#5027#0" expanded="true" />
+            <element signature="e#5076#5077#0" expanded="true" />
+            <marker date="1510935168107" expanded="true" signature="676:705" ph="select * fro... ?" />
+            <marker date="1510935168107" expanded="true" signature="676:707" ph="select * fro... ?" />
+            <marker date="1510935168107" expanded="true" signature="749:782" ph="UPDATE ?... " />
+            <marker date="1510935168107" expanded="true" signature="826:863" ph="UPDATE ?... " />
+            <marker date="1510935168107" expanded="true" signature="907:964" ph="INSERT INTO users... " />
+            <marker date="1510935168107" expanded="true" signature="924:925" ph="UPDATE ?... " />
+            <marker date="1510935168107" expanded="true" signature="1008:1030" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBInstall.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding>
+            <element signature="method#main#0;class#SE08tsk02HomeLibDAOConn#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" column="88" lean-forward="false" selection-start-line="21" selection-start-column="88" selection-end-line="21" selection-end-column="88" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#ExactBookDAO#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setAuthor#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setPublisher#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setType#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setBookName#0;class#ExactBookDAO#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="288" column="72" lean-forward="false" selection-start-line="288" selection-start-column="72" selection-end-line="288" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3983#3984#0" expanded="true" />
+            <element signature="e#4035#4036#0" expanded="true" />
+            <marker date="1510935428588" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+            <marker date="1510935428588" expanded="true" signature="972:979" ph="UPDATE ?... " />
+            <marker date="1510935428588" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+            <marker date="1510935428588" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+            <marker date="1510935428588" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+            <marker date="1510935428588" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+            <marker date="1510935428588" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+            <marker date="1510935428588" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
