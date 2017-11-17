@@ -45,16 +45,6 @@ public class HomeLibDAOManager {
 			getInfoFromDB.setString(1, "users");
 			getInfoFromDB.setString(2, "'admin'");
 			resultSet = getInfoFromDB.executeQuery();
-// Q:2
-			chageInfoInDB = connection.prepareStatement(updateRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setString(1, "users");
-			chageInfoInDB.setString(2, "role_id");
-			chageInfoInDB.setInt(3, 1);
-			chageInfoInDB.setInt(3, 3);
-			
-			chageInfoInDB.executeUpdate();
-
 
 
 //Q:5
@@ -88,7 +78,26 @@ public class HomeLibDAOManager {
 			insertInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			System.err.println("Error insert new book into your library");
-			// TODO: 17.11.2017 Добавить логгер 
+			// TODO: 17.11.2017 Добавить логгер
+		}
+		
+	}
+	
+	public void setYear(String bookName, int i) {
+		// Q:2
+		
+		
+		try {
+			chageInfoInDB = connection.prepareStatement(updateRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			chageInfoInDB.setString(1, "users");
+			chageInfoInDB.setString(2, "role_id");
+			chageInfoInDB.setInt(3, 1);
+			chageInfoInDB.setInt(3, 3);
+			
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
 		}
 		
 	}
