@@ -34,13 +34,19 @@ public class HomeLibDAOManager {
 	
 	static {
 		poolConnections = new ArrayBlockingQueue<Connection>(10);
+		try {
+			Class.forName(getDBDriver());
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+		
 		for (Connection c :
 				poolConnections) {
 			try {
 				c = DriverManager.getConnection(getUrl(), getUser(), getPassword());
 			} catch (SQLException sqle) {
 				System.err.println("Error initialize pool of connections. Reinitialize HomeLib for solvation");
-				// TODO: 17.11.2017 добавить логгер 
+				// TODO: 17.11.2017 добавить логгер
 			}
 		}
 	}
