@@ -13,8 +13,8 @@ import java.util.concurrent.LinkedBlockingDeque;
  * Don't forget close your library at the end of work with it !
  */
 public class HomeLibDAOManager {
-	private static Properties    CONFIGS;
-	private static Connection    connection;
+	private static Properties                CONFIGS;
+	private static Connection                connection;
 	private static BlockingQueue<Connection> tenConnections;
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
@@ -45,24 +45,54 @@ public class HomeLibDAOManager {
 				tenConnections) {
 			try {
 				c = DriverManager.getConnection(getUrl(), getUser(), getPassword());
+				tenConnections.put(c);
 			} catch (SQLException sqle) {
 				System.err.println("Error initialize pool of connections. Reinitialize HomeLib for solvation");
 				// TODO: 17.11.2017 добавить логгер
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
 		}
+	}
+	
+	private static String getUrl() {
+		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
+		       getDatabaseName();
+	}
+	
+	private static String getProtocol() {
+		return CONFIGS.getProperty("database.driver");
+	}
+	
+	private static String getHost() {
+		return CONFIGS.getProperty("database.host");
+	}
+	
+	private static String getPort() {
+		return CONFIGS.getProperty("database.port");
+	}
+	
+	private static String getDatabaseName() {
+		return CONFIGS.getProperty("database.name");
+	}
+	
+	private static String getUser() {
+		return CONFIGS.getProperty("database.user");
+	}
+	
+	private static String getPassword() {
+		return CONFIGS.getProperty("database.password");
 	}
 	
 	public void connectToLibrary() {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk02HomeLibraryDBconfig.xml")) {
 			CONFIGS.loadFromXML(propertyStream);
 			Class.forName(getDBDriver());
-			connection = DriverManager.getConnection(getUrl(), getUser(), getPassword());
+			connection = getConnection();
 			
 			// TODO: 17.11.2017 добавить логгер
 			
 		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		} catch (SQLException e) {
 			e.printStackTrace();
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -85,33 +115,30 @@ public class HomeLibDAOManager {
 		return CONFIGS.getProperty("database.driver");
 	}
 	
-	private static String getUrl() {
-		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
-		       getDatabaseName();
+	public synchronized Connection getConnection() {
+		while (tenConnections.size() < 1) {
+			try {
+				wait(1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		}
+		return tenConnections.peek();
+		
 	}
 	
-	private static String getUser() {
-		return CONFIGS.getProperty("database.user");
-	}
-	
-	private static String getPassword() {
-		return CONFIGS.getProperty("database.password");
-	}
-	
-	private static String getProtocol() {
-		return CONFIGS.getProperty("database.driver");
-	}
-	
-	private static String getHost() {
-		return CONFIGS.getProperty("database.host");
-	}
-	
-	private static String getPort() {
-		return CONFIGS.getProperty("database.port");
-	}
-	
-	private static String getDatabaseName() {
-		return CONFIGS.getProperty("database.name");
+	public synchronized boolean shutDownPool() {
+		boolean result = false;
+		try {
+			for (Connection c :
+					tenConnections) {
+				c.close();
+			}
+		} catch (SQLException e) {
+			// TODO: 17.11.2017 add logger
+			e.printStackTrace();
+		}
+		return result;
 	}
 	
 	public void setNewBook(String bookName, String author) {
@@ -260,8 +287,12 @@ public class HomeLibDAOManager {
 				.setYear(yearProductionBook);
 	}
 	
-	private Connection getConnection() {
-	
-	
+	public synchronized void putBackConnection(Connection usedConnection) {
+		try {
+			tenConnections.put(usedConnection);
+			notify();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 }
