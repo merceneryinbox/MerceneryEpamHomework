@@ -6,14 +6,16 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
-import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * Don't forget close your library at the end of work with it !
  */
 public class HomeLibDAOManager {
-	private static Properties CONFIGS;
-	private static Connection connection;
+	private static Properties    CONFIGS;
+	private static Connection    connection;
+	private static BlockingQueue<Connection> tenConnections;
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
 	private static String selectStar        = "SELECT * FROM bookShelf;";
@@ -31,10 +33,8 @@ public class HomeLibDAOManager {
 	private static PreparedStatement dropTable;
 	private static ResultSet         resultSet;
 	
-	private static ArrayBlockingQueue<Connection> poolConnections;
-	
 	static {
-		poolConnections = new ArrayBlockingQueue<Connection>(10);
+		tenConnections = new LinkedBlockingDeque<Connection>(10);
 		try {
 			Class.forName(getDBDriver());
 		} catch (ClassNotFoundException e) {
@@ -42,7 +42,7 @@ public class HomeLibDAOManager {
 		}
 		
 		for (Connection c :
-				poolConnections) {
+				tenConnections) {
 			try {
 				c = DriverManager.getConnection(getUrl(), getUser(), getPassword());
 			} catch (SQLException sqle) {
@@ -50,11 +50,6 @@ public class HomeLibDAOManager {
 				// TODO: 17.11.2017 добавить логгер
 			}
 		}
-	}
-	
-	private Connection getConnection() {
-	
-	
 	}
 	
 	public void connectToLibrary() {
@@ -259,10 +254,14 @@ public class HomeLibDAOManager {
 			e.printStackTrace();
 			// TODO: 17.11.2017 add logger
 		}
-		return new ExactBookDAO(bookName).setAuthor(author)
+		return new ExactBookDAO(getConnection(), bookName).setAuthor(author)
 				.setPublisher(publisher)
 				.setType(type)
 				.setYear(yearProductionBook);
-		
+	}
+	
+	private Connection getConnection() {
+	
+	
 	}
 }

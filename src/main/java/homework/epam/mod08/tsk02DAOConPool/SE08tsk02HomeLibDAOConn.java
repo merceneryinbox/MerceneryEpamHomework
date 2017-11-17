@@ -41,7 +41,7 @@ public class SE08tsk02HomeLibDAOConn {
 		
 		// создать DAO для книги через DAO библиотеки
 		
-		ExactBookDAO fightClubDAO = homeLib.bornSeparateBookDAO(bookName);
+		ExactBookDAO fightClubDAO = homeLib.getMeBook(bookName);
 		
 		
 		// добавить данные про книгу в базе через DAO библиотеки
