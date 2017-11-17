@@ -8,14 +8,17 @@ import java.sql.*;
 import java.util.Properties;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 /**
  * Don't forget close your library at the end of work with it !
  */
 public class HomeLibDAOManager {
-	private static Properties                CONFIGS;
-	private static Connection                connection;
-	private static BlockingQueue<Connection> tenConnections;
+	private static          Properties                CONFIGS;
+	private static          Connection                connection;
+	private static volatile BlockingQueue<Connection> tenConnections;
+	private static          Lock                      lock;
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
 	private static String selectStar        = "SELECT * FROM bookShelf;";
@@ -34,7 +37,10 @@ public class HomeLibDAOManager {
 	private static ResultSet         resultSet;
 	
 	static {
+		lock = new ReentrantLock();
+		
 		tenConnections = new LinkedBlockingDeque<Connection>(10);
+		
 		try {
 			Class.forName(getDBDriver());
 		} catch (ClassNotFoundException e) {
@@ -43,9 +49,11 @@ public class HomeLibDAOManager {
 		
 		for (Connection c :
 				tenConnections) {
+			lock.lock();
 			try {
 				c = DriverManager.getConnection(getUrl(), getUser(), getPassword());
 				tenConnections.put(c);
+				lock.unlock();
 			} catch (SQLException sqle) {
 				System.err.println("Error initialize pool of connections. Reinitialize HomeLib for solvation");
 				// TODO: 17.11.2017 добавить логгер
@@ -140,6 +148,8 @@ public class HomeLibDAOManager {
 		}
 		return result;
 	}
+////////////////////////////////////////////////////////////////////////////////////////////
+// работа с запросами к базе
 	
 	public void setNewBook(String bookName, String author) {
 		try {
@@ -201,7 +211,7 @@ public class HomeLibDAOManager {
 		}
 	}
 	
-	public void throwToTrashBook(String bookName) {
+	public void throwBookToTrash(String bookName) {
 		try {
 			chageInfoInDB = connection.prepareStatement(deleteBookRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
@@ -258,6 +268,8 @@ public class HomeLibDAOManager {
 			}
 		}
 	}
+/////////////////////////////////////////////////////////////////////////////////////////////
+// генерация DAO объекта конкретной записи в базе
 	
 	public ExactBookDAO getMeBook(String bookName) {
 		String author             = null;
@@ -274,9 +286,7 @@ public class HomeLibDAOManager {
 				publisher = resultSet.getString("publisher");
 				type = resultSet.getString("type");
 				yearProductionBook = resultSet.getString("yearProductionBook");
-				
 			}
-			
 		} catch (SQLException e) {
 			e.printStackTrace();
 			// TODO: 17.11.2017 add logger
@@ -288,9 +298,12 @@ public class HomeLibDAOManager {
 	}
 	
 	public synchronized void putBackConnection(Connection usedConnection) {
+		
+		lock.lock();
 		try {
 			tenConnections.put(usedConnection);
 			notify();
+			lock.unlock();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}

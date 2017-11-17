@@ -1,7 +1,5 @@
 package homework.epam.mod08.tsk02DAOConPool;
 
-import java.sql.SQLException;
-
 /*
 Задание 2. DAO&ConnectionPool
 Спроектируйте БД, хранящую информацию, например, о домашней библиотеке.
@@ -65,7 +63,7 @@ public class SE08tsk02HomeLibDAOConn {
 		//удалить книгу через DAO библиотеки
 		
 		
-		homeLib.throwToTrashBook("War and Peace");
+		homeLib.throwBookToTrash("War and Peace");
 		
 		//показать всю билиотеку
 		
