@@ -255,7 +255,7 @@ public class HomeLibDAOManager {
 		}
 		
 	}
-	
+		
 	public void libraryClose() {
 		try {
 			connection.close();

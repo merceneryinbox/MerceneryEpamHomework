@@ -14,14 +14,16 @@ public class ExactBookDAO {
 	private static Integer yearProductionBook = null;
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
-	private static String selectStar        = "SELECT * FROM bookShelf;";
-	private static String updateYearRequest = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
-	private static String updateTypeRequest = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
-	private static String selectRequest     = "SELECT ? FROM bookshelf WHERE bookname=?;";
-	private static String insertRequest     =
+	private static String selectStar             = "SELECT * FROM bookShelf;";
+	private static String updateYearRequest      = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
+	private static String updateTypeRequest      = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
+	private static String updateAuthorRequest    = "UPDATE TABLE bookshelf SET author=? WHERE bookname=?;";
+	private static String updatePublisherRequest = "UPDATE TABLE bookshelf SET publisher=? WHERE bookname=?;";
+	private static String selectRequest          = "SELECT ? FROM bookshelf WHERE bookname=?;";
+	private static String insertRequest          =
 			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
-	private static String dropRequest       = "DROP TABLE IF EXISTS bookshelf;";
-	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
+	private static String dropRequest            = "DROP TABLE IF EXISTS bookshelf;";
+	private static String deleteBookRequest      = "DELETE FROM bookShelf WHERE bookname=?;";
 	
 	private static Connection        connection;
 	private static PreparedStatement getInfoFromDB;
@@ -36,20 +38,47 @@ public class ExactBookDAO {
 		this.setBookName(bookName);
 	}
 	
-	public String getAuthor() {
+	public String getPublisher() {
 		try {
-			getInfoFromDB = connection.prepareStatement(selectRequest);
-			getInfoFromDB.setString(1, "author");
-			getInfoFromDB.setString(2, getBookName());
+			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+			selectExactInfoFromDB.setString(1, "publisher");
+			selectExactInfoFromDB.setString(2, getBookName());
 			
-			resultSet = getInfoFromDB.executeQuery();
+			resultSet = selectExactInfoFromDB.executeQuery();
 			resultSet.next();
-			setAuthor(author=resultSet.getString("author"));
-			
+			setPublisher(resultSet.getString("publisher"));
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-		return author;
+		return publisher;
+	}
+	
+	public ExactBookDAO setPublisher(String publisher) {
+		setPublisher(publisher);
+		try {
+			chageInfoInDB = connection.prepareStatement(updatePublisherRequest);
+			chageInfoInDB.setString(1, publisher);
+			chageInfoInDB.setString(2, getBookName());
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return this;
+	}
+	
+	public String getType() {
+		try {
+			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+			selectExactInfoFromDB.setString(1, "type");
+			selectExactInfoFromDB.setString(1, getBookName());
+			resultSet = selectExactInfoFromDB.executeQuery();
+			
+			resultSet.next();
+			setType(resultSet.getString("type"));
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return type;
 	}
 	
 	public static String getBookName() {
@@ -61,47 +90,74 @@ public class ExactBookDAO {
 		return this;
 	}
 	
-	public ExactBookDAO setAuthor(String author) {
-		setAuthor(author);
-		return this;
-	}
-	
-	public static String getPublisher() {
-		return publisher;
-	}
-	
-	public ExactBookDAO setPublisher(String publisher) {
-		setPublisher(publisher);
-		return this;
-	}
-	
-	public static String getType() {
-		return type;
-	}
-	
 	public ExactBookDAO setType(String type) {
-		setType(type);
+		this.type = type;
+		try {
+			chageInfoInDB = connection.prepareStatement(updateTypeRequest);
+			chageInfoInDB.setString(1, type);
+			chageInfoInDB.setString(2, getBookName());
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return this;
 	}
 	
-	public static Integer getYearProductionBook() {
+	public Integer getYearProductionBook() {
+		try {
+			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+			selectExactInfoFromDB.setString(1, "yearproductionbook");
+			selectExactInfoFromDB.setString(2, getBookName());
+			resultSet = selectExactInfoFromDB.executeQuery();
+			
+			resultSet.next();
+			setYearProductionBook(resultSet.getInt("yearproductionbook"));
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return yearProductionBook;
 	}
 	
 	public ExactBookDAO setYearProductionBook(Integer yearProductionBook) {
-		
 		ExactBookDAO.yearProductionBook = yearProductionBook;
+		try {
+			chageInfoInDB = connection.prepareStatement(updateYearRequest);
+			chageInfoInDB.setInt(1, yearProductionBook);
+			chageInfoInDB.setString(2, getBookName());
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return this;
 	}
 	
-	public void updatePublisher(String publisher) {
-		setPublisher(publisher);
+	public String getAuthor() {
+		try {
+			getInfoFromDB = connection.prepareStatement(selectRequest);
+			getInfoFromDB.setString(1, "author");
+			getInfoFromDB.setString(2, getBookName());
+			
+			resultSet = getInfoFromDB.executeQuery();
+			resultSet.next();
+			setAuthor(resultSet.getString("author"));
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return author;
 	}
 	
-	public void updateYear(int yearProductionBook) {
-		setYearProductionBook(yearProductionBook);
+	public ExactBookDAO setAuthor(String author) {
+		setAuthor(author);
+		try {
+			chageInfoInDB = connection.prepareStatement(updateAuthorRequest);
+			chageInfoInDB.setString(1, author);
+			chageInfoInDB.setString(2, bookName);
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		return this;
 	}
 	
-	public void selfDestruct() {
-	}
 }

@@ -52,7 +52,7 @@ public class SE08tsk02HomeLibDAOConn {
 		
 		//корректировать данные по книге в базе через DAO самой книги
 		
-		fightClubDAO.updatePublisher(publisher);
+		fightClubDAO.setPublisher(publisher);
 		foundBookDAO.updateYear(yearProductionBook);
 		
 		
