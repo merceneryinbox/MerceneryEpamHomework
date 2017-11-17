@@ -16,12 +16,13 @@ public class HomeLibDAOManager {
 	private static Connection connection;
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
-	private static String selectStar        = "SELECT * FROM ? WHERE login=?;";
+	private static String selectStar        = "SELECT * FROM bookShelf;";
 	private static String updateYearRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
 	private static String updateTypeRequest = "UPDATE ? SET ? =? WHERE user_id>?;";
 	private static String selectRequest     = "SELECT * FROM roles WHERE role_name=?;";
 	private static String insertRequest     = "INSERT INTO users (login,password,role_id) VALUE (?,?,?);";
 	private static String dropRequest       = "DROP TABLE IF EXISTS ?;";
+	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
 	private static PreparedStatement selectExactInfoFromDB;
@@ -34,23 +35,9 @@ public class HomeLibDAOManager {
 			CONFIGS.loadFromXML(propertyStream);
 			Class.forName(getDBDriver());
 			connection = DriverManager.getConnection(getUrl(), getUser(), getPassword());
-
-// Q:1
-			// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
-			// и вперёд next()
-			// с возможностью просматривать изменения в базе данных в режиме реального времени
-			// так же добавляю возможность изменять базу по ходу просмотра update....()
-			getInfoFromDB = connection.prepareStatement(selectStar, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			getInfoFromDB.setString(1, "users");
-			getInfoFromDB.setString(2, "'admin'");
-			resultSet = getInfoFromDB.executeQuery();
-
-
-//Q:5
-			dropTable = connection.prepareStatement(dropRequest);
-			dropTable.setString(1, "users");
-			dropTable.executeUpdate();
+			
+			
+			// TODO: 17.11.2017 добавить логгер
 			
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
@@ -65,8 +52,45 @@ public class HomeLibDAOManager {
 				connection.close();
 			} catch (SQLException e) {
 				e.printStackTrace();
+				// TODO: 17.11.2017 добавить логгер
+				
 			}
 		}
+	}
+	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////
+// работа с подключением в базе
+	private static String getDBDriver() {
+		return CONFIGS.getProperty("database.driver");
+	}
+	
+	private static String getUrl() {
+		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
+		       getDatabaseName();
+	}
+	
+	private static String getUser() {
+		return CONFIGS.getProperty("database.user");
+	}
+	
+	private static String getPassword() {
+		return CONFIGS.getProperty("database.password");
+	}
+	
+	private static String getProtocol() {
+		return CONFIGS.getProperty("database.driver");
+	}
+	
+	private static String getHost() {
+		return CONFIGS.getProperty("database.host");
+	}
+	
+	private static String getPort() {
+		return CONFIGS.getProperty("database.port");
+	}
+	
+	private static String getDatabaseName() {
+		return CONFIGS.getProperty("database.name");
 	}
 	
 	public void setNewBook(String bookName, String author) {
@@ -93,6 +117,8 @@ public class HomeLibDAOManager {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			// TODO: 17.11.2017 добавить логгер
+			
 		}
 		
 	}
@@ -107,6 +133,8 @@ public class HomeLibDAOManager {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			// TODO: 17.11.2017 добавить логгер
+			
 		}
 	}
 	
@@ -120,6 +148,52 @@ public class HomeLibDAOManager {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+			// TODO: 17.11.2017 добавить логгер
+			
 		}
+	}
+	
+	public void throwToTrashBook(String bookName) {
+		try {
+			chageInfoInDB = connection.prepareStatement(deleteBookRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			chageInfoInDB.setString(1, bookName);
+			
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+			// TODO: 17.11.2017 добавить логгер
+		}
+	}
+	
+	public void bookShelf() {
+		// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
+		// и вперёд next()
+		// с возможностью просматривать изменения в базе данных в режиме реального времени
+		// так же добавляю возможность изменять базу по ходу просмотра update....()
+		try {
+			getInfoFromDB = connection.prepareStatement(selectStar, ResultSet.TYPE_SCROLL_SENSITIVE,
+			                                            ResultSet.CONCUR_UPDATABLE);
+			resultSet = getInfoFromDB.executeQuery();
+			
+			while (resultSet.next()) {
+				String author             = resultSet.getString("author");
+				String bookName           = resultSet.getString("bookName");
+				String yearProductionBook = resultSet.getString("yearProductionBook");
+				String type               = resultSet.getString("type");
+				String publisher          = resultSet.getString("publisher");
+				
+				System.out.println("author | bookName | yearProductionBook | type | publisher");
+				System.out.print(author + " |");
+				System.out.print(bookName + " |");
+				System.out.print(yearProductionBook + " |");
+				System.out.print(type + " |");
+				System.out.println(publisher + " |");
+			}
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
 	}
 }

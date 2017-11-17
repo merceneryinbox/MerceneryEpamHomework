@@ -64,7 +64,12 @@ public class SE08tsk02HomeLibDAOConn {
 		
 		//удалить книгу через DAO библиотеки
 		
+		
 		homeLib.throwToTrashBook("War and Peace");
+		
+		//показать всю билиотеку
+		
+		homeLib.bookShelf();
 		
 		// закрываю библиотеку
 		try {
