@@ -3,9 +3,11 @@ package homework.epam.mod08.tsk02DAOConPool;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
+import java.sql.SQLException;
 
 public class ExactBookDAO {
 	
+	private static String  bookName           = null;
 	private static String  author             = null;
 	private static String  publisher          = null;
 	private static String  type               = null;
@@ -15,7 +17,7 @@ public class ExactBookDAO {
 	private static String selectStar        = "SELECT * FROM bookShelf;";
 	private static String updateYearRequest = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
 	private static String updateTypeRequest = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
-	private static String selectRequest     = "SELECT * FROM bookshelf WHERE bookname=?;";
+	private static String selectRequest     = "SELECT ? FROM bookshelf WHERE bookname=?;";
 	private static String insertRequest     =
 			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
 	private static String dropRequest       = "DROP TABLE IF EXISTS bookshelf;";
@@ -29,12 +31,34 @@ public class ExactBookDAO {
 	private static PreparedStatement dropTable;
 	private static ResultSet         resultSet;
 	
-	public ExactBookDAO(Connection connection) {
+	public ExactBookDAO(Connection connection, String bookName) {
 		this.connection = connection;
+		this.setBookName(bookName);
 	}
 	
-	public static String getAuthor() {
+	public String getAuthor() {
+		try {
+			getInfoFromDB = connection.prepareStatement(selectRequest);
+			getInfoFromDB.setString(1, "author");
+			getInfoFromDB.setString(2, getBookName());
+			
+			resultSet = getInfoFromDB.executeQuery();
+			resultSet.next();
+			setAuthor(author=resultSet.getString("author"));
+			
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 		return author;
+	}
+	
+	public static String getBookName() {
+		return bookName;
+	}
+	
+	public ExactBookDAO setBookName(String bookName) {
+		setBookName(bookName);
+		return this;
 	}
 	
 	public ExactBookDAO setAuthor(String author) {
@@ -65,12 +89,8 @@ public class ExactBookDAO {
 	}
 	
 	public ExactBookDAO setYearProductionBook(Integer yearProductionBook) {
+		
 		ExactBookDAO.yearProductionBook = yearProductionBook;
-		return this;
-	}
-	
-	public ExactBookDAO setBookName(String bookName) {
-		setBookName(bookName);
 		return this;
 	}
 	
@@ -80,5 +100,8 @@ public class ExactBookDAO {
 	
 	public void updateYear(int yearProductionBook) {
 		setYearProductionBook(yearProductionBook);
+	}
+	
+	public void selfDestruct() {
 	}
 }

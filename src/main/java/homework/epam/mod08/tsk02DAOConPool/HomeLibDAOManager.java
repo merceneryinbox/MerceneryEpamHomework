@@ -292,7 +292,7 @@ public class HomeLibDAOManager {
 			e.printStackTrace();
 			// TODO: 17.11.2017 add logger
 		}
-		return new ExactBookDAO(getConnection()).setBookName(bookName)
+		return new ExactBookDAO(getConnection(), bookName)
 				.setAuthor(author)
 				.setPublisher(publisher)
 				.setType(type)
