@@ -8,3 +8,5 @@ CREATE TABLE bookShelf
   yearproductionbook INT NOT NULL
 );
 
+INSERT INTO bookShelf(bookName, author, publisher, type, yearproductionbook)
+VALUES ('War and Peace','Lev Tolstoy','himself','drama',1867);
