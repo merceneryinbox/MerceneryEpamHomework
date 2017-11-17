@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
+import java.util.concurrent.ArrayBlockingQueue;
 
 /**
  * Don't forget close your library at the end of work with it !
@@ -28,6 +29,26 @@ public class HomeLibDAOManager {
 	private static PreparedStatement insertInfoInDB;
 	private static PreparedStatement dropTable;
 	private static ResultSet         resultSet;
+	
+	private static ArrayBlockingQueue<Connection> poolConnections;
+	
+	static {
+		poolConnections = new ArrayBlockingQueue<Connection>(10);
+		for (Connection c :
+				poolConnections) {
+			try {
+				c = DriverManager.getConnection(getUrl(), getUser(), getPassword());
+			} catch (SQLException sqle) {
+				System.err.println("Error initialize pool of connections. Reinitialize HomeLib for solvation");
+				// TODO: 17.11.2017 добавить логгер 
+			}
+		}
+	}
+	
+	private Connection getConnection() {
+	
+	
+	}
 	
 	public void connectToLibrary() {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk02HomeLibraryDBconfig.xml")) {
