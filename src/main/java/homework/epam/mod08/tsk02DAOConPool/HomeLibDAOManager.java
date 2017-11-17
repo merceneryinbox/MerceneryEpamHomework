@@ -303,6 +303,9 @@ public class HomeLibDAOManager {
 		
 		lock.lock();
 		try {
+			while (!tenConnections.isEmpty()) {
+				wait();
+			}
 			tenConnections.put(usedConnection);
 			notify();
 			lock.unlock();
