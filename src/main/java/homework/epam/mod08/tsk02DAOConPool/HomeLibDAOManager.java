@@ -208,12 +208,12 @@ public class HomeLibDAOManager {
 				String type               = resultSet.getString("type");
 				String publisher          = resultSet.getString("publisher");
 				
-				System.out.println("author | bookName | yearProductionBook | type | publisher");
-				System.out.print(author + " |");
+				System.out.println("bookName | author | publisher| type | yearProductionBook");
 				System.out.print(bookName + " |");
-				System.out.print(yearProductionBook + " |");
-				System.out.print(type + " |");
+				System.out.print(author + " |");
 				System.out.println(publisher + " |");
+				System.out.print(type + " |");
+				System.out.print(yearProductionBook + " |");
 			}
 			
 		} catch (SQLException e) {
