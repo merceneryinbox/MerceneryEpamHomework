@@ -20,24 +20,28 @@ public class SE08tsk02HomeLibDAOConn {
 		String publisher          = "W. W. Norton";
 		
 		
-		// создаю DAO домашней библиотеки
+		// создать DAO домашней библиотеки
 		
 		HomeLibDAOManager homeLib = new HomeLibDAOManager();
 		
+		//найти книгу и сохранить её DAO для дальнейшей работы
 		
-		// добавляю новую книгу
+		ExactBookDAO foundBookDAO = homeLib.getMeBook("War and Peace");
+		
+		
+		// добавить новую книгу через DAO библиотеки
 		
 		homeLib.setNewBook(bookName, author);
 		
 		
-		// создаю DAO для книги
+		// создать DAO для книги через DAO библиотеки
 		
 		ExactBookDAO fightClubDAO = homeLib.bornSeparateBookDAO(bookName);
 		
 		
 		// добавить данные про книгу в базе через DAO библиотеки
 		
-		homeLib.setYear(bookName, 1995);
+		homeLib.setYear(bookName, 1996);
 		homeLib.setType(bookName, type);
 		homeLib.setPublisher(bookName, "Walt Disney");
 		
@@ -45,7 +49,17 @@ public class SE08tsk02HomeLibDAOConn {
 		//корректировать данные по книге в базе через DAO самой книги
 		
 		fightClubDAO.updatePublisher(publisher);
-		fightClubDAO.updateYear(bookName, yearProductionBook);
+		foundBookDAO.updateYear(yearProductionBook);
+		
+		
+		//удалить книгу через DAO книги
+		
+		fightClubDAO.selfDestruct();
+		
+		
+		//удалить книгу через DAO библиотеки
+		
+		homeLib.throwToTrashBook("War and Peace");
 		
 	}
 }
