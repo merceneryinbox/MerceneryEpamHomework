@@ -2,9 +2,75 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork3SortNumbersThroughArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork_2_FunctionWithMargins.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamSE01HWTask4Matrix2D.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$BlockNote.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$EntryNote.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$BlockNote.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$EntryNote.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/Pen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/Pen2WithEnums.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/inkColor.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/penTypes.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Office.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Person.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Tools.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/TypeOfTool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$2.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AlbumForPainting.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AutomathicPencil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/NoteBook.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PilotDrawingPen.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PlainPencil.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/DrawingTool.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper$1.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/MainForPubsSubsStuds.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Geometry.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Literature.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Mathemathic.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalClass.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalDrive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineMemberInnerDrive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineNestedDrive.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2task4sortSet/MainForStatsSet.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk01CrazyLog/CrazyLogger.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk03HtmlArticle/HtmlParsingArticleMain.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/SE04tsk03Utf8ToUtf16/SE04tsk03.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task02CharStream/tsk02CharStrmSolution.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsInFileParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod5/tsk02UniversalPropertiesReader/mod05tsk02PropertiesReaderMercenery.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod6/tsk02UniversalPropertiesToMapReader/Mod06tsk02PropToMapReader.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountDecreaser.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/se07tsk01ParallelAccountManagerTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,100 +95,25 @@
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
-        <item name="bookshelf: table" type="a93d6ac6:PostgresImplModel$LocalTable" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="postgres: database" type="6d9b600a:PostgresImplModel$Database" />
-        <item name="se08tsk01schema: schema" type="a16502c0:PostgresImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="se08tsk02homelib: database" type="6d9b600a:PostgresImplModel$Database" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="roles" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SE08tsk02HomeLibDAOConn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="421">
-              <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ExactBookDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1510943195851" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
-                <marker date="1510943195851" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
-                <marker date="1510943195851" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
-                <marker date="1510943195851" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
-                <marker date="1510943195851" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+            <state relative-caret-position="395">
+              <caret line="135" column="40" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="40" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3983#3984#0" expanded="true" />
-                <element signature="e#4035#4036#0" expanded="true" />
-                <element signature="method#getMeBook#0;class#HomeLibDAOManager#0" expanded="true" />
-                <marker date="1510940443769" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-                <marker date="1510940443769" expanded="true" signature="972:979" ph="UPDATE ?... " />
-                <marker date="1510940443769" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-                <marker date="1510940443769" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-                <marker date="1510940443769" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-                <marker date="1510940443769" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-                <marker date="1510940443769" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-                <marker date="1510940443769" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+                <marker date="1511000538705" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+                <marker date="1511000538705" expanded="true" signature="972:979" ph="UPDATE ?... " />
+                <marker date="1511000538705" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+                <marker date="1511000538705" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+                <marker date="1511000538705" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511000538705" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+                <marker date="1511000538705" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+                <marker date="1511000538705" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -209,8 +200,8 @@
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
       </list>
     </option>
   </component>
@@ -287,6 +278,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -338,17 +332,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
@@ -643,12 +634,14 @@
       <workItem from="1510736811381" duration="858000" />
       <workItem from="1510760602685" duration="26500000" />
       <workItem from="1510841743214" duration="18562000" />
-      <workItem from="1510878518098" duration="23715000" />
+      <workItem from="1510878518098" duration="23951000" />
+      <workItem from="1510945553518" duration="158000" />
+      <workItem from="1510950631802" duration="2312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="243980000" />
+    <option name="totallyTimeSpent" value="246686000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -664,30 +657,29 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12515189" sideWeight="0.18697956" order="16" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13247539" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12515189" sideWeight="0.18697956" order="16" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26399395" sideWeight="0.49394855" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23052464" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19227858" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31642696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1317184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39871383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -701,7 +693,9 @@
       <window_info id="Regex Tester" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23052464" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -739,39 +733,11 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="31" />
+      <option name="time" value="32" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/serializedDAO.serial">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/SE04tsk03Utf8ToUtf16/SE04tsk03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="64" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="94" column="50" lean-forward="false" selection-start-line="94" selection-start-column="50" selection-end-line="94" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/StringBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1013,7 +979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="221" column="17" lean-forward="true" selection-start-line="221" selection-start-column="17" selection-end-line="221" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1021,7 +986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
           <caret line="123" column="17" lean-forward="false" selection-start-line="123" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1029,9 +993,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="1248" column="23" lean-forward="false" selection-start-line="1248" selection-start-column="23" selection-end-line="1248" selection-end-column="23" />
-          <folding>
-            <element signature="method#ThreadPoolExecutor#1;class#ThreadPoolExecutor#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,7 +1000,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
           <caret line="153" column="22" lean-forward="false" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1055,7 +1015,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="18" selection-end-column="2" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1063,7 +1022,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="207" column="6" lean-forward="false" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,23 +1030,23 @@
         <state relative-caret-position="144">
           <caret line="25" column="92" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#se08tsk01DB#0" expanded="true" />
-            <element signature="e#4344#4345#0" expanded="true" />
-            <element signature="e#4396#4397#0" expanded="true" />
-            <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="true" />
-            <element signature="e#4569#4570#0" expanded="true" />
-            <element signature="e#4619#4620#0" expanded="true" />
-            <element signature="e#4660#4661#0" expanded="true" />
-            <element signature="e#4714#4715#0" expanded="true" />
-            <element signature="e#4755#4756#0" expanded="true" />
-            <element signature="e#4807#4808#0" expanded="true" />
-            <element signature="e#4844#4845#0" expanded="true" />
-            <element signature="e#4894#4895#0" expanded="true" />
-            <element signature="e#4931#4932#0" expanded="true" />
-            <element signature="e#4981#4982#0" expanded="true" />
-            <element signature="e#5026#5027#0" expanded="true" />
-            <element signature="e#5076#5077#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="method#main#0;class#se08tsk01DB#0" expanded="false" />
+            <element signature="e#4344#4345#0" expanded="false" />
+            <element signature="e#4396#4397#0" expanded="false" />
+            <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="false" />
+            <element signature="e#4569#4570#0" expanded="false" />
+            <element signature="e#4619#4620#0" expanded="false" />
+            <element signature="e#4660#4661#0" expanded="false" />
+            <element signature="e#4714#4715#0" expanded="false" />
+            <element signature="e#4755#4756#0" expanded="false" />
+            <element signature="e#4807#4808#0" expanded="false" />
+            <element signature="e#4844#4845#0" expanded="false" />
+            <element signature="e#4894#4895#0" expanded="false" />
+            <element signature="e#4931#4932#0" expanded="false" />
+            <element signature="e#4981#4982#0" expanded="false" />
+            <element signature="e#5026#5027#0" expanded="false" />
+            <element signature="e#5076#5077#0" expanded="false" />
             <marker date="1510935168107" expanded="true" signature="676:705" ph="select * fro... ?" />
             <marker date="1510935168107" expanded="true" signature="676:707" ph="select * fro... ?" />
             <marker date="1510935168107" expanded="true" signature="749:782" ph="UPDATE ?... " />
@@ -1108,46 +1066,74 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="162" column="1" lean-forward="false" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <marker date="1510943195851" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
+            <marker date="1510943195851" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
+            <marker date="1510943195851" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
+            <marker date="1510943195851" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
+            <marker date="1510943195851" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
+        <state relative-caret-position="206">
           <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/EpamHomeWork3SortNumbersThroughArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/EpamHomeWork_2_FunctionWithMargins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/JSE01Task05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod1/EpamSE01HWTask4Matrix2D.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="257" column="8" lean-forward="false" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+        <state relative-caret-position="395">
+          <caret line="135" column="40" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="40" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3983#3984#0" expanded="true" />
-            <element signature="e#4035#4036#0" expanded="true" />
-            <element signature="method#getMeBook#0;class#HomeLibDAOManager#0" expanded="true" />
-            <marker date="1510940443769" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-            <marker date="1510940443769" expanded="true" signature="972:979" ph="UPDATE ?... " />
-            <marker date="1510940443769" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-            <marker date="1510940443769" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-            <marker date="1510940443769" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-            <marker date="1510940443769" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-            <marker date="1510940443769" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-            <marker date="1510940443769" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="40" column="33" lean-forward="false" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1510943195851" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
+            <marker date="1511000538705" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+            <marker date="1511000538705" expanded="true" signature="972:979" ph="UPDATE ?... " />
+            <marker date="1511000538705" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+            <marker date="1511000538705" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+            <marker date="1511000538705" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511000538705" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+            <marker date="1511000538705" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+            <marker date="1511000538705" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>

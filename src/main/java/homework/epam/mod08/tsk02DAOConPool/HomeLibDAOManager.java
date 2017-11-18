@@ -125,14 +125,18 @@ public class HomeLibDAOManager {
 	}
 	
 	public synchronized Connection getConnection() {
-		while (tenConnections.size() < 1) {
+		while (tenConnections.isEmpty()) {
 			try {
 				wait(1000);
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
-		return tenConnections.peek();
+		try {
+			return tenConnections.take();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 		
 	}
 	
@@ -255,7 +259,7 @@ public class HomeLibDAOManager {
 		}
 		
 	}
-		
+	
 	public void libraryClose() {
 		try {
 			connection.close();
