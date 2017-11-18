@@ -125,6 +125,7 @@ public class HomeLibDAOManager {
 	}
 	
 	public synchronized Connection getConnection() {
+		Connection returnCon = null;
 		while (tenConnections.isEmpty()) {
 			try {
 				wait(1000);
@@ -133,11 +134,11 @@ public class HomeLibDAOManager {
 			}
 		}
 		try {
-			return tenConnections.take();
+			returnCon = tenConnections.take();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
 		}
-		
+		return returnCon;
 	}
 	
 	public synchronized boolean shutDownPool() {

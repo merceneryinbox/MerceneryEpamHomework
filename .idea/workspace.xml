@@ -2,75 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork3SortNumbersThroughArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamHomeWork_2_FunctionWithMargins.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/EpamSE01HWTask4Matrix2D.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$BlockNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05$EntryNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$BlockNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray$EntryNote.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/JSE01Task05BlockNoteArray.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod1/SingleTonMyTest.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/Pen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/Pen2WithEnums.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/inkColor.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task1penwithenums/penTypes.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Office.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Person.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/Tools.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task2stationeryCost/TypeOfTool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet$2.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/JuniorSet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AlbumForPainting.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/AutomathicPencil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/Lastic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/NoteBook.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PilotDrawingPen.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/extStats/PlainPencil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/AdditionalOfficeTools.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/DrawingTool.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/Stationaries.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper$1.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task3inheritance/StationHerarchy/mainStats/StatsMainPaper.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/MainForPubsSubsStuds.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/StudentSubscriber.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/mainPublisherSubscriberStudAClass/SubjectPublisher.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/CultureStudent.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/studsExtClass/PoliTechnicBotan.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Biology.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Geometry.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Literature.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task5ParametrizeEnums/subjectsExtClass/Mathemathic.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalClass.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$1InnerLocalDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineMemberInnerDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine$AtomicSubmarineNestedDrive.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task6/NuclearSubmarine.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task7AnnoFortask6/MerceneryClassAnnoForTask6AtomSub.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2/task7AnnoFortask6/MerceneryMethodAnnoFortask6AtomSub.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod2task4sortSet/MainForStatsSet.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk01CrazyLog/CrazyLogger.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk02LocaleAndResourceBundle/EngRusQuestionAnswerApp.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod3/tsk03HtmlArticle/HtmlParsingArticleMain.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/SE04tsk03Utf8ToUtf16/SE04tsk03.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task02CharStream/tsk02CharStrmSolution.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task04SerialFileIO/DAOFilmsAndActors.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task04SerialFileIO/M4tsk4serialfileIOResolve.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsInFileParser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod5/tsk02UniversalPropertiesReader/mod05tsk02PropertiesReaderMercenery.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod6/tsk02UniversalPropertiesToMapReader/Mod06tsk02PropToMapReader.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountDecreaser.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/homework/epam/mod7/tsk01SynchParallelAccout/se07tsk01ParallelAccountManagerTest.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -103,17 +35,17 @@
       <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="135" column="40" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="40" />
+            <state relative-caret-position="373">
+              <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
               <folding>
-                <marker date="1511000538705" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-                <marker date="1511000538705" expanded="true" signature="972:979" ph="UPDATE ?... " />
-                <marker date="1511000538705" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-                <marker date="1511000538705" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-                <marker date="1511000538705" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-                <marker date="1511000538705" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-                <marker date="1511000538705" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-                <marker date="1511000538705" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+                <marker date="1511000650442" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+                <marker date="1511000650442" expanded="true" signature="972:979" ph="UPDATE ?... " />
+                <marker date="1511000650442" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+                <marker date="1511000650442" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+                <marker date="1511000650442" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511000650442" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+                <marker date="1511000650442" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+                <marker date="1511000650442" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -636,12 +568,12 @@
       <workItem from="1510841743214" duration="18562000" />
       <workItem from="1510878518098" duration="23951000" />
       <workItem from="1510945553518" duration="158000" />
-      <workItem from="1510950631802" duration="2312000" />
+      <workItem from="1510950631802" duration="2418000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246686000" />
+    <option name="totallyTimeSpent" value="246792000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1123,17 +1055,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="135" column="40" lean-forward="false" selection-start-line="135" selection-start-column="34" selection-end-line="135" selection-end-column="40" />
+        <state relative-caret-position="373">
+          <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
           <folding>
-            <marker date="1511000538705" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-            <marker date="1511000538705" expanded="true" signature="972:979" ph="UPDATE ?... " />
-            <marker date="1511000538705" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-            <marker date="1511000538705" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-            <marker date="1511000538705" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-            <marker date="1511000538705" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-            <marker date="1511000538705" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-            <marker date="1511000538705" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+            <marker date="1511000650442" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+            <marker date="1511000650442" expanded="true" signature="972:979" ph="UPDATE ?... " />
+            <marker date="1511000650442" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+            <marker date="1511000650442" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+            <marker date="1511000650442" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511000650442" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+            <marker date="1511000650442" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+            <marker date="1511000650442" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
