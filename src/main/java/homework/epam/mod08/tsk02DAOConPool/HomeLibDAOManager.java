@@ -156,6 +156,7 @@ public class HomeLibDAOManager {
 					tenConnections) {
 				c.close();
 			}
+			result = true;
 		} catch (SQLException e) {
 			// TODO: 17.11.2017 add logger
 			e.printStackTrace();
@@ -167,6 +168,7 @@ public class HomeLibDAOManager {
 	
 	public void setNewBook(String bookName, String author) {
 		try {
+			connection = getConnection();
 			insertInfoInDB = connection.prepareStatement(insertRequest);
 			insertInfoInDB.setString(1, bookName);
 			insertInfoInDB.setString(2, author);
@@ -178,14 +180,31 @@ public class HomeLibDAOManager {
 		} finally {
 			try {
 				insertInfoInDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 			
 		}
 	}
 	
+	public synchronized void putBackConnection(Connection usedConnection) {
+		
+		lock.lock();
+		try {
+			while (!tenConnections.isEmpty()) {
+				wait();
+			}
+			tenConnections.put(usedConnection);
+			notify();
+			lock.unlock();
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public void setYear(String bookName, int year) {
 		try {
+			connection = getConnection();
 			chageInfoInDB = connection.prepareStatement(updateYearRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
 			chageInfoInDB.setInt(1, year);
@@ -199,6 +218,7 @@ public class HomeLibDAOManager {
 		} finally {
 			try {
 				chageInfoInDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}
@@ -207,6 +227,7 @@ public class HomeLibDAOManager {
 	
 	public void setType(String bookName, String type) {
 		try {
+			connection = getConnection();
 			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
 			chageInfoInDB.setString(1, type);
@@ -220,6 +241,7 @@ public class HomeLibDAOManager {
 		} finally {
 			try {
 				chageInfoInDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}
@@ -227,6 +249,7 @@ public class HomeLibDAOManager {
 	
 	public void setPublisher(String bookName, String publisher) {
 		try {
+			connection = getConnection();
 			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
 			chageInfoInDB.setString(1, publisher);
@@ -240,6 +263,7 @@ public class HomeLibDAOManager {
 		} finally {
 			try {
 				chageInfoInDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}
@@ -247,6 +271,7 @@ public class HomeLibDAOManager {
 	
 	public void throwBookToTrash(String bookName) {
 		try {
+			connection = getConnection();
 			chageInfoInDB = connection.prepareStatement(deleteBookRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
 			chageInfoInDB.setString(1, bookName);
@@ -258,6 +283,7 @@ public class HomeLibDAOManager {
 		} finally {
 			try {
 				chageInfoInDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}
@@ -269,6 +295,7 @@ public class HomeLibDAOManager {
 		// с возможностью просматривать изменения в базе данных в режиме реального времени
 		// так же добавляю возможность изменять базу по ходу просмотра update....()
 		try {
+			connection = getConnection();
 			getInfoFromDB = connection.prepareStatement(selectStar, ResultSet.TYPE_SCROLL_SENSITIVE,
 			                                            ResultSet.CONCUR_UPDATABLE);
 			resultSet = getInfoFromDB.executeQuery();
@@ -294,10 +321,13 @@ public class HomeLibDAOManager {
 			try {
 				resultSet.close();
 				getInfoFromDB.close();
+				putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}
 	}
+/////////////////////////////////////////////////////////////////////////////////////////////
+// генерация DAO объекта конкретной записи в базе
 	
 	public void libraryClose() {
 		try {
@@ -315,8 +345,6 @@ public class HomeLibDAOManager {
 			}
 		}
 	}
-/////////////////////////////////////////////////////////////////////////////////////////////
-// генерация DAO объекта конкретной записи в базе
 	
 	public ExactBookDAO getMeBook(String bookName) {
 		String  author             = null;
@@ -324,6 +352,7 @@ public class HomeLibDAOManager {
 		String  type               = null;
 		Integer yearProductionBook = null;
 		try {
+			connection = getConnection();
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
 			resultSet = selectExactInfoFromDB.executeQuery();
 			
@@ -337,6 +366,8 @@ public class HomeLibDAOManager {
 		} catch (SQLException e) {
 			e.printStackTrace();
 			// TODO: 17.11.2017 add logger
+		} finally {
+			putBackConnection(connection);
 		}
 		return new ExactBookDAO(getConnection(), bookName)
 				.setAuthor(author)
@@ -347,25 +378,18 @@ public class HomeLibDAOManager {
 	
 	public void deleteBook(String bookName) {
 		try {
+			connection = getConnection();
 			chageInfoInDB = connection.prepareStatement(deleteBook);
 			chageInfoInDB.executeUpdate();
+			putBackConnection(connection);
 		} catch (SQLException e) {
 			e.printStackTrace();
-		}
-	}
-	
-	public synchronized void putBackConnection(Connection usedConnection) {
-		
-		lock.lock();
-		try {
-			while (!tenConnections.isEmpty()) {
-				wait();
+		} finally {
+			try {
+				chageInfoInDB.close();
+				putBackConnection(connection);
+			} catch (SQLException eIgnore) {
 			}
-			tenConnections.put(usedConnection);
-			notify();
-			lock.unlock();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
 		}
 	}
 }
