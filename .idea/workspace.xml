@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -12,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -35,17 +41,43 @@
       <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="373">
-              <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+            <state relative-caret-position="536">
+              <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
               <folding>
-                <marker date="1511000650442" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-                <marker date="1511000650442" expanded="true" signature="972:979" ph="UPDATE ?... " />
-                <marker date="1511000650442" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-                <marker date="1511000650442" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-                <marker date="1511000650442" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-                <marker date="1511000650442" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-                <marker date="1511000650442" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-                <marker date="1511000650442" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+                <marker date="1511077377342" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+                <marker date="1511077377342" expanded="true" signature="972:979" ph="UPDATE ?... " />
+                <marker date="1511077377342" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+                <marker date="1511077377342" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+                <marker date="1511077377342" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511077377342" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+                <marker date="1511077377342" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+                <marker date="1511077377342" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExactBookDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="200" column="41" lean-forward="false" selection-start-line="200" selection-start-column="41" selection-end-line="200" selection-end-column="41" />
+              <folding>
+                <element signature="method#getPublisher#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setPublisher#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#getType#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="e#3497#3498#0" expanded="true" />
+                <element signature="e#3519#3520#0" expanded="true" />
+                <element signature="method#setBookName#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setType#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#getYearProductionBook#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#setYearProductionBook#0;class#ExactBookDAO#0" expanded="true" />
+                <element signature="method#getAuthor#0;class#ExactBookDAO#0" expanded="true" />
+                <marker date="1511077712033" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
+                <marker date="1511077712033" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
+                <marker date="1511077712033" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
+                <marker date="1511077712033" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
+                <marker date="1511077712033" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
               </folding>
             </state>
           </provider>
@@ -83,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task02CharStream/tsk02CharStrmSolution.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/MerceneryJavaReservedWordsInFileParser.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod4/task1byteIO/SE04JavaByteSpecWordsParser.java" />
@@ -132,8 +163,9 @@
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
       </list>
     </option>
   </component>
@@ -212,7 +244,7 @@
     <panes>
       <pane id="Scratches" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -244,40 +276,27 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tsk01DBTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tsk02DAOConPool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hw" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistoryKey" value="Document&#9;PSI&#9;JAVA://org.w3c.dom.Document" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -568,12 +587,16 @@
       <workItem from="1510841743214" duration="18562000" />
       <workItem from="1510878518098" duration="23951000" />
       <workItem from="1510945553518" duration="158000" />
-      <workItem from="1510950631802" duration="2418000" />
+      <workItem from="1510950631802" duration="2446000" />
+      <workItem from="1511004483960" duration="189000" />
+      <workItem from="1511004724324" duration="43000" />
+      <workItem from="1511011534856" duration="83000" />
+      <workItem from="1511076701969" duration="1015000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="246792000" />
+    <option name="totallyTimeSpent" value="248150000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,8 +624,8 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31642696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14912945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1317184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven-2 Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -665,43 +688,11 @@
           <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="32" />
+      <option name="time" value="33" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk-9/lib/src.zip!/java.base/java/lang/StringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="71" column="0" lean-forward="true" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;method#StringBuilder#1;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#StringBuilder#2;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#StringBuilder#3;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#append#2;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#append#4;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#append#6;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#appendCodePoint#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#delete#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#deleteCharAt#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#replace#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#1;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#2;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#4;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#5;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#6;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#7;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#8;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#9;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#10;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#insert#11;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#writeObject#0;class#StringBuilder#0" expanded="false" />
-            <element signature="docComment;method#readObject#0;class#StringBuilder#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk01CrazyLog/CrazyLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="461">
@@ -728,13 +719,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_ru.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="2" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="21" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod3/tsk02LocaleAndResourceBundle/BundleResource_en.properties">
@@ -814,7 +805,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="14" lean-forward="false" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -903,7 +893,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="13" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -939,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="40" lean-forward="false" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -961,32 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="25" column="92" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#main#0;class#se08tsk01DB#0" expanded="false" />
-            <element signature="e#4344#4345#0" expanded="false" />
-            <element signature="e#4396#4397#0" expanded="false" />
-            <element signature="method#getUrl#0;class#se08tsk01DB#0" expanded="false" />
-            <element signature="e#4569#4570#0" expanded="false" />
-            <element signature="e#4619#4620#0" expanded="false" />
-            <element signature="e#4660#4661#0" expanded="false" />
-            <element signature="e#4714#4715#0" expanded="false" />
-            <element signature="e#4755#4756#0" expanded="false" />
-            <element signature="e#4807#4808#0" expanded="false" />
-            <element signature="e#4844#4845#0" expanded="false" />
-            <element signature="e#4894#4895#0" expanded="false" />
-            <element signature="e#4931#4932#0" expanded="false" />
-            <element signature="e#4981#4982#0" expanded="false" />
-            <element signature="e#5026#5027#0" expanded="false" />
-            <element signature="e#5076#5077#0" expanded="false" />
-            <marker date="1510935168107" expanded="true" signature="676:705" ph="select * fro... ?" />
-            <marker date="1510935168107" expanded="true" signature="676:707" ph="select * fro... ?" />
-            <marker date="1510935168107" expanded="true" signature="749:782" ph="UPDATE ?... " />
-            <marker date="1510935168107" expanded="true" signature="826:863" ph="UPDATE ?... " />
-            <marker date="1510935168107" expanded="true" signature="907:964" ph="INSERT INTO users... " />
-            <marker date="1510935168107" expanded="true" signature="924:925" ph="UPDATE ?... " />
-            <marker date="1510935168107" expanded="true" signature="1008:1030" ph="DROP TABLE I... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,22 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="55" lean-forward="false" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="162" column="1" lean-forward="false" selection-start-line="162" selection-start-column="1" selection-end-line="162" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1510943195851" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
-            <marker date="1510943195851" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1017,7 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="60" column="27" lean-forward="false" selection-start-line="60" selection-start-column="27" selection-end-line="60" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1025,7 +970,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1033,7 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1041,7 +984,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1049,23 +991,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="200" column="41" lean-forward="false" selection-start-line="200" selection-start-column="41" selection-end-line="200" selection-end-column="41" />
+          <folding>
+            <element signature="method#getPublisher#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setPublisher#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#getType#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="e#3497#3498#0" expanded="true" />
+            <element signature="e#3519#3520#0" expanded="true" />
+            <element signature="method#setBookName#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setType#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#getYearProductionBook#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#setYearProductionBook#0;class#ExactBookDAO#0" expanded="true" />
+            <element signature="method#getAuthor#0;class#ExactBookDAO#0" expanded="true" />
+            <marker date="1511077712033" expanded="true" signature="658:722" ph="UPDATE TABLE... " />
+            <marker date="1511077712033" expanded="true" signature="775:825" ph="UPDATE TABLE... " />
+            <marker date="1511077712033" expanded="true" signature="878:930" ph="UPDATE TABLE... " />
+            <marker date="1511077712033" expanded="true" signature="983:1038" ph="UPDATE TABLE... " />
+            <marker date="1511077712033" expanded="true" signature="1091:1131" ph="SELECT ? FRO... bookshelf" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="140" column="25" lean-forward="false" selection-start-line="140" selection-start-column="25" selection-end-line="140" selection-end-column="25" />
+        <state relative-caret-position="536">
+          <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
           <folding>
-            <marker date="1511000650442" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-            <marker date="1511000650442" expanded="true" signature="972:979" ph="UPDATE ?... " />
-            <marker date="1511000650442" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-            <marker date="1511000650442" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-            <marker date="1511000650442" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-            <marker date="1511000650442" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-            <marker date="1511000650442" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-            <marker date="1511000650442" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+            <marker date="1511077377342" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+            <marker date="1511077377342" expanded="true" signature="972:979" ph="UPDATE ?... " />
+            <marker date="1511077377342" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+            <marker date="1511077377342" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+            <marker date="1511077377342" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511077377342" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+            <marker date="1511077377342" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+            <marker date="1511077377342" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>

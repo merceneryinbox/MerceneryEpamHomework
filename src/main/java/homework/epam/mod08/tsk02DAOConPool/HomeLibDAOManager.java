@@ -167,155 +167,183 @@ public class HomeLibDAOManager {
 		} catch (SQLException e) {
 			System.err.println("Error insert new book into your library");
 			// TODO: 17.11.2017 Добавить логгер
-		}
-		
-	}
-	
-	public void setYear(String bookName, int year) {
-		try {
-			chageInfoInDB = connection.prepareStatement(updateYearRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setInt(1, year);
-			chageInfoInDB.setString(2, bookName);
-			
-			chageInfoInDB.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-			// TODO: 17.11.2017 добавить логгер
-			
-		}
-		
-	}
-	
-	public void setType(String bookName, String type) {
-		try {
-			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setString(1, type);
-			chageInfoInDB.setString(2, bookName);
-			
-			chageInfoInDB.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-			// TODO: 17.11.2017 добавить логгер
-			
-		}
-	}
-	
-	public void setPublisher(String bookName, String publisher) {
-		try {
-			chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setString(1, publisher);
-			chageInfoInDB.setString(2, bookName);
-			
-			chageInfoInDB.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-			// TODO: 17.11.2017 добавить логгер
-			
-		}
-	}
-	
-	public void throwBookToTrash(String bookName) {
-		try {
-			chageInfoInDB = connection.prepareStatement(deleteBookRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			chageInfoInDB.setString(1, bookName);
-			
-			chageInfoInDB.executeUpdate();
-		} catch (SQLException e) {
-			e.printStackTrace();
-			// TODO: 17.11.2017 добавить логгер
-		}
-	}
-	
-	public void bookShelf() {
-		// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
-		// и вперёд next()
-		// с возможностью просматривать изменения в базе данных в режиме реального времени
-		// так же добавляю возможность изменять базу по ходу просмотра update....()
-		try {
-			getInfoFromDB = connection.prepareStatement(selectStar, ResultSet.TYPE_SCROLL_SENSITIVE,
-			                                            ResultSet.CONCUR_UPDATABLE);
-			resultSet = getInfoFromDB.executeQuery();
-			
-			while (resultSet.next()) {
-				String author             = resultSet.getString("author");
-				String bookName           = resultSet.getString("bookName");
-				String yearProductionBook = resultSet.getString("yearProductionBook");
-				String type               = resultSet.getString("type");
-				String publisher          = resultSet.getString("publisher");
-				
-				System.out.println("bookName | author | publisher| type | yearProductionBook");
-				System.out.print(bookName + " |");
-				System.out.print(author + " |");
-				System.out.println(publisher + " |");
-				System.out.print(type + " |");
-				System.out.print(yearProductionBook + " |");
-			}
-			
-		} catch (SQLException e) {
-			e.printStackTrace();
-		}
-		
-	}
-	
-	public void libraryClose() {
-		try {
-			connection.close();
-		} catch (SQLException e) {
-			e.printStackTrace();
 		} finally {
 			try {
-				connection.close();
-			} catch (SQLException eignore) {
-				// TODO: 17.11.2017  Добавить логгер
+				insertInfoInDB.close();
+			} catch (SQLException eIgnore) {
 			}
+			
 		}
-	}
+		
+		public void setYear (String bookName,int year){
+			try {
+				chageInfoInDB = connection.prepareStatement(updateYearRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+				                                            ResultSet.CONCUR_UPDATABLE);
+				chageInfoInDB.setInt(1, year);
+				chageInfoInDB.setString(2, bookName);
+				
+				chageInfoInDB.executeUpdate();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				// TODO: 17.11.2017 добавить логгер
+				
+			} finally {
+				try {
+					chageInfoInDB.close();
+				} catch (SQLException eIgnore) {
+				}
+			}
+			
+		}
+		
+		public void setType (String bookName, String type){
+			try {
+				chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+				                                            ResultSet.CONCUR_UPDATABLE);
+				chageInfoInDB.setString(1, type);
+				chageInfoInDB.setString(2, bookName);
+				
+				chageInfoInDB.executeUpdate();
+			} catch (SQLException e) {
+				e.printStackTrace();
+				// TODO: 17.11.2017 добавить логгер
+				
+			} finally {
+				try {
+					chageInfoInDB.close();
+				} catch (SQLException eIgnore) {
+				}
+			}
+			
+			public void setPublisher (String bookName, String publisher){
+				try {
+					chageInfoInDB = connection.prepareStatement(updateTypeRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+					                                            ResultSet.CONCUR_UPDATABLE);
+					chageInfoInDB.setString(1, publisher);
+					chageInfoInDB.setString(2, bookName);
+					
+					chageInfoInDB.executeUpdate();
+				} catch (SQLException e) {
+					e.printStackTrace();
+					// TODO: 17.11.2017 добавить логгер
+					
+				} finally {
+					try {
+						chageInfoInDB.close();
+					} catch (SQLException eIgnore) {
+					}
+				}
+				
+				public void throwBookToTrash (String bookName){
+					try {
+						chageInfoInDB = connection.prepareStatement(deleteBookRequest, ResultSet.TYPE_SCROLL_SENSITIVE,
+						                                            ResultSet.CONCUR_UPDATABLE);
+						chageInfoInDB.setString(1, bookName);
+						
+						chageInfoInDB.executeUpdate();
+					} catch (SQLException e) {
+						e.printStackTrace();
+						// TODO: 17.11.2017 добавить логгер
+					} finally {
+						try {
+							chageInfoInDB.close();
+						} catch (SQLException eIgnore) {
+						}
+					}
+					
+					public void bookShelf () {
+						// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
+						// и вперёд next()
+						// с возможностью просматривать изменения в базе данных в режиме реального времени
+						// так же добавляю возможность изменять базу по ходу просмотра update....()
+						try {
+							getInfoFromDB = connection.prepareStatement(selectStar, ResultSet.TYPE_SCROLL_SENSITIVE,
+							                                            ResultSet.CONCUR_UPDATABLE);
+							resultSet = getInfoFromDB.executeQuery();
+							
+							while (resultSet.next()) {
+								author = resultSet.getString("author");
+								bookName = resultSet.getString("bookName");
+								String yearProductionBook = resultSet.getString("yearProductionBook");
+								String type               = resultSet.getString("type");
+								String publisher          = resultSet.getString("publisher");
+								
+								System.out.println("bookName | author | publisher| type | yearProductionBook");
+								System.out.print(bookName + " |");
+								System.out.print(author + " |");
+								System.out.println(publisher + " |");
+								System.out.print(type + " |");
+								System.out.print(yearProductionBook + " |");
+							}
+							
+						} catch (SQLException e) {
+							e.printStackTrace();
+						} finally {
+							try {
+								resultSet.close();
+								getInfoFromDB.close();
+							} catch (SQLException eIgnore) {
+							}
+						}
+						
+						public void libraryClose () {
+							try {
+								for (Connection c :
+										tenConnections) {
+									connection.close();
+								}
+							} catch (SQLException e) {
+								e.printStackTrace();
+							} finally {
+								try {
+									connection.close();
+								} catch (SQLException eignore) {
+									// TODO: 17.11.2017  Добавить логгер
+								}
+							}
+						}
 /////////////////////////////////////////////////////////////////////////////////////////////
 // генерация DAO объекта конкретной записи в базе
-	
-	public ExactBookDAO getMeBook(String bookName) {
-		String  author             = null;
-		String  publisher          = null;
-		String  type               = null;
-		Integer yearProductionBook = null;
-		try {
-			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
-			resultSet = selectExactInfoFromDB.executeQuery();
-			
-			resultSet.next();
-			
-			String dropBookName = resultSet.getString("bookName");
-			author = resultSet.getString("author");
-			publisher = resultSet.getString("publisher");
-			type = resultSet.getString("type");
-			yearProductionBook = resultSet.getInt("yearProductionBook");
-		} catch (SQLException e) {
-			e.printStackTrace();
-			// TODO: 17.11.2017 add logger
-		}
-		return new ExactBookDAO(getConnection(), bookName)
-				.setAuthor(author)
-				.setPublisher(publisher)
-				.setType(type)
-				.setYearProductionBook(yearProductionBook);
-	}
-	
-	public synchronized void putBackConnection(Connection usedConnection) {
-		
-		lock.lock();
-		try {
-			while (!tenConnections.isEmpty()) {
-				wait();
-			}
-			tenConnections.put(usedConnection);
-			notify();
-			lock.unlock();
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-	}
-}
+						
+						public ExactBookDAO getMeBook (String bookName){
+							author = null;
+							String  publisher          = null;
+							String  type               = null;
+							Integer yearProductionBook = null;
+							try {
+								selectExactInfoFromDB = connection.prepareStatement(selectRequest);
+								resultSet = selectExactInfoFromDB.executeQuery();
+								
+								resultSet.next();
+								
+								String dropBookName = resultSet.getString("bookName");
+								author = resultSet.getString("author");
+								publisher = resultSet.getString("publisher");
+								type = resultSet.getString("type");
+								yearProductionBook = resultSet.getInt("yearProductionBook");
+							} catch (SQLException e) {
+								e.printStackTrace();
+								// TODO: 17.11.2017 add logger
+							}
+							return new ExactBookDAO(getConnection(), bookName)
+									.setAuthor(author)
+									.setPublisher(publisher)
+									.setType(type)
+									.setYearProductionBook(yearProductionBook);
+						}
+						
+						public synchronized void putBackConnection (Connection usedConnection){
+							
+							lock.lock();
+							try {
+								while (!tenConnections.isEmpty()) {
+									wait();
+								}
+								tenConnections.put(usedConnection);
+								notify();
+								lock.unlock();
+							} catch (InterruptedException e) {
+								e.printStackTrace();
+							}
+						}
+					}

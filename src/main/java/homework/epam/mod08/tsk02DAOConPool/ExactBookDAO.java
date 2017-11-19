@@ -49,6 +49,12 @@ public class ExactBookDAO {
 			setPublisher(resultSet.getString("publisher"));
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				resultSet.close();
+				selectExactInfoFromDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return publisher;
 	}
@@ -62,6 +68,11 @@ public class ExactBookDAO {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				chageInfoInDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return this;
 	}
@@ -77,6 +88,12 @@ public class ExactBookDAO {
 			setType(resultSet.getString("type"));
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				resultSet.close();
+				selectExactInfoFromDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return type;
 	}
@@ -99,6 +116,11 @@ public class ExactBookDAO {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				chageInfoInDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return this;
 	}
@@ -114,6 +136,12 @@ public class ExactBookDAO {
 			setYearProductionBook(resultSet.getInt("yearproductionbook"));
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				resultSet.close();
+				selectExactInfoFromDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return yearProductionBook;
 	}
@@ -127,6 +155,11 @@ public class ExactBookDAO {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				chageInfoInDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return this;
 	}
@@ -143,6 +176,12 @@ public class ExactBookDAO {
 			
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				resultSet.close();
+				getInfoFromDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return author;
 	}
@@ -156,6 +195,11 @@ public class ExactBookDAO {
 			chageInfoInDB.executeUpdate();
 		} catch (SQLException e) {
 			e.printStackTrace();
+		} finally {
+			try {
+				chageInfoInDB.close();
+			} catch (SQLException eIgnore) {
+			}
 		}
 		return this;
 	}
