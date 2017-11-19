@@ -266,8 +266,8 @@ public class HomeLibDAOManager {
 			resultSet = getInfoFromDB.executeQuery();
 			
 			while (resultSet.next()) {
-				author = resultSet.getString("author");
-				bookName = resultSet.getString("bookName");
+				String author             = resultSet.getString("author");
+				String bookName           = resultSet.getString("bookName");
 				String yearProductionBook = resultSet.getString("yearProductionBook");
 				String type               = resultSet.getString("type");
 				String publisher          = resultSet.getString("publisher");
@@ -311,7 +311,7 @@ public class HomeLibDAOManager {
 // генерация DAO объекта конкретной записи в базе
 	
 	public ExactBookDAO getMeBook(String bookName) {
-		author = null;
+		String  author             = null;
 		String  publisher          = null;
 		String  type               = null;
 		Integer yearProductionBook = null;
@@ -351,4 +351,5 @@ public class HomeLibDAOManager {
 			e.printStackTrace();
 		}
 	}
+}
 
