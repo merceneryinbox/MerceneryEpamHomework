@@ -41,6 +41,7 @@ public class HomeLibDAOManager {
 	static {
 		lock = new ReentrantLock();
 		tenConnections = new LinkedBlockingDeque<Connection>(10);
+		CONFIGS = new Properties();
 		
 		try (InputStream stream = new FileInputStream("./src/resource/se08tsk02HomeLibraryDBconfig.xml")) {
 			CONFIGS.loadFromXML(stream);
