@@ -19,7 +19,7 @@ public class ExactBookDAO {
 	private static String updateTypeRequest      = "UPDATE  bookshelf SET type=? WHERE bookname=?;";
 	private static String updateAuthorRequest    = "UPDATE  bookshelf SET author=? WHERE bookname=?;";
 	private static String updatePublisherRequest = "UPDATE  bookshelf SET publisher=? WHERE bookname=?;";
-	private static String deleteBook             = "DELETE * WHERE bookname=?;";
+	private static String deleteBook             = "DELETE FROM bookshelf WHERE bookname=?;";
 	private static String selectRequest          = "SELECT ? FROM bookshelf WHERE bookname=?;";
 	
 	private static Connection        connection;

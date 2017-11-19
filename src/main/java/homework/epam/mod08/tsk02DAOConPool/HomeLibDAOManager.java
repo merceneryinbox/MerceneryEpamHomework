@@ -30,6 +30,8 @@ public class HomeLibDAOManager {
 			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
 	private static String dropRequest       = "DROP TABLE IF EXISTS bookshelf;";
 	private static String deleteBookRequest = "DELETE FROM bookShelf WHERE bookname=?;";
+	private static String deleteBook        = "DELETE FROM bookshelf WHERE bookname=?;";
+	
 	
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
@@ -341,6 +343,15 @@ public class HomeLibDAOManager {
 				.setPublisher(publisher)
 				.setType(type)
 				.setYearProductionBook(yearProductionBook);
+	}
+	
+	public void deleteBook(String bookName) {
+		try {
+			chageInfoInDB = connection.prepareStatement(deleteBook);
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public synchronized void putBackConnection(Connection usedConnection) {
