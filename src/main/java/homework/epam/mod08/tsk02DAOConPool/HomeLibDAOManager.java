@@ -23,8 +23,8 @@ public class HomeLibDAOManager {
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки ++ 17.10.2017 ::19:05
 	private static String selectStar        = "SELECT * FROM bookShelf;";
-	private static String updateYearRequest = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
-	private static String updateTypeRequest = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
+	private static String updateYearRequest = "UPDATE  bookshelf SET yearproductionbook=? WHERE bookname=?;";
+	private static String updateTypeRequest = "UPDATE  bookshelf SET type=? WHERE bookname=?;";
 	private static String selectRequest     = "SELECT * FROM bookshelf WHERE bookname=?;";
 	private static String insertRequest     =
 			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
