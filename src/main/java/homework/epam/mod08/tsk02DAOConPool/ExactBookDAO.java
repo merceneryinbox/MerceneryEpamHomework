@@ -15,22 +15,16 @@ public class ExactBookDAO {
 	
 	// TODO: 17.11.2017 переписать prepared statement запросы под базу библиотеки
 	private static String selectStar             = "SELECT * FROM bookShelf;";
-	private static String updateYearRequest      = "UPDATE TABLE bookshelf SET yearproductionbook=? WHERE bookname=?;";
-	private static String updateTypeRequest      = "UPDATE TABLE bookshelf SET type=? WHERE bookname=?;";
-	private static String updateAuthorRequest    = "UPDATE TABLE bookshelf SET author=? WHERE bookname=?;";
-	private static String updatePublisherRequest = "UPDATE TABLE bookshelf SET publisher=? WHERE bookname=?;";
+	private static String updateYearRequest      = "UPDATE  bookshelf SET yearproductionbook=? WHERE bookname=?;";
+	private static String updateTypeRequest      = "UPDATE  bookshelf SET type=? WHERE bookname=?;";
+	private static String updateAuthorRequest    = "UPDATE  bookshelf SET author=? WHERE bookname=?;";
+	private static String updatePublisherRequest = "UPDATE  bookshelf SET publisher=? WHERE bookname=?;";
 	private static String selectRequest          = "SELECT ? FROM bookshelf WHERE bookname=?;";
-	private static String insertRequest          =
-			"INSERT INTO  bookshelf (bookname,author,publisher, type, yearproductionbook) VALUES (?,?,?,?,?);";
-	private static String dropRequest            = "DROP TABLE IF EXISTS bookshelf;";
-	private static String deleteBookRequest      = "DELETE FROM bookShelf WHERE bookname=?;";
 	
 	private static Connection        connection;
 	private static PreparedStatement getInfoFromDB;
 	private static PreparedStatement chageInfoInDB;
 	private static PreparedStatement selectExactInfoFromDB;
-	private static PreparedStatement insertInfoInDB;
-	private static PreparedStatement dropTable;
 	private static ResultSet         resultSet;
 	
 	public ExactBookDAO(Connection connection, String bookName) {
@@ -147,7 +141,7 @@ public class ExactBookDAO {
 	}
 	
 	public ExactBookDAO setYearProductionBook(Integer yearProductionBook) {
-		ExactBookDAO.yearProductionBook = yearProductionBook;
+		this.yearProductionBook = yearProductionBook;
 		try {
 			chageInfoInDB = connection.prepareStatement(updateYearRequest);
 			chageInfoInDB.setInt(1, yearProductionBook);
@@ -187,7 +181,7 @@ public class ExactBookDAO {
 	}
 	
 	public ExactBookDAO setAuthor(String author) {
-		setAuthor(author);
+		this.author=author;
 		try {
 			chageInfoInDB = connection.prepareStatement(updateAuthorRequest);
 			chageInfoInDB.setString(1, author);
