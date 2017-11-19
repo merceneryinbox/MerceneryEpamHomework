@@ -38,32 +38,32 @@
       <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+            <state relative-caret-position="210">
+              <caret line="44" column="98" lean-forward="false" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
               <folding>
                 <element signature="docComment;class#HomeLibDAOManager#0" expanded="false" />
-                <element signature="e#2929#2930#0" expanded="true" />
-                <element signature="e#2981#2982#0" expanded="true" />
-                <element signature="e#3018#3019#0" expanded="true" />
-                <element signature="e#3068#3069#0" expanded="true" />
-                <element signature="e#3105#3106#0" expanded="true" />
-                <element signature="e#3155#3156#0" expanded="true" />
-                <element signature="e#3200#3201#0" expanded="true" />
-                <element signature="e#3250#3251#0" expanded="true" />
-                <element signature="e#3287#3288#0" expanded="true" />
-                <element signature="e#3337#3338#0" expanded="true" />
-                <element signature="e#3378#3379#0" expanded="true" />
-                <element signature="e#3432#3433#0" expanded="true" />
-                <element signature="e#4249#4250#0" expanded="true" />
-                <element signature="e#4301#4302#0" expanded="true" />
-                <marker date="1511078461348" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
-                <marker date="1511078461348" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
-                <marker date="1511078461348" expanded="true" signature="1023:1087" ph="UPDATE TABLE... " />
-                <marker date="1511078461348" expanded="true" signature="1135:1185" ph="UPDATE TABLE... " />
-                <marker date="1511078461348" expanded="true" signature="1233:1273" ph="SELECT * FRO... bookshelf" />
-                <marker date="1511078461348" expanded="true" signature="1324:1419" ph="INSERT INTO bookshelf" />
-                <marker date="1511078461348" expanded="true" signature="1545:1583" ph="DELETE FROM bookShelf... " />
-                <marker date="1511078461348" expanded="true" signature="1582:1583" ph="DROP TABLE I... " />
+                <element signature="e#2962#2963#0" expanded="true" />
+                <element signature="e#3014#3015#0" expanded="true" />
+                <element signature="e#3051#3052#0" expanded="true" />
+                <element signature="e#3101#3102#0" expanded="true" />
+                <element signature="e#3138#3139#0" expanded="true" />
+                <element signature="e#3188#3189#0" expanded="true" />
+                <element signature="e#3233#3234#0" expanded="true" />
+                <element signature="e#3283#3284#0" expanded="true" />
+                <element signature="e#3320#3321#0" expanded="true" />
+                <element signature="e#3370#3371#0" expanded="true" />
+                <element signature="e#3411#3412#0" expanded="true" />
+                <element signature="e#3465#3466#0" expanded="true" />
+                <element signature="e#4282#4283#0" expanded="true" />
+                <element signature="e#4334#4335#0" expanded="true" />
+                <marker date="1511078575106" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
+                <marker date="1511078575106" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
+                <marker date="1511078575106" expanded="true" signature="1023:1087" ph="UPDATE TABLE... " />
+                <marker date="1511078575106" expanded="true" signature="1135:1185" ph="UPDATE TABLE... " />
+                <marker date="1511078575106" expanded="true" signature="1233:1273" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511078575106" expanded="true" signature="1324:1419" ph="INSERT INTO bookshelf" />
+                <marker date="1511078575106" expanded="true" signature="1545:1583" ph="DELETE FROM bookShelf... " />
+                <marker date="1511078575106" expanded="true" signature="1582:1583" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -289,6 +289,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tsk02DAOConPool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -603,12 +609,12 @@
       <workItem from="1511004483960" duration="189000" />
       <workItem from="1511004724324" duration="43000" />
       <workItem from="1511011534856" duration="83000" />
-      <workItem from="1511076701969" duration="1748000" />
+      <workItem from="1511076701969" duration="1858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248883000" />
+    <option name="totallyTimeSpent" value="248993000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -636,7 +642,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1472" sideWeight="0.81302047" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14912945" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20287661" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1317184" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1043,32 +1049,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="51" column="12" lean-forward="false" selection-start-line="51" selection-start-column="12" selection-end-line="51" selection-end-column="12" />
+        <state relative-caret-position="210">
+          <caret line="44" column="98" lean-forward="false" selection-start-line="44" selection-start-column="98" selection-end-line="44" selection-end-column="98" />
           <folding>
             <element signature="docComment;class#HomeLibDAOManager#0" expanded="false" />
-            <element signature="e#2929#2930#0" expanded="true" />
-            <element signature="e#2981#2982#0" expanded="true" />
-            <element signature="e#3018#3019#0" expanded="true" />
-            <element signature="e#3068#3069#0" expanded="true" />
-            <element signature="e#3105#3106#0" expanded="true" />
-            <element signature="e#3155#3156#0" expanded="true" />
-            <element signature="e#3200#3201#0" expanded="true" />
-            <element signature="e#3250#3251#0" expanded="true" />
-            <element signature="e#3287#3288#0" expanded="true" />
-            <element signature="e#3337#3338#0" expanded="true" />
-            <element signature="e#3378#3379#0" expanded="true" />
-            <element signature="e#3432#3433#0" expanded="true" />
-            <element signature="e#4249#4250#0" expanded="true" />
-            <element signature="e#4301#4302#0" expanded="true" />
-            <marker date="1511078461348" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
-            <marker date="1511078461348" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
-            <marker date="1511078461348" expanded="true" signature="1023:1087" ph="UPDATE TABLE... " />
-            <marker date="1511078461348" expanded="true" signature="1135:1185" ph="UPDATE TABLE... " />
-            <marker date="1511078461348" expanded="true" signature="1233:1273" ph="SELECT * FRO... bookshelf" />
-            <marker date="1511078461348" expanded="true" signature="1324:1419" ph="INSERT INTO bookshelf" />
-            <marker date="1511078461348" expanded="true" signature="1545:1583" ph="DELETE FROM bookShelf... " />
-            <marker date="1511078461348" expanded="true" signature="1582:1583" ph="DROP TABLE I... " />
+            <element signature="e#2962#2963#0" expanded="true" />
+            <element signature="e#3014#3015#0" expanded="true" />
+            <element signature="e#3051#3052#0" expanded="true" />
+            <element signature="e#3101#3102#0" expanded="true" />
+            <element signature="e#3138#3139#0" expanded="true" />
+            <element signature="e#3188#3189#0" expanded="true" />
+            <element signature="e#3233#3234#0" expanded="true" />
+            <element signature="e#3283#3284#0" expanded="true" />
+            <element signature="e#3320#3321#0" expanded="true" />
+            <element signature="e#3370#3371#0" expanded="true" />
+            <element signature="e#3411#3412#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4334#4335#0" expanded="true" />
+            <marker date="1511078575106" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
+            <marker date="1511078575106" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
+            <marker date="1511078575106" expanded="true" signature="1023:1087" ph="UPDATE TABLE... " />
+            <marker date="1511078575106" expanded="true" signature="1135:1185" ph="UPDATE TABLE... " />
+            <marker date="1511078575106" expanded="true" signature="1233:1273" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511078575106" expanded="true" signature="1324:1419" ph="INSERT INTO bookshelf" />
+            <marker date="1511078575106" expanded="true" signature="1545:1583" ph="DELETE FROM bookShelf... " />
+            <marker date="1511078575106" expanded="true" signature="1582:1583" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>

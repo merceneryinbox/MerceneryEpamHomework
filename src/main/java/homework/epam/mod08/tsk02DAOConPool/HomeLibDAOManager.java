@@ -40,10 +40,9 @@ public class HomeLibDAOManager {
 	
 	static {
 		lock = new ReentrantLock();
-		
 		tenConnections = new LinkedBlockingDeque<Connection>(10);
 		
-		try (InputStream stream = new FileInputStream("configs.xml")) {
+		try (InputStream stream = new FileInputStream("./src/resource/se08tsk02HomeLibraryDBconfig.xml")) {
 			CONFIGS.loadFromXML(stream);
 			Class.forName(getDBDriver());
 		} catch (ClassNotFoundException e) {
