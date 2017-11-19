@@ -19,6 +19,7 @@ public class ExactBookDAO {
 	private static String updateTypeRequest      = "UPDATE  bookshelf SET type=? WHERE bookname=?;";
 	private static String updateAuthorRequest    = "UPDATE  bookshelf SET author=? WHERE bookname=?;";
 	private static String updatePublisherRequest = "UPDATE  bookshelf SET publisher=? WHERE bookname=?;";
+	private static String deleteBook             = "DELETE * WHERE bookname=?;";
 	private static String selectRequest          = "SELECT ? FROM bookshelf WHERE bookname=?;";
 	
 	private static Connection        connection;
@@ -181,7 +182,7 @@ public class ExactBookDAO {
 	}
 	
 	public ExactBookDAO setAuthor(String author) {
-		this.author=author;
+		this.author = author;
 		try {
 			chageInfoInDB = connection.prepareStatement(updateAuthorRequest);
 			chageInfoInDB.setString(1, author);
@@ -198,4 +199,20 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	public void selfDestruct() {
+		try {
+			chageInfoInDB = connection.prepareStatement(deleteBook);
+			chageInfoInDB.executeUpdate();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		} finally {
+			try {
+				chageInfoInDB.close();
+				System.exit(-1);
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}
+			
+		}
+	}
 }
