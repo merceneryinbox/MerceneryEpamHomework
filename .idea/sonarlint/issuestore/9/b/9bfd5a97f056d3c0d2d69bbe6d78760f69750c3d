@@ -1,43 +1,0 @@
-
-rsquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ôÈæ½øÿÿÿÿ
-Psquid:S2696"6Make the enclosing method "static" or remove this set.(ÉñÂ˜ÿÿÿÿÿ
-Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ÊÍƒ
-Hsquid:S1068".Remove this unused "selectStar" private field.(½£¼Ìüÿÿÿÿ
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(è©¤¬8÷Êô™ı+
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ºÀ²²8÷Êô™ı+
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÁòšÊûÿÿÿÿ8÷Êô™ı+
-Psquid:S2696"6Make the enclosing method "static" or remove this set.(½ä¦…ıÿÿÿÿ
-Qsquid:S2209"5Change this instance-reference to a static reference.(ÊÍƒ8¤‘Éšı+
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ŠÛ°ü8÷Êô™ı+
-Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÉñÂ˜ÿÿÿÿÿ8÷Êô™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8Õ¸ÿ™ı+
-Vsquid:S2209"5Change this instance-reference to a static reference.(Ş÷áÜûÿÿÿÿ8ğàÎšı+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8’«ö™ı+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Wsquid:S2696"6Make the enclosing method "static" or remove this set.(©¿–ùÿÿÿÿ8÷Êô™ı+
-Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÉñÂ˜ÿÿÿÿÿ8÷Êô™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8Ñø™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8Šÿû™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8ºãü™ı+
-Ksquid:S2696"6Make the enclosing method "static" or remove this set.(ºÀ²²
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ºÀ²²8÷Êô™ı+
-Qsquid:S2696"6Make the enclosing method "static" or remove this set.(‹·³(8¡ÏĞšı+
-Lsquid:S1135"2Complete the task associated to this TODO comment.(¯Öà§üÿÿÿÿ
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8şò™ı+
-Wsquid:S2696"6Make the enclosing method "static" or remove this set.(Å¤Éõşÿÿÿÿ8…«êšı+
-Vsquid:S2209"5Change this instance-reference to a static reference.(½Ãíòúÿÿÿÿ8¤‘Éšı+
-Psquid:S2696"6Make the enclosing method "static" or remove this set.(Ş÷áÜûÿÿÿÿ
-Psquid:S2209"5Change this instance-reference to a static reference.(‹·³(8¡ÏĞšı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8Éİú™ı+
-=squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¿¾êšı+
-Asquid:S3010"'Remove this assignment of "connection".(½Ãíòúÿÿÿÿ
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8÷Êô™ı+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8÷Êô™ı+
-Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ìíšı+
-Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ĞÀ–¼8÷Êô™ı+
