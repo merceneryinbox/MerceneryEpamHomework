@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,17 +38,45 @@
       <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
+            <state relative-caret-position="133">
+              <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
-                <marker date="1511077377342" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-                <marker date="1511077377342" expanded="true" signature="972:979" ph="UPDATE ?... " />
-                <marker date="1511077377342" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-                <marker date="1511077377342" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-                <marker date="1511077377342" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-                <marker date="1511077377342" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-                <marker date="1511077377342" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-                <marker date="1511077377342" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+                <element signature="initializer##0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#getUrl#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="e#2663#2664#0" expanded="true" />
+                <element signature="e#2715#2716#0" expanded="true" />
+                <element signature="e#2752#2753#0" expanded="true" />
+                <element signature="e#2802#2803#0" expanded="true" />
+                <element signature="e#2839#2840#0" expanded="true" />
+                <element signature="e#2889#2890#0" expanded="true" />
+                <element signature="e#2934#2935#0" expanded="true" />
+                <element signature="e#2984#2985#0" expanded="true" />
+                <element signature="e#3021#3022#0" expanded="true" />
+                <element signature="e#3071#3072#0" expanded="true" />
+                <element signature="e#3112#3113#0" expanded="true" />
+                <element signature="e#3166#3167#0" expanded="true" />
+                <element signature="method#connectToLibrary#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="e#3983#3984#0" expanded="true" />
+                <element signature="e#4035#4036#0" expanded="true" />
+                <element signature="method#getConnection#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#shutDownPool#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#setNewBook#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#setYear#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#setType#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#setPublisher#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#throwBookToTrash#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#bookShelf#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#libraryClose#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#getMeBook#0;class#HomeLibDAOManager#0" expanded="true" />
+                <element signature="method#putBackConnection#0;class#HomeLibDAOManager#0" expanded="true" />
+                <marker date="1511078111788" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+                <marker date="1511078111788" expanded="true" signature="972:979" ph="UPDATE ?... " />
+                <marker date="1511078111788" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+                <marker date="1511078111788" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+                <marker date="1511078111788" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511078111788" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+                <marker date="1511078111788" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+                <marker date="1511078111788" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
               </folding>
             </state>
           </provider>
@@ -164,8 +189,8 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
       </list>
     </option>
   </component>
@@ -591,12 +616,12 @@
       <workItem from="1511004483960" duration="189000" />
       <workItem from="1511004724324" duration="43000" />
       <workItem from="1511011534856" duration="83000" />
-      <workItem from="1511076701969" duration="1015000" />
+      <workItem from="1511076701969" duration="1400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248150000" />
+    <option name="totallyTimeSpent" value="248535000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1031,17 +1056,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="348" column="21" lean-forward="true" selection-start-line="348" selection-start-column="21" selection-end-line="348" selection-end-column="21" />
+        <state relative-caret-position="133">
+          <caret line="39" column="11" lean-forward="false" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
-            <marker date="1511077377342" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
-            <marker date="1511077377342" expanded="true" signature="972:979" ph="UPDATE ?... " />
-            <marker date="1511077377342" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
-            <marker date="1511077377342" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
-            <marker date="1511077377342" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
-            <marker date="1511077377342" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
-            <marker date="1511077377342" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
-            <marker date="1511077377342" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
+            <element signature="initializer##0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#getUrl#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="e#2663#2664#0" expanded="true" />
+            <element signature="e#2715#2716#0" expanded="true" />
+            <element signature="e#2752#2753#0" expanded="true" />
+            <element signature="e#2802#2803#0" expanded="true" />
+            <element signature="e#2839#2840#0" expanded="true" />
+            <element signature="e#2889#2890#0" expanded="true" />
+            <element signature="e#2934#2935#0" expanded="true" />
+            <element signature="e#2984#2985#0" expanded="true" />
+            <element signature="e#3021#3022#0" expanded="true" />
+            <element signature="e#3071#3072#0" expanded="true" />
+            <element signature="e#3112#3113#0" expanded="true" />
+            <element signature="e#3166#3167#0" expanded="true" />
+            <element signature="method#connectToLibrary#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="e#3983#3984#0" expanded="true" />
+            <element signature="e#4035#4036#0" expanded="true" />
+            <element signature="method#getConnection#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#shutDownPool#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#setNewBook#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#setYear#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#setType#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#setPublisher#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#throwBookToTrash#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#bookShelf#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#libraryClose#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#getMeBook#0;class#HomeLibDAOManager#0" expanded="true" />
+            <element signature="method#putBackConnection#0;class#HomeLibDAOManager#0" expanded="true" />
+            <marker date="1511078111788" expanded="true" signature="901:924" ph="SELECT * FRO... ?" />
+            <marker date="1511078111788" expanded="true" signature="972:979" ph="UPDATE ?... " />
+            <marker date="1511078111788" expanded="true" signature="972:1036" ph="UPDATE TABLE... " />
+            <marker date="1511078111788" expanded="true" signature="1084:1134" ph="UPDATE TABLE... " />
+            <marker date="1511078111788" expanded="true" signature="1182:1222" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511078111788" expanded="true" signature="1273:1368" ph="INSERT INTO bookshelf" />
+            <marker date="1511078111788" expanded="true" signature="1494:1532" ph="DELETE FROM bookShelf... " />
+            <marker date="1511078111788" expanded="true" signature="1531:1532" ph="DROP TABLE I... " />
           </folding>
         </state>
       </provider>
