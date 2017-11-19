@@ -16,6 +16,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * Don't forget close your library at the end of work with it !
  */
 public class HomeLibDAOManager {
+	private static volatile HomeLibDAOManager         homeLibDAOManager;
 	private static          Properties                CONFIGS;
 	private static          Connection                connection;
 	private static volatile BlockingQueue<Connection> tenConnections;
@@ -105,7 +106,18 @@ public class HomeLibDAOManager {
 	}
 	
 	public static HomeLibDAOManager getInstance() {
-		return new HomeLibDAOManager();
+		HomeLibDAOManager returningInstance = homeLibDAOManager;
+		
+		if (returningInstance == null) {
+			lock.lock();
+			try {
+				returningInstance = new HomeLibDAOManager();
+			} catch (Exception eIgnore) {
+			
+			}
+			lock.unlock();
+		}
+		return returningInstance;
 	}
 	
 	public void connectToLibrary() {
