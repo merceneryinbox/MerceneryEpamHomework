@@ -113,7 +113,7 @@ public class HomeLibDAOManager {
 			lock.lock();
 			try {
 				if (returningInstance == null) {
-					returningInstance = new HomeLibDAOManager();
+					homeLibDAOManager = returningInstance = new HomeLibDAOManager();
 				}
 			} catch (Exception eIgnore) {
 			}
