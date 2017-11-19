@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,21 +38,21 @@
       <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="200" column="12" lean-forward="false" selection-start-line="200" selection-start-column="12" selection-end-line="200" selection-end-column="12" />
+            <state relative-caret-position="105">
+              <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
               <folding>
                 <element signature="docComment;class#HomeLibDAOManager#0" expanded="false" />
                 <element signature="initializer##0;class#HomeLibDAOManager#0" expanded="true" />
                 <element signature="method#HomeLibDAOManager#0;class#HomeLibDAOManager#0" expanded="true" />
-                <marker date="1511080607191" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
-                <marker date="1511080607191" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
-                <marker date="1511080607191" expanded="true" signature="1023:1082" ph="UPDATE TABLE... " />
-                <marker date="1511080607191" expanded="true" signature="1130:1175" ph="UPDATE TABLE... " />
-                <marker date="1511080607191" expanded="true" signature="1223:1263" ph="SELECT * FRO... bookshelf" />
-                <marker date="1511080607191" expanded="true" signature="1314:1409" ph="INSERT INTO bookshelf" />
-                <marker date="1511080607191" expanded="true" signature="1535:1573" ph="DELETE FROM bookShelf... " />
-                <marker date="1511080607191" expanded="true" signature="1572:1573" ph="DROP TABLE I... " />
-                <marker date="1511080607191" expanded="true" signature="1621:1659" ph="DELETE FROM bookshelf... " />
+                <marker date="1511080673389" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
+                <marker date="1511080673389" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
+                <marker date="1511080673389" expanded="true" signature="1023:1082" ph="UPDATE TABLE... " />
+                <marker date="1511080673389" expanded="true" signature="1130:1175" ph="UPDATE TABLE... " />
+                <marker date="1511080673389" expanded="true" signature="1223:1263" ph="SELECT * FRO... bookshelf" />
+                <marker date="1511080673389" expanded="true" signature="1314:1409" ph="INSERT INTO bookshelf" />
+                <marker date="1511080673389" expanded="true" signature="1535:1573" ph="DELETE FROM bookShelf... " />
+                <marker date="1511080673389" expanded="true" signature="1572:1573" ph="DROP TABLE I... " />
+                <marker date="1511080673389" expanded="true" signature="1621:1659" ph="DELETE FROM bookshelf... " />
               </folding>
             </state>
           </provider>
@@ -599,12 +597,12 @@
       <workItem from="1511004483960" duration="189000" />
       <workItem from="1511004724324" duration="43000" />
       <workItem from="1511011534856" duration="83000" />
-      <workItem from="1511076701969" duration="3886000" />
+      <workItem from="1511076701969" duration="3946000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251021000" />
+    <option name="totallyTimeSpent" value="251081000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,21 +1030,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="200" column="12" lean-forward="false" selection-start-line="200" selection-start-column="12" selection-end-line="200" selection-end-column="12" />
+        <state relative-caret-position="105">
+          <caret line="143" column="8" lean-forward="false" selection-start-line="143" selection-start-column="8" selection-end-line="143" selection-end-column="8" />
           <folding>
             <element signature="docComment;class#HomeLibDAOManager#0" expanded="false" />
             <element signature="initializer##0;class#HomeLibDAOManager#0" expanded="true" />
             <element signature="method#HomeLibDAOManager#0;class#HomeLibDAOManager#0" expanded="true" />
-            <marker date="1511080607191" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
-            <marker date="1511080607191" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
-            <marker date="1511080607191" expanded="true" signature="1023:1082" ph="UPDATE TABLE... " />
-            <marker date="1511080607191" expanded="true" signature="1130:1175" ph="UPDATE TABLE... " />
-            <marker date="1511080607191" expanded="true" signature="1223:1263" ph="SELECT * FRO... bookshelf" />
-            <marker date="1511080607191" expanded="true" signature="1314:1409" ph="INSERT INTO bookshelf" />
-            <marker date="1511080607191" expanded="true" signature="1535:1573" ph="DELETE FROM bookShelf... " />
-            <marker date="1511080607191" expanded="true" signature="1572:1573" ph="DROP TABLE I... " />
-            <marker date="1511080607191" expanded="true" signature="1621:1659" ph="DELETE FROM bookshelf... " />
+            <marker date="1511080673389" expanded="true" signature="952:975" ph="SELECT * FRO... ?" />
+            <marker date="1511080673389" expanded="true" signature="1023:1030" ph="UPDATE ?... " />
+            <marker date="1511080673389" expanded="true" signature="1023:1082" ph="UPDATE TABLE... " />
+            <marker date="1511080673389" expanded="true" signature="1130:1175" ph="UPDATE TABLE... " />
+            <marker date="1511080673389" expanded="true" signature="1223:1263" ph="SELECT * FRO... bookshelf" />
+            <marker date="1511080673389" expanded="true" signature="1314:1409" ph="INSERT INTO bookshelf" />
+            <marker date="1511080673389" expanded="true" signature="1535:1573" ph="DELETE FROM bookShelf... " />
+            <marker date="1511080673389" expanded="true" signature="1572:1573" ph="DROP TABLE I... " />
+            <marker date="1511080673389" expanded="true" signature="1621:1659" ph="DELETE FROM bookshelf... " />
           </folding>
         </state>
       </provider>

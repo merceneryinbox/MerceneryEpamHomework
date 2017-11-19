@@ -141,13 +141,6 @@ public class HomeLibDAOManager {
 	
 	public synchronized Connection getConnection() {
 		Connection returnCon = null;
-		while (tenConnections.isEmpty()) {
-			try {
-				wait(1000);
-			} catch (InterruptedException e) {
-				e.printStackTrace();
-			}
-		}
 		try {
 			returnCon = tenConnections.take();
 		} catch (InterruptedException e) {
