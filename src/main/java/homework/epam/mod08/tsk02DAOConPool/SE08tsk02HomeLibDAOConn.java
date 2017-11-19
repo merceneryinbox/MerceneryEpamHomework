@@ -24,7 +24,7 @@ public class SE08tsk02HomeLibDAOConn {
 		
 		// создать DAO домашней библиотеки
 		
-		homeLib = new HomeLibDAOManager();
+		homeLib = HomeLibDAOManager.getInstance();
 		
 		homeLib.connectToLibrary();
 		

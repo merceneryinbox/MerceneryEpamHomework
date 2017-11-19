@@ -48,6 +48,7 @@ public class ExactBookDAO {
 			try {
 				resultSet.close();
 				selectExactInfoFromDB.close();
+				HomeLibDAOManager.putBackConnection(connection);
 			} catch (SQLException eIgnore) {
 			}
 		}

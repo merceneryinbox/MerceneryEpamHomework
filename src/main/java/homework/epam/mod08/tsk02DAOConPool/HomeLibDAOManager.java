@@ -72,6 +72,9 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	private HomeLibDAOManager() {
+	}
+	
 	private static String getUrl() {
 		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
 		       getDatabaseName();
@@ -99,6 +102,10 @@ public class HomeLibDAOManager {
 	
 	private static String getPassword() {
 		return CONFIGS.getProperty("database.password");
+	}
+	
+	public static HomeLibDAOManager getInstance() {
+		return new HomeLibDAOManager();
 	}
 	
 	public void connectToLibrary() {
@@ -148,6 +155,8 @@ public class HomeLibDAOManager {
 		}
 		return returnCon;
 	}
+////////////////////////////////////////////////////////////////////////////////////////////
+// работа с запросами к базе
 	
 	public synchronized boolean shutDownPool() {
 		boolean result = false;
@@ -163,8 +172,6 @@ public class HomeLibDAOManager {
 		}
 		return result;
 	}
-////////////////////////////////////////////////////////////////////////////////////////////
-// работа с запросами к базе
 	
 	public void setNewBook(String bookName, String author) {
 		try {
@@ -187,15 +194,11 @@ public class HomeLibDAOManager {
 		}
 	}
 	
-	public synchronized void putBackConnection(Connection usedConnection) {
+	public static synchronized void putBackConnection(Connection usedConnection) {
 		
 		lock.lock();
 		try {
-			while (!tenConnections.isEmpty()) {
-				wait();
-			}
 			tenConnections.put(usedConnection);
-			notify();
 			lock.unlock();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
@@ -288,6 +291,8 @@ public class HomeLibDAOManager {
 			}
 		}
 	}
+/////////////////////////////////////////////////////////////////////////////////////////////
+// генерация DAO объекта конкретной записи в базе
 	
 	public void bookShelf() {
 		// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
@@ -326,8 +331,6 @@ public class HomeLibDAOManager {
 			}
 		}
 	}
-/////////////////////////////////////////////////////////////////////////////////////////////
-// генерация DAO объекта конкретной записи в базе
 	
 	public void libraryClose() {
 		try {
