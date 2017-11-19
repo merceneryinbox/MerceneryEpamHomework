@@ -1,0 +1,92 @@
+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(·ÌÜùÿÿÿÿ8ìÜÆ™ı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+asquid:S1854"@Remove this useless assignment to local variable "dropBookName".(óá×°øÿÿÿÿ8¼Ã­šı+
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¼Ã­šı+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(úáÓ÷8¼Ã­šı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8¨©ƒ›ı+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(òøş‰8¼Ã­šı+
+asquid:S2147"ECombine this catch with the one at line 119, which has the same body.(‹±ÃÆ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ºÀ²²8ìÜÆ™ı+
+Psquid:S1172"/Remove this unused method parameter "bookName".(é™¡¶øÿÿÿÿ8ã¨úšı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8Ü„›ı+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(Æ›8ìÜÆ™ı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Ksquid:S1068"/Remove this unused "dropRequest" private field.(ôÕÈÁ8ìÜÆ™ı+
+ysquid:S00120"WRename this package name to match the regular expression '^[a-z]+(\.[a-z][a-z0-9]*)*$'.(ôÈæ½øÿÿÿÿ8ìÜÆ™ı+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ğ‘È©8¼Ã­šı+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(®“êl8ìÜÆ™ı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§÷­šı+
+usquid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ±Ä 8ìÜÆ™ı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8§÷­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ã¨úšı+
+lsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(Ïåû‚üÿÿÿÿ8ìÜÆ™ı+
+S
+squid:S106"9Replace this use of System.out or System.err by a logger.(á·Æd8ìÜÆ™ı+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(«Í­¨8¼Ã­šı+
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Bsquid:S1481"&Remove this unused "c" local variable.(ë“ÿı8¼Ã­šı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8İ¬•›ı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+€squid:S1450"dRemove the "selectExactInfoFromDB" field and declare it as a local variable in the relevant methods.( ¹8ìÜÆ™ı+
+esquid:S2147"DCombine this catch with the one at line 51, which has the same body.(Ñ¥…üıÿÿÿÿ8§÷­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(Å¤Éõşÿÿÿÿ8ã¨úšı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+`squid:S2147"DCombine this catch with the one at line 51, which has the same body.(ï­£Ä8§÷­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÉñÂ˜ÿÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(÷Íñîúÿÿÿÿ8¼Ã­šı+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(•¦‰ 8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÏÎşöúÿÿÿÿ8¼Ã­šı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8ÜÕ…›ı+
+ssquid:S3008"RRename this field "CONFIGS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Úşêúÿÿÿÿ8ìÜÆ™ı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8¼Ã­šı+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(«Í­¨8¼Ã­šı+
+Rsquid:S1481"1Remove this unused "dropBookName" local variable.(óá×°øÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8ã¥›ı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8ÓÙ›ı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8ÌÎ‹›ı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(ÏÎşöúÿÿÿÿ8¼Ã­šı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(ĞÀ–¼8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(Ïåû‚üÿÿÿÿ8ìÜÆ™ı+
+Ssquid:S1135"2Complete the task associated to this TODO comment.(¬À”ùÿÿÿÿ8¼Ã­šı+
+Y
+squid:S106"9Replace this use of System.out or System.err by a logger.(£îË“øÿÿÿÿ8¼Ã­šı+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(’ŒÕÀ8ìÜÆ™ı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+Nsquid:S1135"2Complete the task associated to this TODO comment.(òøş‰8¼Ã­šı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8ú¹›ı+
+Wsquid:S2696"6Make the enclosing method "static" or remove this set.(¼ñÖóûÿÿÿÿ8—å†›ı+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(Ú ˆ¼8¼Ã­šı+
+bsquid:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8¼Ã­šı+
+Isquid:S1068"-Remove this unused "dropTable" private field.(è§”8ìÜÆ™ı+
+Rsquid:S2696"6Make the enclosing method "static" or remove this set.(¼û²­8ìÜÆ™ı+
+Fsquid:S00108")Either remove or fill this block of code.(×„Ø¤8¼Ã­šı+
+asquid:S2147"ECombine this catch with the one at line 119, which has the same body.(ï­£Ä8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
+Dsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¼Ã­šı+
