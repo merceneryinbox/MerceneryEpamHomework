@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
+import java.util.InvalidPropertiesFormatException;
 import java.util.Properties;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
@@ -42,9 +43,14 @@ public class HomeLibDAOManager {
 		
 		tenConnections = new LinkedBlockingDeque<Connection>(10);
 		
-		try {
+		try (InputStream stream = new FileInputStream("configs.xml")) {
+			CONFIGS.loadFromXML(stream);
 			Class.forName(getDBDriver());
 		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		} catch (InvalidPropertiesFormatException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
 			e.printStackTrace();
 		}
 		
