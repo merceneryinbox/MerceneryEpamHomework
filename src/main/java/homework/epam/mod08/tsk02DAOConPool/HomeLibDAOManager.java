@@ -105,21 +105,24 @@ public class HomeLibDAOManager {
 		return CONFIGS.getProperty("database.password");
 	}
 	
+	//Singleton instance/////////////////////////////////////////////////////////////////////////////////////////
 	public static HomeLibDAOManager getInstance() {
 		HomeLibDAOManager returningInstance = homeLibDAOManager;
 		
 		if (returningInstance == null) {
 			lock.lock();
 			try {
-				returningInstance = new HomeLibDAOManager();
+				if (returningInstance == null) {
+					returningInstance = new HomeLibDAOManager();
+				}
 			} catch (Exception eIgnore) {
-			
 			}
 			lock.unlock();
 		}
 		return returningInstance;
 	}
 	
+	////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	public void connectToLibrary() {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk02HomeLibraryDBconfig.xml")) {
 			CONFIGS.loadFromXML(propertyStream);
