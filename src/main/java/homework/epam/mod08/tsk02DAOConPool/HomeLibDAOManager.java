@@ -15,6 +15,10 @@ import java.util.concurrent.locks.ReentrantLock;
 /**
  * Don't forget close your library at the end of work with it !
  */
+
+/**
+ *
+ */
 public class HomeLibDAOManager {
 	private static volatile HomeLibDAOManager         homeLibDAOManager;
 	private static          Properties                CONFIGS;
@@ -41,6 +45,9 @@ public class HomeLibDAOManager {
 	private static PreparedStatement dropTable;
 	private static ResultSet         resultSet;
 	
+	/**
+	 *
+	 */
 	static {
 		lock = new ReentrantLock();
 		tenConnections = new LinkedBlockingDeque<Connection>(10);
@@ -76,35 +83,59 @@ public class HomeLibDAOManager {
 	private HomeLibDAOManager() {
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getUrl() {
 		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
 		       getDatabaseName();
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getProtocol() {
 		return CONFIGS.getProperty("database.driver");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getHost() {
 		return CONFIGS.getProperty("database.host");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getPort() {
 		return CONFIGS.getProperty("database.port");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getDatabaseName() {
 		return CONFIGS.getProperty("database.name");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getUser() {
 		return CONFIGS.getProperty("database.user");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getPassword() {
 		return CONFIGS.getProperty("database.password");
 	}
 	
+	/**
+	 * @return
+	 */
 	//Singleton instance/////////////////////////////////////////////////////////////////////////////////////////
 	public static HomeLibDAOManager getInstance() {
 		HomeLibDAOManager returningInstance = homeLibDAOManager;
@@ -122,6 +153,9 @@ public class HomeLibDAOManager {
 		return returningInstance;
 	}
 	
+	/**
+	 *
+	 */
 	////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	public void connectToLibrary() {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk02HomeLibraryDBconfig.xml")) {
@@ -148,12 +182,18 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @return
+	 */
 	//////////////////////////////////////////////////////////////////////////////////////////////////////////
 // работа с подключением в базе
 	private static String getDBDriver() {
 		return CONFIGS.getProperty("database.driver");
 	}
 	
+	/**
+	 * @return
+	 */
 	public synchronized Connection getConnection() {
 		Connection returnCon = null;
 		try {
@@ -166,6 +206,9 @@ public class HomeLibDAOManager {
 ////////////////////////////////////////////////////////////////////////////////////////////
 // работа с запросами к базе
 	
+	/**
+	 * @return
+	 */
 	public synchronized boolean shutDownPool() {
 		boolean result = false;
 		try {
@@ -181,6 +224,10 @@ public class HomeLibDAOManager {
 		return result;
 	}
 	
+	/**
+	 * @param bookName
+	 * @param author
+	 */
 	public void setNewBook(String bookName, String author) {
 		try {
 			connection = getConnection();
@@ -202,6 +249,9 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @param usedConnection
+	 */
 	public static synchronized void putBackConnection(Connection usedConnection) {
 		
 		lock.lock();
@@ -213,6 +263,10 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @param bookName
+	 * @param year
+	 */
 	public void setYear(String bookName, int year) {
 		try {
 			connection = getConnection();
@@ -236,6 +290,10 @@ public class HomeLibDAOManager {
 		
 	}
 	
+	/**
+	 * @param bookName
+	 * @param type
+	 */
 	public void setType(String bookName, String type) {
 		try {
 			connection = getConnection();
@@ -258,6 +316,10 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @param bookName
+	 * @param publisher
+	 */
 	public void setPublisher(String bookName, String publisher) {
 		try {
 			connection = getConnection();
@@ -280,6 +342,9 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @param bookName
+	 */
 	public void throwBookToTrash(String bookName) {
 		try {
 			connection = getConnection();
@@ -302,6 +367,9 @@ public class HomeLibDAOManager {
 /////////////////////////////////////////////////////////////////////////////////////////////
 // генерация DAO объекта конкретной записи в базе
 	
+	/**
+	 *
+	 */
 	public void bookShelf() {
 		// получаю данные из БД в прокручиваемый запрос, для возможности прокурчивать информацию назад (previous())
 		// и вперёд next()
@@ -340,6 +408,9 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 *
+	 */
 	public void libraryClose() {
 		try {
 			for (Connection c :
@@ -357,6 +428,10 @@ public class HomeLibDAOManager {
 		}
 	}
 	
+	/**
+	 * @param bookName
+	 * @return
+	 */
 	public ExactBookDAO getMeBook(String bookName) {
 		String  author             = null;
 		String  publisher          = null;
@@ -387,6 +462,9 @@ public class HomeLibDAOManager {
 				.setYearProductionBook(yearProductionBook);
 	}
 	
+	/**
+	 * @param bookName
+	 */
 	public void deleteBook(String bookName) {
 		try {
 			connection = getConnection();

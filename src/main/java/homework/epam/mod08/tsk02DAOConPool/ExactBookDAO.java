@@ -5,6 +5,9 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+/**
+ *
+ */
 public class ExactBookDAO {
 	
 	private static String  bookName           = null;
@@ -28,11 +31,18 @@ public class ExactBookDAO {
 	private static PreparedStatement selectExactInfoFromDB;
 	private static ResultSet         resultSet;
 	
+	/**
+	 * @param connection
+	 * @param bookName
+	 */
 	public ExactBookDAO(Connection connection, String bookName) {
 		this.connection = connection;
 		this.setBookName(bookName);
 	}
 	
+	/**
+	 * @return
+	 */
 	public String getPublisher() {
 		try {
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
@@ -55,6 +65,10 @@ public class ExactBookDAO {
 		return publisher;
 	}
 	
+	/**
+	 * @param publisher
+	 * @return
+	 */
 	public ExactBookDAO setPublisher(String publisher) {
 		setPublisher(publisher);
 		try {
@@ -73,6 +87,9 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	/**
+	 * @return
+	 */
 	public String getType() {
 		try {
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
@@ -94,15 +111,26 @@ public class ExactBookDAO {
 		return type;
 	}
 	
+	/**
+	 * @return
+	 */
 	public static String getBookName() {
 		return bookName;
 	}
 	
+	/**
+	 * @param bookName
+	 * @return
+	 */
 	public ExactBookDAO setBookName(String bookName) {
 		setBookName(bookName);
 		return this;
 	}
 	
+	/**
+	 * @param type
+	 * @return
+	 */
 	public ExactBookDAO setType(String type) {
 		this.type = type;
 		try {
@@ -121,6 +149,9 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	/**
+	 * @return
+	 */
 	public Integer getYearProductionBook() {
 		try {
 			selectExactInfoFromDB = connection.prepareStatement(selectRequest);
@@ -142,6 +173,10 @@ public class ExactBookDAO {
 		return yearProductionBook;
 	}
 	
+	/**
+	 * @param yearProductionBook
+	 * @return
+	 */
 	public ExactBookDAO setYearProductionBook(Integer yearProductionBook) {
 		this.yearProductionBook = yearProductionBook;
 		try {
@@ -160,6 +195,9 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	/**
+	 * @return
+	 */
 	public String getAuthor() {
 		try {
 			getInfoFromDB = connection.prepareStatement(selectRequest);
@@ -182,6 +220,10 @@ public class ExactBookDAO {
 		return author;
 	}
 	
+	/**
+	 * @param author
+	 * @return
+	 */
 	public ExactBookDAO setAuthor(String author) {
 		this.author = author;
 		try {
@@ -200,6 +242,9 @@ public class ExactBookDAO {
 		return this;
 	}
 	
+	/**
+	 *
+	 */
 	public void selfDestruct() {
 		try {
 			chageInfoInDB = connection.prepareStatement(deleteBook);
