@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe773f-79d0-45b9-b6b7-1c6a8cd58d9f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java" afterPath="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,7 +40,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HomeLibDAOManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
@@ -67,6 +69,106 @@
                 <marker date="1511175480017" expanded="true" signature="1396:1491" ph="INSERT INTO bookshelf" />
                 <marker date="1511175480017" expanded="true" signature="1617:1655" ph="DELETE FROM bookShelf... " />
                 <marker date="1511175480017" expanded="true" signature="1703:1741" ph="DELETE FROM bookshelf... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="se08tsk01DB.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+              <folding>
+                <element signature="e#4423#4424#0" expanded="true" />
+                <element signature="e#4475#4476#0" expanded="true" />
+                <element signature="e#4692#4693#0" expanded="true" />
+                <element signature="e#4742#4743#0" expanded="true" />
+                <element signature="e#4805#4806#0" expanded="true" />
+                <element signature="e#4859#4860#0" expanded="true" />
+                <element signature="e#4922#4923#0" expanded="true" />
+                <element signature="e#4974#4975#0" expanded="true" />
+                <element signature="e#5033#5034#0" expanded="true" />
+                <element signature="e#5083#5084#0" expanded="true" />
+                <element signature="e#5142#5143#0" expanded="true" />
+                <element signature="e#5192#5193#0" expanded="true" />
+                <element signature="e#5259#5260#0" expanded="true" />
+                <element signature="e#5309#5310#0" expanded="true" />
+                <marker date="1511175707768" expanded="true" signature="687:716" ph="SELECT * FRO... ?" />
+                <marker date="1511175707768" expanded="true" signature="760:793" ph="UPDATE ?... " />
+                <marker date="1511175707768" expanded="true" signature="837:874" ph="SELECT * FRO... roles" />
+                <marker date="1511175707768" expanded="true" signature="918:975" ph="INSERT INTO users... " />
+                <marker date="1511175707768" expanded="true" signature="1019:1041" ph="DROP TABLE I... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SharedResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <folding>
+                <element signature="e#223#224#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#339#340#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserResourceThread.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="116" column="1" lean-forward="false" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+              <folding>
+                <element signature="e#1225#1226#0" expanded="true" />
+                <element signature="e#1243#1244#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="se07tsk02UniversalPropertyReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="528">
+              <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="e#3058#3059#0" expanded="true" />
+                <element signature="e#3096#3097#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonyTransfering.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="174" column="6" lean-forward="false" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
+              <folding>
+                <element signature="e#3226#3227#0" expanded="true" />
+                <element signature="e#3244#3245#0" expanded="true" />
+                <element signature="e#3340#3341#0" expanded="true" />
+                <element signature="e#3393#3394#0" expanded="true" />
+                <element signature="e#4698#4699#0" expanded="true" />
+                <element signature="e#4725#4726#0" expanded="true" />
+                <element signature="e#5175#5176#0" expanded="true" />
+                <element signature="e#5220#5221#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,15 +269,10 @@
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/resource/account.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountAdder.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AmountAdder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MounyTransfering.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/se07tsk01ParallelAccountManagerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod5/tsk02UniversalPropertiesReader/mod05tsk02PropertiesReaderMercenery.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/se07tsk03Paralellreader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk01DBconfig.xml" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk01DBPGconfigs.xml" />
         <option value="$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql" />
@@ -183,12 +280,17 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2e69c18e-5076-4452-80a1-2da85274e58f/console.sql" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBInstall.sql" />
         <option value="$PROJECT_DIR$/src/resources/se08tsk02HomeLibraryDBconfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/SE08tsk02HomeLibDAOConn.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/HomeLibDAOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk02DAOConPool/ExactBookDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java" />
+        <option value="$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java" />
       </list>
     </option>
   </component>
@@ -290,6 +392,38 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk01SynchParallelAccout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="resource" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk02SynchronizedPropertyRaeder" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hw" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tsk03RewriteCodeToParallelread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hw" type="b2602c69:ProjectViewProjectNode" />
@@ -626,12 +760,12 @@
       <workItem from="1511085169121" duration="184000" />
       <workItem from="1511113695821" duration="620000" />
       <workItem from="1511130662123" duration="1072000" />
-      <workItem from="1511175279837" duration="264000" />
+      <workItem from="1511175279837" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="253279000" />
+    <option name="totallyTimeSpent" value="253602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -644,6 +778,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290938" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -834,20 +969,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="44" lean-forward="false" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="59" column="29" lean-forward="false" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/se07tsk01ParallelAccountManagerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -859,13 +980,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="38" column="60" lean-forward="false" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -894,20 +1008,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/se08tsk01DBconfig.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" column="16" lean-forward="false" selection-start-line="66" selection-start-column="16" selection-end-line="66" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/SE08tsk01installDB.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="282">
@@ -968,13 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
           <caret line="207" column="6" lean-forward="false" selection-start-line="207" selection-start-column="6" selection-end-line="207" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="25" column="92" lean-forward="false" selection-start-line="25" selection-start-column="92" selection-end-line="25" selection-end-column="92" />
         </state>
       </provider>
     </entry>
@@ -1085,6 +1178,94 @@
             <marker date="1511175480017" expanded="true" signature="1396:1491" ph="INSERT INTO bookshelf" />
             <marker date="1511175480017" expanded="true" signature="1617:1655" ph="DELETE FROM bookShelf... " />
             <marker date="1511175480017" expanded="true" signature="1703:1741" ph="DELETE FROM bookshelf... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod08/tsk01DBTest/se08tsk01DB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="179" column="0" lean-forward="true" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+          <folding>
+            <element signature="e#4423#4424#0" expanded="true" />
+            <element signature="e#4475#4476#0" expanded="true" />
+            <element signature="e#4692#4693#0" expanded="true" />
+            <element signature="e#4742#4743#0" expanded="true" />
+            <element signature="e#4805#4806#0" expanded="true" />
+            <element signature="e#4859#4860#0" expanded="true" />
+            <element signature="e#4922#4923#0" expanded="true" />
+            <element signature="e#4974#4975#0" expanded="true" />
+            <element signature="e#5033#5034#0" expanded="true" />
+            <element signature="e#5083#5084#0" expanded="true" />
+            <element signature="e#5142#5143#0" expanded="true" />
+            <element signature="e#5192#5193#0" expanded="true" />
+            <element signature="e#5259#5260#0" expanded="true" />
+            <element signature="e#5309#5310#0" expanded="true" />
+            <marker date="1511175707768" expanded="true" signature="687:716" ph="SELECT * FRO... ?" />
+            <marker date="1511175707768" expanded="true" signature="760:793" ph="UPDATE ?... " />
+            <marker date="1511175707768" expanded="true" signature="837:874" ph="SELECT * FRO... roles" />
+            <marker date="1511175707768" expanded="true" signature="918:975" ph="INSERT INTO users... " />
+            <marker date="1511175707768" expanded="true" signature="1019:1041" ph="DROP TABLE I... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/SharedResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk03RewriteCodeToParallelread/UserResourceThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="116" column="1" lean-forward="false" selection-start-line="116" selection-start-column="1" selection-end-line="116" selection-end-column="1" />
+          <folding>
+            <element signature="e#1225#1226#0" expanded="true" />
+            <element signature="e#1243#1244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk02SynchronizedPropertyRaeder/se07tsk02UniversalPropertyReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="97" column="0" lean-forward="true" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="e#3058#3059#0" expanded="true" />
+            <element signature="e#3096#3097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/AccountManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/homework/epam/mod7/tsk01SynchParallelAccout/MonyTransfering.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="174" column="6" lean-forward="false" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
+          <folding>
+            <element signature="e#3226#3227#0" expanded="true" />
+            <element signature="e#3244#3245#0" expanded="true" />
+            <element signature="e#3340#3341#0" expanded="true" />
+            <element signature="e#3393#3394#0" expanded="true" />
+            <element signature="e#4698#4699#0" expanded="true" />
+            <element signature="e#4725#4726#0" expanded="true" />
+            <element signature="e#5175#5176#0" expanded="true" />
+            <element signature="e#5220#5221#0" expanded="true" />
           </folding>
         </state>
       </provider>

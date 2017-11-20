@@ -17,6 +17,9 @@ import java.util.Properties;
  удалите таблицу.
  */
 
+/**
+ *
+ */
 public class se08tsk01DB {
 	private static Properties CONFIGS;
 	private static Connection connection;
@@ -31,9 +34,14 @@ public class se08tsk01DB {
 	private static PreparedStatement selectExactInfoFromDB;
 	private static PreparedStatement insertInfoInDB;
 	private static PreparedStatement dropTable;
+	/**
+	 *
+	 */
+	private static ResultSet         resultSet;
 	
-	private static ResultSet resultSet;
-	
+	/**
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		try (InputStream propertyStream = new FileInputStream("./src/resources/se08tsk01DBPGconfigs.xml")) {
 			CONFIGS.loadFromXML(propertyStream);
@@ -112,35 +120,59 @@ public class se08tsk01DB {
 		
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getDBDriver() {
 		return CONFIGS.getProperty("database.driver");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getUrl() {
 		return getProtocol() + "://" + getHost() + ":" + getPort() + "/" +
 		       getDatabaseName();
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getUser() {
 		return CONFIGS.getProperty("database.user");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getPassword() {
 		return CONFIGS.getProperty("database.password");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getProtocol() {
 		return CONFIGS.getProperty("database.driver");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getHost() {
 		return CONFIGS.getProperty("database.host");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getPort() {
 		return CONFIGS.getProperty("database.port");
 	}
 	
+	/**
+	 * @return
+	 */
 	private static String getDatabaseName() {
 		return CONFIGS.getProperty("database.name");
 	}

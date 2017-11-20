@@ -2,6 +2,9 @@ package homework.epam.mod7.tsk03RewriteCodeToParallelread;
 
 import java.util.Random;
 
+/**
+ *
+ */
 public class UserResourceThread {
 	public static void main(String[] args) throws InterruptedException {
 		SharedResource      res = new SharedResource();
@@ -30,21 +33,34 @@ public class UserResourceThread {
 	}
 }
 
+/**
+ *
+ */
 class IntegerSetterGetter extends Thread {
 	private SharedResource resource;
 	private boolean        run;
 	private Random rand = new Random();
 	
+	/**
+	 * @param name
+	 * @param resource
+	 */
 	public IntegerSetterGetter(String name, SharedResource resource) {
 		super(name);
 		this.resource = resource;
 		run = true;
 	}
 	
+	/**
+	 *
+	 */
 	public void stopThread() {
 		run = false;
 	}
 	
+	/**
+	 *
+	 */
 	public void run() {
 		int action;
 		try {
@@ -63,7 +79,9 @@ class IntegerSetterGetter extends Thread {
 		}
 	}
 	
-	
+	/**
+	 * @throws InterruptedException
+	 */
 	private void getIntegersFromResource() throws InterruptedException {
 		Integer number;
 		synchronized (resource) {
@@ -84,6 +102,9 @@ class IntegerSetterGetter extends Thread {
 		}
 	}
 	
+	/**
+	 * @throws InterruptedException
+	 */
 	private void setIntegersIntoResource() throws InterruptedException {
 		Integer number = rand.nextInt(500);
 		synchronized (resource) {

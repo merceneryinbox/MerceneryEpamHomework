@@ -6,8 +6,11 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
 
+/**
+ *
+ */
 public class MonyTransfering implements AccountManager {
-	private static String user = "user";
+	private static String user    = "user";
 	private static String name    = "name";
 	private static String balance = "balance";
 	private static File accountFileXML;
@@ -16,17 +19,21 @@ public class MonyTransfering implements AccountManager {
 	private static DocumentBuilderFactory documentBuilderFactory;
 	private static DocumentBuilder        documentBuilder;
 	private static Document               document;
-	private static Node coreNodeAccounts;
-	private static Node userNode;
-	private static Node balance1Node;
-	private static Node balance2Node;
-	private static Element coreElement;
-	private static Element userElement;
-	private static Element user2Element;
-	private static Element balance1Element;
-	private static Element balance2Element;
-	private static String   accountElementName;
-	private static NodeList usersnodeList;
+	private static Node                   coreNodeAccounts;
+	private static Node                   userNode;
+	private static Node                   balance1Node;
+	private static Node                   balance2Node;
+	private static Element                coreElement;
+	private static Element                userElement;
+	private static Element                user2Element;
+	private static Element                balance1Element;
+	private static Element                balance2Element;
+	private static String                 accountElementName;
+	private static NodeList               usersnodeList;
+	
+	/**
+	 * @param name
+	 */
 	public MonyTransfering(String name) {
 		this.name = name;
 		accountFileXML = new File("./src/resource/account.xml");
@@ -57,10 +64,11 @@ public class MonyTransfering implements AccountManager {
 		}
 	}
 	
-	public String getname() {
-		return name;
-	}
-	
+	/**
+	 * @param name
+	 * @param usersnodeList
+	 * @return
+	 */
 	private boolean testUserExists(String name, NodeList usersnodeList) {
 		boolean result = false;
 		for (int usersListIndex = 0; usersListIndex < usersnodeList.getLength(); usersListIndex++) {
@@ -79,14 +87,25 @@ public class MonyTransfering implements AccountManager {
 		return result;
 	}
 	
-	public static String getName() {
+	/**
+	 * @return
+	 */
+	public String getname() {
 		return name;
 	}
 	
+	/**
+	 * @param integer
+	 */
 	@Override public synchronized void setAmount(Integer integer) {
 		this.startStateAccountBeforetransact = integer;
 	}
 	
+	/**
+	 * @param who
+	 * @param howMuch
+	 * @return
+	 */
 	@Override public synchronized boolean halfTransmitToAccount(String who, Integer howMuch) {
 		boolean result = false;
 		
@@ -125,6 +144,10 @@ public class MonyTransfering implements AccountManager {
 		return usersnodeList;
 	}
 	
+	/**
+	 * @param accountBalanceName
+	 * @return
+	 */
 	@Override public synchronized Integer lookForAccountNameBalance(String accountBalanceName) {
 		return startStateAccountBeforetransact =
 		       startStateAccountBeforetransactBackUp = Integer.parseInt(
@@ -133,15 +156,24 @@ public class MonyTransfering implements AccountManager {
 						       .getNodeValue());
 	}
 	
+	/**
+	 * @return
+	 */
 	@Override public synchronized Integer showMeBalance() {
 		return startStateAccountBeforetransact;
 	}
 	
+	/**
+	 * @return
+	 */
 	@Override public synchronized boolean rollBackChanges() {
 		boolean result = false;
 		return result;
 	}
 	
+	/**
+	 *
+	 */
 	@Override public synchronized void saveTransaction() {
 	
 	}

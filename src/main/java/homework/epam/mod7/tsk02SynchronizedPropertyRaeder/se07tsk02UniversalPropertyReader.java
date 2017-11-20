@@ -10,6 +10,9 @@ import java.nio.file.Paths;
 import java.util.*;
 import java.util.concurrent.ConcurrentHashMap;
 
+/**
+ *
+ */
 public class se07tsk02UniversalPropertyReader {
 	private static          String incomingPropertyFileName = null;
 	private static volatile Path   incomingPropertyFile     = null;
@@ -17,6 +20,9 @@ public class se07tsk02UniversalPropertyReader {
 	private static FileReader          fileReader  = null;
 	private static Map<String, String> propertyMap = new ConcurrentHashMap<>();
 	
+	/**
+	 * @param incomingPropertyFile
+	 */
 	public synchronized static void setIncomingPropertyFile(Path incomingPropertyFile) {
 		se07tsk02UniversalPropertyReader.incomingPropertyFile = incomingPropertyFile;
 	}
@@ -72,10 +78,16 @@ public class se07tsk02UniversalPropertyReader {
 		return propertyMap;
 	}
 	
+	/**
+	 * @return
+	 */
 	public static String getIncomingPropertyFileName() {
 		return incomingPropertyFileName;
 	}
 	
+	/**
+	 * @param incomingPropertyFileName
+	 */
 	public static void setIncomingPropertyFileName(String incomingPropertyFileName) {
 		se07tsk02UniversalPropertyReader.incomingPropertyFileName = incomingPropertyFileName;
 	}
