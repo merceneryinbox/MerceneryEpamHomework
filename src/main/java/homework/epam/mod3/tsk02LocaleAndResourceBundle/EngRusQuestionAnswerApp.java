@@ -59,6 +59,7 @@ public class EngRusQuestionAnswerApp {
 	
 	/**
 	 * method for russian users
+	 *
 	 * @param bufferedReader taken from main method's try block
 	 * @param fileName       automaticaly choosen resource file with needed locale
 	 * @throws IOException
@@ -75,8 +76,9 @@ public class EngRusQuestionAnswerApp {
 	
 	/**
 	 * tool method for printout the result of question taken from do..Choice methods
+	 *
 	 * @param bufferedReader taken from do..Choice method
-	 * @param numQ - question taken from do..Choice method
+	 * @param numQ           - question taken from do..Choice method
 	 * @throws IOException
 	 */
 	private static void readIntFromUser(BufferedReader bufferedReader, String numQ) throws IOException {

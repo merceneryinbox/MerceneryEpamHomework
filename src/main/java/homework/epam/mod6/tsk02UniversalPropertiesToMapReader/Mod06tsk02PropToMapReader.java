@@ -15,20 +15,38 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
 
+/**
+ *
+ */
 public class Mod06tsk02PropToMapReader {
 	private static String incomingPropertyFileName = null;
 	private static Path   incomingPropertyFile     = null;
-	
+	/**
+	 *
+	 */
 	private static Map<String, String> propertyMap = new HashMap<>();
 	
+	/**
+	 *
+	 * @return
+	 */
 	public static String getIncomingPropertyFileName() {
 		return incomingPropertyFileName;
 	}
 	
+	/**
+	 *
+	 * @param incomingPropertyFileName
+	 */
 	public static void setIncomingPropertyFileName(String incomingPropertyFileName) {
 		Mod06tsk02PropToMapReader.incomingPropertyFileName = incomingPropertyFileName;
 	}
 	
+	/**
+	 *
+	 * @param propertyFileName
+	 * @return
+	 */
 	public static Map<String, String> retrievDataFromPropertyFile(String propertyFileName) {
 		Path propertyFile = Paths.get(incomingPropertyFileName);
 		try {

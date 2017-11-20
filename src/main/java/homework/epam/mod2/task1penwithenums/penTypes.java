@@ -6,15 +6,17 @@
 package homework.epam.mod2.task1penwithenums;
 
 /**
- *
  * @author FedulovOV
  */
 enum penTypes {
-    GEL, INK, FEATHER;
-
-    @Override
-    public String toString() {
-        return "pen type is " + name();
-    }
-
+	GEL, INK, FEATHER;
+	
+	/**
+	 * @return
+	 */
+	@Override
+	public String toString() {
+		return "pen type is " + name();
+	}
+	
 };

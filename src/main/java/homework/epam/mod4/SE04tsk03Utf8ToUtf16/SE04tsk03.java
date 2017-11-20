@@ -12,6 +12,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+/**
+ *
+ */
 public class SE04tsk03 {
 	public static void main(String[] args) {
 		String fileToRead  = "./src/main/java/homework/epam/mod4/SE04tsk03Utf8ToUtf16/SE04tsk03.java";

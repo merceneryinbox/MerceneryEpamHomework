@@ -6,14 +6,16 @@
 package homework.epam.mod2.task1penwithenums;
 
 /**
- *
  * @author FedulovOV
  */
 enum inkColor {
-    BLUE, BLACK, RED, GREEN;
-
-    @Override
-    public String toString() {
-        return "This Pen is " + name();
-    }
-};
+	BLUE, BLACK, RED, GREEN;
+	
+	/**
+	 * @return
+	 */
+	@Override
+	public String toString() {
+		return "This Pen is " + name();
+	}
+}

@@ -22,24 +22,28 @@ public class mod05tsk02PropertiesReaderMercenery {
 	private static FileReader          fileReader  = null;
 	private static Map<String, String> propertyMap = new HashMap<>();
 	
+	/**
+	 * @param incomingPropertyFile
+	 */
 	public static void setIncomingPropertyFile(Path incomingPropertyFile) {
 		mod05tsk02PropertiesReaderMercenery.incomingPropertyFile = incomingPropertyFile;
 	}
 	
 	/**
 	 * Special method correct handling MissingResourceException and NoSuchFileException
+	 *
 	 * @return Map fulfilled by keys and according values of properties
 	 */
 	public static Map<String, String> returnMapMethodHandler() {
-		Map<String, String> handledMap = new HashMap<>();
-		String correctresourceName = "Not inputed name of property file !";
+		Map<String, String> handledMap          = new HashMap<>();
+		String              correctresourceName = "Not inputed name of property file !";
 		System.out.println("input correct resource file name please:\n");
 		
 		try (BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in))) {
 			correctresourceName = bufferedReader.readLine();
 			setIncomingPropertyFileName(correctresourceName);
 			handledMap = returnMePropertyMap(incomingPropertyFileName);
-		
+			
 		} catch (MissingResourceException mre) {
 			System.out.println("Your resourse have no such key.");
 			mre.printStackTrace();
@@ -54,9 +58,10 @@ public class mod05tsk02PropertiesReaderMercenery {
 	
 	/**
 	 * Main working method takes
+	 *
 	 * @param incomingPropertyFileName from returnMapMethodHandler's console input with help of BufferedReader
 	 * @return fulfilled HashMap with keys & properties if were no exceptions
-	 * @throws NoSuchFileException &
+	 * @throws NoSuchFileException      &
 	 * @throws MissingResourceException witch are handled in special returnMapMethodHandler method
 	 */
 	private static Map<String, String> returnMePropertyMap(String incomingPropertyFileName) throws NoSuchFileException,
@@ -74,10 +79,16 @@ public class mod05tsk02PropertiesReaderMercenery {
 		return propertyMap;
 	}
 	
+	/**
+	 * @return
+	 */
 	public static String getIncomingPropertyFileName() {
 		return incomingPropertyFileName;
 	}
 	
+	/**
+	 * @param incomingPropertyFileName
+	 */
 	public static void setIncomingPropertyFileName(String incomingPropertyFileName) {
 		mod05tsk02PropertiesReaderMercenery.incomingPropertyFileName = incomingPropertyFileName;
 	}

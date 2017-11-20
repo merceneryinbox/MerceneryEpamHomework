@@ -1,5 +1,8 @@
 package homework.epam.mod7.tsk01SynchParallelAccout;
 
+/**
+ *
+ */
 public class se07tsk01ParallelAccountManagerTest {
 	public static void main(String[] args) {
 		MonyTransfering fromUser = new MonyTransfering("user1");
@@ -13,6 +16,12 @@ public class se07tsk01ParallelAccountManagerTest {
 		}
 	}
 	
+	/**
+	 * @param monyTransfering1
+	 * @param monyTransfering2
+	 * @param sum
+	 * @return
+	 */
 	public static synchronized boolean transferFromToHowMuch(MonyTransfering monyTransfering1,
 	                                                         MonyTransfering monyTransfering2,
 	                                                         Integer sum) {

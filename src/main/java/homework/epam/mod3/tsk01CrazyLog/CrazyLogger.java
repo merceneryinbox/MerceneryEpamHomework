@@ -7,6 +7,9 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
+/**
+ *
+ */
 public class CrazyLogger {
 	static private volatile StringBuilder accumExceptionSTraceBuild = null;
 	static private volatile StringBuilder accumExceptionInfo        = null;
@@ -18,19 +21,31 @@ public class CrazyLogger {
 	static private LocalDate localDate;
 	static private DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("dd-mm-YYYY : hh-mm - ");
 	
+	/**
+	 *
+	 */
 	public CrazyLogger() {
 		localDate = LocalDate.now();
 		localDate.format(dateTimeFormatter);
 	}
 	
+	/**
+	 * @return
+	 */
 	public static boolean isConsoleLogOn() {
 		return consoleLogOn;
 	}
 	
+	/**
+	 * @param consoleLogOn
+	 */
 	public static void setConsoleLogOn(boolean consoleLogOn) {
 		CrazyLogger.consoleLogOn = consoleLogOn;
 	}
 	
+	/**
+	 * @return
+	 */
 	public boolean showMeLogBuilderInConsole() {
 		boolean result = false;
 		if (consoleLogOn) {
@@ -40,6 +55,9 @@ public class CrazyLogger {
 		return result;
 	}
 	
+	/**
+	 * @param incomeException
+	 */
 	public void takeException(Exception incomeException) {
 		this.incomeException = incomeException;
 		StackTraceElement[] poolOfST = incomeException.getStackTrace();
@@ -57,6 +75,10 @@ public class CrazyLogger {
 		}
 	}
 	
+	/**
+	 * @param customLogFName
+	 * @return
+	 */
 	public boolean saveToCustomLogToFile(String customLogFName) {
 		boolean result = false;
 		if (isFileLogOn()) {
@@ -80,14 +102,23 @@ public class CrazyLogger {
 		return result;
 	}
 	
+	/**
+	 * @return
+	 */
 	public static boolean isFileLogOn() {
 		return fileLogOn;
 	}
 	
+	/**
+	 * @param fileLogOn
+	 */
 	public static void setFileLogOn(boolean fileLogOn) {
 		CrazyLogger.fileLogOn = fileLogOn;
 	}
 	
+	/**
+	 * @return
+	 */
 	public boolean saveSilentLogToFile() {
 		boolean result = false;
 		
@@ -112,6 +143,10 @@ public class CrazyLogger {
 		return result;
 	}
 	
+	/**
+	 * @param findInLog
+	 * @return
+	 */
 	public String giveMeInfoAbout(String findInLog) {
 		String resultString = "Nothing is found";
 		for (int i = 0; i < poolOfTraceInStringsAr.length; i++) {

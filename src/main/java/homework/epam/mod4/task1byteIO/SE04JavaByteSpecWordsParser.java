@@ -9,6 +9,9 @@ package homework.epam.mod4.task1byteIO;
 
 import java.util.Map;
 
+/**
+ *
+ */
 public class SE04JavaByteSpecWordsParser {
 	String[] reservedJavaWords;
 	

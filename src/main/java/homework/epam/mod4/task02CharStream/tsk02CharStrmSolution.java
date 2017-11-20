@@ -18,6 +18,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+/**
+ *
+ */
 public class tsk02CharStrmSolution {
 	public static void main(String[] args) {
 		
@@ -83,6 +86,11 @@ public class tsk02CharStrmSolution {
 		
 	}
 	
+	/**
+	 * @param chars
+	 * @param chars1
+	 * @return
+	 */
 	private static Map<String, Integer> giveMeMapWithCodeWords(char[] chars, char[] chars1) {
 		Map<String, Integer> resultMap             = new HashMap<>();
 		byte[]               readFromSourceBytes   = new byte[chars.length];

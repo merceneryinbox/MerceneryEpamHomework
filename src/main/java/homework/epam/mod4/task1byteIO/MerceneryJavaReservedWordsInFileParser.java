@@ -5,6 +5,9 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
+/**
+ *
+ */
 public class MerceneryJavaReservedWordsInFileParser {
 	private static Map<String, Integer> resultMap;
 	
@@ -61,8 +64,8 @@ public class MerceneryJavaReservedWordsInFileParser {
 					}
 				}
 			}
-			String[] resultStringAr = new String[resultMap.size()];
-			int resultStringArCounter = 0;
+			String[] resultStringAr        = new String[resultMap.size()];
+			int      resultStringArCounter = 0;
 			for (Map.Entry entry :
 					resultMap.entrySet()) {
 				resultStringAr[resultStringArCounter] =
